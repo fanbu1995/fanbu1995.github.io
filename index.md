@@ -5,7 +5,8 @@ subtitle: Ph.D. student in Statistics at Duke University
 use-site-title: true
 ---
 
->"Science without religion is lame, religion without science is blind."
+>"Science without religion is lame, religion without science is blind."  
+> . 
 >By Albert Einstein, **_Science and Religion_**
 
 My name is Fan Bu. I am a first-year Ph.D. student in the Department of Statistical Science, Duke University. My research interests include:
@@ -18,7 +19,7 @@ My name is Fan Bu. I am a first-year Ph.D. student in the Department of Statisti
 
 I also love writing, sports, and music.
 
-Click [About Me](https://fanbuduke17.github.io/aboutme) to know me better.
+Click [About Me](https://fanbuduke17.github.io/aboutme) for more details.
 
 <div class="posts-list">
   {% for post in paginator.posts %}
