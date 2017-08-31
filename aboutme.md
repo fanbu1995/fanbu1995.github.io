@@ -4,7 +4,7 @@ title: About Me
 #subtitle: More Details of Fan Bu
 ---
 
-<img src="https://fanbuduke17.github.io/FanBu_GraduationCeremony_2.jpg" alt="my graduation pic" align="middle" width="307" height="365">
+<img src="https://fanbuduke17.github.io/FanBu_GraduationCeremony_2.jpg" align="middle" alt="my graduation pic" width="307" height="365">
 
 ## Basics
 
@@ -22,18 +22,23 @@ Email me at ``fan.bu1@duke.edu``.
 
 ## Work Experiences
 
-* Social media account assistant manager, Red Lantern Digital Media (01/2016-03/2017, part-time)
+* Social media account assistant manager, Red Lantern Digital Media  
+  01/2016-03/2017, part-time
 
-* Sports analyst and columnist, Aoderui Tennis Technology (Beijing) Co. Ltd. (05/2016-12/2016, part-time)
+* Sports analyst and columnist, Aoderui Tennis Technology (Beijing) Co. Ltd.   
+  05/2016-12/2016, part-time
 
 ## Skills and Hobbies
 
 * Languages  
   Mandarin (native), English (fluent), and French(beginner's level)
+  
 * Programming Languages  
   Python, R, Matlab, Julia (a tiny bit) and LaTex
+  
 * Music  
   Piano and drums; there used to be a time when I could play the French Horn
+  
 * Sports   
   Jogging, swimming, yoga, badminton, squash, ping pong, and tennis
 
