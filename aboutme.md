@@ -4,8 +4,6 @@ title: About Me
 #subtitle: More Details of Fan Bu
 ---
 
-<img align="middle" src="https://fanbuduke17.github.io/FanBu_GraduationCeremony_2.jpg" alt="my graduation pic" width="307" height="365">
-
 <p align="center"> 
 <img src="https://fanbuduke17.github.io/FanBu_GraduationCeremony_2.jpg" alt="my graduation pic" width="307" height="365">
 </p>
