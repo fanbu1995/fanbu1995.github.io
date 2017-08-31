@@ -11,7 +11,7 @@ bigimg:
 
 >"Science without religion is lame, religion without science is blind."  
 >  
->By Albert Einstein, **_Science and Religion_**
+By Albert Einstein, **_Science and Religion_**  
 
 # Welcome to my website!
 
