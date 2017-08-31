@@ -9,6 +9,8 @@ use-site-title: true
 >  
 >By Albert Einstein, **_Science and Religion_**
 
+# Welcome to my website!
+
 My name is Fan Bu. I am a first-year Ph.D. student in the Department of Statistical Science, Duke University. My research interests include:
 
 - Non-parametric Bayesian Statistics
