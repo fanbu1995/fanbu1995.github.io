@@ -28,13 +28,13 @@ Email me at ``fan.bu1@duke.edu``.
 
 ## Skills and Hobbies
 
-* Languages
+* Languages  
   Mandarin (native), English (fluent), and French(beginner's level)
-* Programming Languages
+* Programming Languages  
   Python, R, Matlab, Julia (a tiny bit) and LaTex
-* Music
+* Music  
   Piano and drums; there used to be a time when I could play the French Horn
-* Sports: 
+* Sports   
   Jogging, swimming, yoga, badminton, squash, ping pong, and tennis
 
 ## I Love Writing
