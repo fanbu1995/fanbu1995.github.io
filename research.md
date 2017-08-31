@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-subtitle: My projects: ongoing and completed
+subtitle: Ongoing and completed projects
 ---
 
 ### "Root Probability" Identification Using Multivariate Hawkes Processes with Texual Marks
