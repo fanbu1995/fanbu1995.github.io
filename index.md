@@ -6,7 +6,7 @@ use-site-title: true
 ---
 
 >"Science without religion is lame, religion without science is blind."  
-> . 
+>  
 >By Albert Einstein, **_Science and Religion_**
 
 My name is Fan Bu. I am a first-year Ph.D. student in the Department of Statistical Science, Duke University. My research interests include:
