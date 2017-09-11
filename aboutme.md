@@ -46,6 +46,6 @@ Email me at ``fan.bu1@duke.edu``.
 
 ## I Love Writing
 
-I have a blog [here](http://fanny-hi.lofter.com/), where I post movie reviews, tennis reviews and babblings. Note that it's in **Chinese**.
+I have a blog (link unavaible for now) written in **Chinese**, where I post movie reviews, tennis reviews and babblings. 
 
 I will gradually translate some of my past works into **English** and post them on the [blog page](https://https://fanbuduke17.github.io/blog).
