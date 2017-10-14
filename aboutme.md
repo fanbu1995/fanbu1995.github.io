@@ -4,9 +4,9 @@ title: About Me
 #subtitle: More Details of Fan Bu
 ---
 
-<p align="center"> 
-<img src="https://fanbuduke17.github.io/FanBu_GraduationCeremony_2.jpg" alt="my graduation pic" width="307" height="365">
-</p>
+<!--p align="center"--> 
+<!--img src="https://fanbuduke17.github.io/FanBu_GraduationCeremony_2.jpg" alt="my graduation pic" width="307" height="365"-->
+<!--/p-->
 
 ## Basics
 
@@ -46,6 +46,6 @@ Email me at ``fan.bu1@duke.edu``.
 
 ## I Love Writing
 
-I have a blog [here](https://fanbublog.wordpress.com/), which is written in **Chinese** and the contents there are mostly movie reviews, tennis stories and babblings. 
+I have a blog [here](https://fanbublog.wordpress.com/), which is written mostly in **Chinese** and the contents there are mostly movie reviews, tennis stories and babblings. 
 
 I will gradually translate some of my past works into **English** and post them on the [blog page](https://https://fanbuduke17.github.io/blog).
