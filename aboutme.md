@@ -48,4 +48,5 @@ Email me at ``fan.bu1@duke.edu``.
 
 I have a blog [here](https://fanbublog.wordpress.com/), which is written mostly in **Chinese** and the contents there are mostly movie reviews, tennis stories and babblings. 
 
-I will gradually translate some of my past works into **English** and post them on the [blog page](https://https://fanbuduke17.github.io/blog).
+[//]: # I will gradually translate some of my past works into **English** and post them on the [blog page](https://https://fanbuduke17.github.io/blog).
+
