@@ -4,6 +4,7 @@ title: Fan Bu
 subtitle: Ph.D. student in Statistics at Duke University
 use-site-title: true
 bigimg:
+  - "img/Henrys_Lake_Idaho.jpg" : "Henrys Lake, ID (2018)"
   - "img/Grandfather_Mountain_NC_2017.png" : "Grandfather Mountain, Linville NC (2017)"
   - "img/Duke_University_2017_2.jpg" : "Duke University, Durham NC (2017)"
   - "img/Washington_Lake_Seattle.JPG" : "Lake Union, Seattle WA (2017)"
