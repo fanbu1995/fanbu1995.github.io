@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-#subtitle: More Details of Fan Bu
+#subtitle: More Details of Fan
 ---
 
 <!--p align="center"--> 
@@ -10,39 +10,46 @@ title: About Me
 
 ## Basics
 
-I recently received my Bachelor's degree in _Data Science and Big Data Technology_ from Peking University, China. [My graduation paper (in **Chinese**)](https://fanbuduke17.github.io/Graduation_Paper.pdf)
+I received my Bachelor's degree in _Data Science and Big Data Technology_ from Peking University, China in 2017. [My graduation paper (in **Chinese**)](https://fanbuduke17.github.io/Graduation_Paper.pdf)
 
-I am now a Ph.D. student in Statistics at Duke University, under the supervision of my first-year advisor [Katherine Heller](http://www2.stat.duke.edu/~kheller/). My research interests are:
+I am a Ph.D. student in Statistics at Duke University, under the supervision of my advisors [Katherine Heller](http://www2.stat.duke.edu/~kheller/) and [Alexander Volfovsky](https://volfovsky.github.io/). My research interests are:
 
-- Non-parametric Bayesian Statistics
 - Machine Learning
 - Network Analysis
 - Stochastic Modelling
 - Sports Data Analytics
 
+I have just finished a project on the higher-order latent social network structure in basketball player passes, using high-resolution data collected by a renowned NCAA basketball program (paper to appear in the proceedings of [AiStats 2019](https://www.aistats.org/)). I am currently working on modeling the co-evolution of dynamic social networks and epidemic spreading.
+
 Email me at ``fan.bu1@duke.edu``.
 
-## Work Experiences
+## Publications
 
-* Social media account assistant manager, Red Lantern Digital Media  
-  01/2016-03/2017, part-time
+* SMOGS: Social Network Metrics of Game Success. Joint work with Sonia Xu, Katherine Heller, and Alexander Volfovsky. (Accepted by AiStats 2019.)
 
-* Sports analyst and columnist, Aoderui Tennis Technology (Beijing) Co. Ltd.   
-  05/2016-12/2016, part-time
+* Learning Root Source with Marked Multivariate Hawkes Processes. Joint work with Wei Zhang, Derek Owen-Oas, Katherine Heller, and Xiaojin Zhu.([arXiv preprint](https://arxiv.org/abs/1809.03648))
+
+## Invited Talks and Poster Presentations
+
+* (Planned) April 2019, at the 22nd International Conference on Artificial Intelligence and Statistics. Poster presentation on _SMOGS: Social Network Metrics of Game Success_.
+
+* June 2018, at 2018 ISBA World Meeting. Poster presentation on _Learning Root Source with Marked Multivariate Hawkes Processes_.
+
+* December 2017, at Women in Machine Learning Workshop 2017. Poster presentation on _Learning Root Source with Marked Multivariate Hawkes Processes_.
 
 ## Skills and Hobbies
 
 * Languages  
-  Mandarin (native), English (fluent), and French(beginner's level)
+  Mandarin (native), English (fluent), and French(beginner's level).
   
 * Programming Languages  
-  Python, R, Matlab, Julia (a tiny bit) and LaTex
+  R, Python, Matlab, Julia (a tiny bit) and LaTex.
   
 * Music  
-  Piano and drums; there used to be a time when I could play the French Horn
+  Piano and drums; there used to be a time when I could play the French Horn.
   
 * Sports   
-  Jogging, swimming, yoga, badminton, squash, ping pong, and tennis
+  Jogging, swimming, yoga, badminton, squash, ping pong, and tennis.
 
 ## I Love Writing
 
