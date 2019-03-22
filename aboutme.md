@@ -23,19 +23,23 @@ I have just finished a project on the higher-order latent social network structu
 
 Email me at ``fan.bu1@duke.edu``.
 
-## Publications
+## Publications and Preprints
 
 * SMOGS: Social Network Metrics of Game Success. Joint work with Sonia Xu, Katherine Heller, and Alexander Volfovsky. (Accepted by AiStats 2019.)
 
-* Learning Root Source with Marked Multivariate Hawkes Processes. Joint work with Wei Zhang, Derek Owen-Oas, Katherine Heller, and Xiaojin Zhu.([arXiv preprint](https://arxiv.org/abs/1809.03648))
+* Learning Root Source with Marked Multivariate Hawkes Processes. Joint work with Wei Zhang, Derek Owen-Oas, Katherine Heller, and Xiaojin Zhu. ([arXiv preprint](https://arxiv.org/abs/1809.03648))
 
-## Invited Talks and Poster Presentations
+## Invited Talks, Presentations, and Tutorials
 
-* (Planned) April 2019, at the 22nd International Conference on Artificial Intelligence and Statistics. Poster presentation on _SMOGS: Social Network Metrics of Game Success_.
+* (Planned) April 2019, poster presentationat the 22nd International Conference on Artificial Intelligence and Statistics.
 
-* June 2018, at 2018 ISBA World Meeting. Poster presentation on _Learning Root Source with Marked Multivariate Hawkes Processes_.
+* March 2019, spotlight talk at the Duke Machine Learning Day.
 
-* December 2017, at Women in Machine Learning Workshop 2017. Poster presentation on _Learning Root Source with Marked Multivariate Hawkes Processes_.
+* August 2018, instructor of Duke Statistical Science Bootcamp 2018. 
+
+* June 2018, poster presentation at 2018 ISBA World Meeting.
+
+* December 2017, poster presentation at Women in Machine Learning Workshop 2017.
 
 ## Skills and Hobbies
 
@@ -53,7 +57,7 @@ Email me at ``fan.bu1@duke.edu``.
 
 ## I Love Writing
 
-I have a blog [here](https://fanbublog.wordpress.com/), which is written mostly in **Chinese** and the contents there are mostly movie reviews, tennis stories and babblings. 
+I have a blog [here](https://fanbublog.wordpress.com/), mostly written in **Chinese**; the majority of the contents are movie reviews, tennis stories and babblings. 
 
 [//]: # I will gradually translate some of my past works into **English** and post them on the [blog page](https://https://fanbuduke17.github.io/blog).
 
