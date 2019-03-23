@@ -2,6 +2,7 @@
 layout: post
 title: A Brief Review of "Dunkirk" by Christopher Nolan
 subtitle: The cowards go home to cheers; the hero dies abroad silently
+tags: [movies]
 ---
 
 What I really appreciate about Dunkirk is that Nolan depicts war in the ever-so-romantic way ubiquitous 
