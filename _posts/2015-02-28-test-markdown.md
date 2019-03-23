@@ -42,6 +42,13 @@ var foo = function(x) {
 foo(3)
 ```
 
+```R
+matrix(0,5,5)
+for(i = 1:5){
+cat(i)
+}
+```
+
 And here is the same code yet again but with line numbers:
 
 {% highlight javascript linenos %}
