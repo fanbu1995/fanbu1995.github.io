@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reading Ted Chiang’s "Story of Your Life"
-subtitle: The cowards go home to cheers; the hero dies abroad silently
+subtitle: A sci-fi based on linguistics, with a human heart
 tags: [books]
 ---
 
