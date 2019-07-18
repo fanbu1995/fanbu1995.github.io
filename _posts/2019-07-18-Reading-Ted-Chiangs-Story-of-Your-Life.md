@@ -52,7 +52,7 @@ systems. A complicated, or information-efficient, language is not superior to ot
 linear writing, clear punctuations (which, incidentally, ancient Chinese didn’t have), and pronunciations spelled out. What 
 a different language can do, though, is much more fascinating. 
 
-In short, the language we use shapes our mind. It is not an invention by the author; it is a finding from the 
+In short, the language we use shapes our mind. It is not an invention by the author; it is a finding made by the 
 linguistics/psychology/neuroscience community.
 
 It is perhaps more understandable to say that languages reflect our world-views. Societies that have disparate experiences 
@@ -69,7 +69,7 @@ Under the brilliant and skillfully represented sci-fi shell, the true question i
 negate the meaning of the experience? 
 
 Louis, the main character and narrator of the story, gradually obtains the entire memory of her life and her daughter’s life 
-while deciphering and learning the heptapod written language, and thus becomes aware of the end of everything (pertaining 
+while deciphering and learning the heptapod written language, and thus becomes aware of the end of everything (pertaining to 
 herself, of course). In the middle of the story, there is a rather philosophical thought experiment about the intrinsic 
 conflict between knowledge of the future and free will. Any serious argument I can attempt would definitely end up with one 
 paradox or another, so I will not go there. But then, to some extent, we all know the future: every one of us, with the 
