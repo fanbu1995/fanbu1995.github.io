@@ -34,7 +34,7 @@ and see how things go, then.
 Truth be told, when I first read about the non-linearity and semasiographic nature of the heptapod written language in the 
 story, I immediately thought of my mother tongue, Chinese. It is an interesting coincidence that the author, Ted Chiang, has a
 Chinese ancestry, though it is unclear if he drew the inspiration from a language possibly spoken by some of his family 
-members. Of course, Chinese, being a human language, is obviously very different from a fictional alien language, but the 
+members. Of course, Chinese, being a human language, is obviously dissimilar to a fictional alien language, but the 
 writing system, the organization of individual characters, is indeed non-linear and two-dimensional, and the writing of a fair 
 proportion of morphemes in Chinese does not directly inform their pronunciations. 
 
@@ -48,7 +48,7 @@ these two channels often overlap.
 
 I’ve probably reached the point where I should apologize for potentially offending certain groups of people. The (possibly 
 excessive) discussion of my first language is simply intended as a demonstration of the variability of forms of linguistic 
-systems. A complicated, or information-efficient, language is not superior to others; it is merely different from one with 
+systems. A complicated, or information-efficient, language is not superior to others; it is merely **different** from one with 
 linear writing, clear punctuations (which, incidentally, ancient Chinese didn’t have), and pronunciations spelled out. What 
 a different language can do, though, is much more fascinating. 
 
