@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reading Ted Chiang’s _Story of Your Life_
+title: Reading Ted Chiang’s "Story of Your Life"
 subtitle: The cowards go home to cheers; the hero dies abroad silently
 tags: [books]
 ---
