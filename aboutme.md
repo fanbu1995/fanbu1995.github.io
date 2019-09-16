@@ -19,13 +19,15 @@ I am a Ph.D. student in Statistics at Duke University, under the supervision of 
 - Stochastic Modelling
 - Sports Data Analytics
 
-I have just finished a project on the higher-order latent social network structure in basketball player passes, using high-resolution data collected by a renowned NCAA basketball program (appeared in the proceedings of [AiStats 2019](https://www.aistats.org/)). I am currently working on modeling stochastic epidemic processes on adaptive networks.
+I have just finished a project on likelihood-based inference of epidemic processes on adaptive social networks, with [Allison Aiello](https://sph.unc.edu/adv_profile/allison-e-aiello-phd/), Alexander Volfovsky and [Jason Xu](https://jasonxu90.github.io/). We developed a continuous-time Markov process model and a Bayesian data augmentation inference framework to study the interplay between contagion spread and social network evolution. The model is applied to recent epidemiological data with time-resolved social contact observations ([Aiello et al](https://www.sciencedirect.com/science/article/pii/S1755436516000025)).
+
+My project before that was on the higher-order latent social network structure in basketball player passes, using high-resolution data collected by a renowned NCAA basketball program (in the proceedings of [AiStats 2019](https://www.aistats.org/)). 
 
 Email me at ``fan.bu1@duke.edu``.
 
 ## Publications and Preprints
 
-* Likelihood-based Inference for Epidemics on Dynamic Networks. Joint work with Alexander Volfovsky and Jason Xu. (Manuscript under preparation)
+* Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks. Joint work with Alexander Volfovsky and Jason Xu. (Manuscript under review)
 
 * SMOGS: Social Network Metrics of Game Success. Joint work with Sonia Xu, Katherine Heller, and Alexander Volfovsky. ([In the proceedings of AiStats 2019.](http://proceedings.mlr.press/v89/bu19a/bu19a.pdf))
 
@@ -33,7 +35,7 @@ Email me at ``fan.bu1@duke.edu``.
 
 ## Invited Talks, Presentations, and Tutorials
 
-* (Planned) September 2019, invited talk at the 2019 New Englangd Symposium on Statistics in Sports (NESSIS).
+* September 2019, invited talk at the 2019 New Englangd Symposium on Statistics in Sports (NESSIS).
 
 * April 2019, poster presentation at the 22nd International Conference on Artificial Intelligence and Statistics (AiStats 2019).
 
@@ -51,10 +53,10 @@ Email me at ``fan.bu1@duke.edu``.
   Mandarin (native), English (fluent), and French (beginner's level).
   
 * Programming Languages  
-  R, Python, Matlab, Julia (a tiny bit) and LaTex.
+  R, Python, Matlab and Julia (a tiny bit).
   
 * Music  
-  Piano and drums; there used to be a time when I could play the French Horn.
+  Piano and drums; once upon a time I could play the French Horn.
   
 * Sports   
   Jogging, swimming, yoga, badminton, squash, ping pong, and tennis.
