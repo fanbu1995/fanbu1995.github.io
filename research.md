@@ -4,13 +4,20 @@ title: Research
 subtitle: Rearch Projects
 ---
 
-#### Modeling the Co-evolution of Epidemic Spreading and Dynamic Contact Networks
+### Research Since 2017
 
-- Ongoing research with [Alexander Volfovsky](https://volfovsky.github.io/).
-
-#### How Dynamic Mechanisms Facilitate Effectiveness in Teamwork
+#### Building Better Teams: A Network Analysis Approach
 
 - Ongoing research with Alexander Volfovsky, Raquel Asencio, James Moody, and Katherine Heller.
+- The goal is to study the mechanisms of small team and multi-team systems and to develop metrics for evaluating team effectiveness, cohesion, and leadership.
+- Observational study and data collection completed.
+
+#### Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks. 
+
+- Joint work with [Allison Aiello](https://sph.unc.edu/adv_profile/allison-e-aiello-phd/), [Alexander Volfovsky](https://volfovsky.github.io/), and [Jason Xu](https://jasonxu90.github.io/).
+- Proposed a stochastic generative model and a data augmentation inference scheme for epidemic processes on dynamic, adaptive contact networks. 
+- With applications in analyzing recent, real-world epidemiological data with high resolution social contacts observations.
+- Manucript under review for Journal of the American Statistical Association (JASA).
 
 #### SMOGS: Social Network Metrics of Game Success
 
@@ -22,7 +29,11 @@ subtitle: Rearch Projects
 
 - Joint work with [Wei Zhang](http://pages.cs.wisc.edu/~zhangwei/), [Derek Owens-Oas](https://stat.duke.edu/people/derek-owens-oas), [Jerry Zhu](http://pages.cs.wisc.edu/~jerryzhu/), and [Katherine Heller](http://www2.stat.duke.edu/~kheller/).
 - With applications in group conversations between online users or individuals in real-life settings, eg. [Reddit](https://www.reddit.com/) forum comment data, and transcription of the movie [12 Angry Men](https://en.wikipedia.org/wiki/12_Angry_Men_(1957_film)).
-- Submitted to NAACL'19.
+- [arXiv preprint](https://arxiv.org/abs/1809.03648)
+
+
+
+### Undergraduate Research
   
 #### Traffic Speed Nowcasting Based on Urban Road Network and Artificial Neural Network
 - Graduation project for my B.S. in Peking University. [Chinese version](https://fanbuduke17.github.io/Graduation_Paper.pdf)
