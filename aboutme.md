@@ -21,7 +21,7 @@ I am a Ph.D. student in Statistics at Duke University, under the supervision of 
 
 I have just finished a project on likelihood-based inference of epidemic processes on adaptive social networks, with [Allison Aiello](https://sph.unc.edu/adv_profile/allison-e-aiello-phd/), Alexander Volfovsky and [Jason Xu](https://jasonxu90.github.io/). We developed a continuous-time Markov process model and a Bayesian data augmentation inference framework to study the interplay between contagion spread and social network evolution. The model is applied to recent epidemiological data with time-resolved social contact observations ([Aiello et al](https://www.sciencedirect.com/science/article/pii/S1755436516000025)).
 
-My project before that was on the higher-order latent social network structure in basketball player passes, using high-resolution data collected by a renowned NCAA basketball program (in the proceedings of [AiStats 2019](https://www.aistats.org/)). 
+My project before that was on the higher-order latent structure in basketball player passes, using high-resolution data collected by a renowned NCAA basketball program (in the proceedings of [AiStats 2019](https://www.aistats.org/)). 
 
 Email me at ``fan.bu1@duke.edu``.
 
