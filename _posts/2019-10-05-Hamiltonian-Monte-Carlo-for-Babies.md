@@ -3,7 +3,7 @@ layout: post
 title: Hamiltonian Monte Carlo for Babies
 subtitle: (not really)
 tags: [statistics]
-ex-js: "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+
 ---
 
 ## Foreword
