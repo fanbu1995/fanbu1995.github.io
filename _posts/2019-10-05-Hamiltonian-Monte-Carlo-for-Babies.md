@@ -87,10 +87,10 @@ Suppose \\(\pi(x)\\) is the target density, so what we want is to sample a bunch
 
 To clarify, we are basically mapping probabilistic densities into "energies":
 * \\(-\log \pi(x) \rightarrow V(x)\\); target density \\(\rightarrow\\) potential energy
-* \\(-\log \pi_0(p\lvert x) \rightarrow K(p,x)\\); auxiliary density \\(\rightarrow\\) kinetic energy
+* \\(-\log \pi_0(p \mid x) \rightarrow K(p,x)\\); auxiliary density \\(\rightarrow\\) kinetic energy
 
 So for the joint density of \\(x\\) and \\(p\\), \\(\pi_1 (p, x) = \pi_0(p\lvert x) \pi(x) \\), its *negative logarithm* can thus be mapped to the total mechanic energy, the **Hamiltonian**:
-\\[ -\log \pi_1 (p, x) = -\log (\pi_0(p \mid x) \pi(x)) \rightarrow K(p,x) + V(x) =  H(p,x).\\]
+\\[ -\log \pi_1 (p, x) = -\log (\pi_0(p \mid x) \pi(x)) = -\log \pi_0(p \mid x)  -\log \pi(x) \rightarrow K(p,x) + V(x) =  H(p,x).\\]
 
 Following the "toggle momentum" argument aforementioned, toggling the auxiliary parameters \\(p\\) helps us move around the space of \\(x\\), and by the properties of Hamiltonian mechanics, the way we get to move around (the "transition") can:
 * drive us (rapidly) to the "right" region of the parameter space, and
