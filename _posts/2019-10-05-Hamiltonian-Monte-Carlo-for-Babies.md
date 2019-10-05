@@ -31,7 +31,7 @@ So, they work fine when the target density looks nice and smooth like this one:
 ![A ``nice'' density in 2 dimensions.](https://fanbuduke17.github.io/img/Nice_density.jpeg)
 
 But they *really* struggle when the density looks like this ugly-shaped thing: 
-![A ``weird'' density in 2 dimensions.](https://fanbuduke17.github.io/img/Nice_density.jpeg)
+![A ``weird'' density in 2 dimensions.](https://fanbuduke17.github.io/img/Bad_density.jpeg)
 
 (Both pictures are drawn by [Jordan Bryan](https://j-g-b.github.io/), a brilliant colleague of mine.)
 
