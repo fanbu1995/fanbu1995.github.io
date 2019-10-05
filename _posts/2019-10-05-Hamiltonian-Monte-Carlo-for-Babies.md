@@ -67,11 +67,25 @@ is something way too dense for an average statistician, but, fortunately, its in
 Very loosely speaking, Hamiltonian mechanics describes the mechanics in an ideal world where the total volume of mechanic 
 energy is **preserved**. 
 
-Imagine we are riding a little shuttle in this cute, ideal world. Let `x` represent our location and `p` 
-represent our momentum (this is just mass multiplied by velocity). So, in some sense, the location `x` relates to our **potential**
-energy, `V(x)`, and the momentum `p` relates to our **kinetic** energy, \\(K(p,x)\\) (let it somehow depend on the location too). 
-Because the mechanic energy is **preserved**, we always have the same sum of the potential and kinetic energies. Let us call it 
-`H(p,x)` (the "Hamiltonian"):
-\\[ H(p,x) = K(p,x) + V(x)\\]
+Imagine we are riding a little shuttle in this cute, ideal world. Let \\(x\\) represent our location and \\(p\\) 
+represent our momentum (this is just mass multiplied by velocity). So, in some sense, the location \\(x\\) relates to our **potential**
+energy, \\(V(x)\\), and the momentum \\(p\\) relates to our **kinetic** energy, \\(K(p,x)\\) (let it somehow depend on the location too). 
+
+Let us call the total mechanic energy \\(H(p,x)\)) (the "Hamiltonian"), that is,
+\\[ H(p,x) = K(p,x) + V(x).\\]
+
+Since the mechanic energy is **preserved**, \\(H(p,x)\)) remains the same. And therefore if we toggle our momentum \\(p\\) somehow, \\(K(p,x)\\) gets changed, which leads to the same amount of change (albeit in the opposite direction) in \\(V(x)\\), and that drives us to a different location \\(x\\). 
+
+In fact, in Hamiltonian mechanics, there is a set of differential equations that deterministically tell us how \\(p\\) and \\(x\\) evolve through time, and thus tell us how our shuttle traverse the space. 
+
+Now, let's map this back to statistical terms. 
+
+Suppose \\(\pi(x)\\) is the target density, so what we want is to sample a bunch of \\(x\\) values according to \\(\pi(x)\\). In HMC, each entry of \\(x\\) (yes, \\(x\\) can be multi-dimensional!) is paired with a momentum, which gives us the auxiliary  momenta \\(p\\). Take the **negative logarithm** of the target density and take the resulting function as the "**potential energy**" function. Then, a fitting "**kinetic energy**" function is found for the momenta \\(p\\) and original parameter \\(x\\), and that is in turn the **negative logarithm** of some conditional density function for \\(p\\), \\(\pi_0(p|x)\\).
+
+To clarify, we are basically mapping probabilistic densities into energies:
+* \\(-\log \pi(x) \rightarrow V(x)\\); target density --> potential energy
+* \\(-\log \pi_0(p|x) \rightarrow K(p,x)\\); auxiliary density --> kinetic energy
+
+
 
 
