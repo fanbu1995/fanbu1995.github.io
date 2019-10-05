@@ -71,12 +71,12 @@ Imagine we are riding a little shuttle in this cute, ideal world. Let \\(x\\) re
 represent our momentum (this is just mass multiplied by velocity). So, in some sense, the location \\(x\\) relates to our **potential**
 energy, \\(V(x)\\), and the momentum \\(p\\) relates to our **kinetic** energy, \\(K(p,x)\\) (let it somehow depend on the location too). 
 
-Let us call the total mechanic energy \\(H(p,x)\)) (the "Hamiltonian"), that is,
+Let us call the total mechanic energy \\(H(p,x)\\) (the "Hamiltonian"), that is,
 \\[ H(p,x) = K(p,x) + V(x).\\]
 
-Since the mechanic energy is **preserved**, \\(H(p,x)\)) remains the same. And therefore if we toggle our momentum \\(p\\) somehow, \\(K(p,x)\\) gets changed, which leads to the same amount of change (albeit in the opposite direction) in \\(V(x)\\), and that drives us to a different location \\(x\\). 
+Since the mechanic energy is **preserved**, \\(H(p,x)\\) remains the same. And therefore if we toggle our momentum \\(p\\) somehow, \\(K(p,x)\\) gets changed, which leads to the same amount of change (albeit in the opposite direction) in \\(V(x)\\), and that drives us to a different location \\(x\\). 
 
-In fact, in Hamiltonian mechanics, there is a set of differential equations that deterministically tell us how \\(p\\) and \\(x\\) evolve through time, and thus tell us how our shuttle traverse the space. 
+In fact, in Hamiltonian mechanics, there is a set of differential equations that deterministically tell us how \\(p\\) and \\(x\\)evolve through time, and thus tell us how our shuttle traverse the space. 
 
 Now, let's map this back to statistical terms. 
 
