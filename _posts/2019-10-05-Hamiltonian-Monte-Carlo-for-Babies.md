@@ -22,7 +22,8 @@ Almost all the materials here are from [this nicely written article](https://arx
 rigorous, but hopefully I can convey the basic message. 
 
 ## Conventional MCMC methods sometimes don't work
-Many of us (including me) have used and love to use inference methods like Gibbs sampling or Metropolis-Hastings sampling.
+
+Many of us (including me) have used and love to use methods like Gibbs sampling or Metropolis-Hastings sampling.
 These methods are often (relatively) easy to understand, formulate, and programme, but unfortunately they perform unsatisfactorily
 when the target density (e.g. posterior density) looks "weird" or "ugly".
 
@@ -52,13 +53,12 @@ Therefore in MCMC, two things have to work out:
 * We need to "fully explore" the sample space
 
 And correspondingly, a good MCMC sampling method should be able to:
-* Quickly find the "right" region; this is **not** just the high density region, but rather a broader area with not-too-low densities
+* Quickly find the "right" region; this is **not** just the high density region, but rather a broader area with not-too-low densities (the so-called "typical set")
 * Efficiently move around within the right region; this means it must have a "nice" way to transition from one spot to another
 
 As it turns out, HMC ticks both boxes (hooray!).
 
-It sounds like a myth, but HMC does stand on solid theoretical grounds in differential geometry. Unfortunately "differential geometry"
-is something way too dense for an average statistician, but, fortunately, its intuition can be gained from Hamiltonian mechanics.
+It sounds like a myth, but HMC does stand on solid theoretical grounds in differential geometry. Unfortunately "differential geometry" is something way too dense for an average statistician, but, fortunately, its intuition can be gained from Hamiltonian mechanics.
 
 ## HMC and Hamiltonian mechanics: why it works
 
@@ -70,27 +70,26 @@ Very loosely speaking, Hamiltonian mechanics describes the mechanics in an ideal
 energy is **preserved**. 
 
 Imagine we are riding a little shuttle in this cute, ideal world. Let \\(x\\) represent our location and \\(p\\) 
-represent our momentum (this is just mass multiplied by velocity). So, in some sense, the location \\(x\\) relates to our **potential**
-energy, \\(V(x)\\), and the momentum \\(p\\) relates to our **kinetic** energy, \\(K(p,x)\\) (let it somehow depend on the location too). 
+represent our momentum (this is just mass multiplied by velocity). So, in some sense, the location \\(x\\) relates to our **potential** energy, \\(V(x)\\), and the momentum \\(p\\) relates to our **kinetic** energy, \\(K(p,x)\\) (let it somehow depend on the location too). 
 
 Let us call the total mechanic energy \\(H(p,x)\\) (the "Hamiltonian"), that is,
 \\[ H(p,x) = K(p,x) + V(x).\\]
 
 Since the mechanic energy is **preserved**, \\(H(p,x)\\) remains the same. And therefore if we toggle our momentum \\(p\\) somehow, \\(K(p,x)\\) gets changed, which leads to the same amount of change (albeit in the opposite direction) in \\(V(x)\\), and that drives us to a different location \\(x\\). 
 
-In fact, in Hamiltonian mechanics, there is a set of differential equations that deterministically tell us how \\(p\\) and \\(x\\)evolve through time, and thus tell us how our shuttle traverse the space. (See the next section for details.)
+In fact, in Hamiltonian mechanics, there is a set of differential equations that deterministically tell us how \\(p\\) and \\(x\\) evolve through time, and thus tell us how our shuttle travels around the space. (See the next section for details.)
 
 ### Back to the sampling world
 
 Now, let's map this back to statistical terms. 
 
-Suppose \\(\pi(x)\\) is the target density, so what we want is to sample a bunch of \\(x\\) values according to \\(\pi(x)\\). In HMC, each entry of \\(x\\) (yes, \\(x\\) can be multi-dimensional!) is paired with a momentum, which gives us the auxiliary  momenta \\(p\\). Take the **negative logarithm** of the target density and take the resulting function as the "**potential energy**" function. Then, a fitting "**kinetic energy**" function is found for the momenta \\(p\\) and original parameter \\(x\\), and that is in turn the **negative logarithm** of some conditional density function for \\(p\\), \\(\pi_0(p\lvert x)\\).
+Suppose \\(\pi(x)\\) is the target density, so what we want is to sample a bunch of \\(x\\) values according to \\(\pi(x)\\). In HMC, each entry of \\(x\\) (yes, \\(x\\) can be multi-dimensional!) is paired with a momentum, which gives us the auxiliary  momenta \\(p\\). Take the *negative logarithm* of the target density and take the resulting function as the "**potential energy**" function. Then, a fitting "**kinetic energy**" function is found for the momenta \\(p\\) and original parameter \\(x\\), and that is in turn the *negative logarithm* of some conditional density function for \\(p\\), \\(\pi_0(p\lvert x)\\).
 
 To clarify, we are basically mapping probabilistic densities into "energies":
 * \\(-\log \pi(x) \rightarrow V(x)\\); target density \\(\rightarrow\\) potential energy
 * \\(-\log \pi_0(p\lvert x) \rightarrow K(p,x)\\); auxiliary density \\(\rightarrow\\) kinetic energy
 
-So for the joint density of \\(x\\) and \\(p\\), \\(\pi_1 (p, x) = \pi_0(p\lvert x) \pi(x) \\), its **negative logarithm** can thus be mapped to the total mechanic energy, the **Hamiltonian**:
+So for the joint density of \\(x\\) and \\(p\\), \\(\pi_1 (p, x) = \pi_0(p\lvert x) \pi(x) \\), its *negative logarithm* can thus be mapped to the total mechanic energy, the **Hamiltonian**:
 \\[ -\log \pi_1 (p, x) = -\log (\pi_0(p\lvert x) \pi(x)) \rightarrow K(p,x) + V(x) =  H(p,x).\\]
 
 Following the "toggle momentum" argument aforementioned, toggling the auxiliary parameters \\(p\\) helps us move around the space of \\(x\\), and by the properties of Hamiltonian mechanics, the way we get to move around (the "transition") can:
