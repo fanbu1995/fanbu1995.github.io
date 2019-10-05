@@ -2,7 +2,7 @@
 layout: post
 title: Hamiltonian Monte Carlo for Babies
 subtitle: (not really)
-tags: [statistics]
+tags: [Bayesian statistics]
 
 ---
 
