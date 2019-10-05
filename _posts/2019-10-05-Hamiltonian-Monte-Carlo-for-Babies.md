@@ -3,6 +3,7 @@ layout: post
 title: Hamiltonian Monte Carlo for Babies
 subtitle: (not really)
 tags: [statistics]
+ex-js: "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 ---
 
 ## Foreword
@@ -71,7 +72,6 @@ represent our momentum (this is just mass multiplied by velocity). So, in some s
 energy, `V(x)`, and the momentum `p` relates to our **kinetic** energy, `K(p, x)` (let it somehow depend on the location too). 
 Because the mechanic energy is **preserved**, we always have the same sum of the potential and kinetic energies. Let us call it 
 `H(p,x)` (the "Hamiltonian"):
-
 $$ H(p,x) = K(p, x) + V(x).$$
 
 
