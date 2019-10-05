@@ -8,7 +8,7 @@ tags: [statistics]
 ## Foreword
 
 This semester, the instructor of the intro-level Bayesian Statistics course in my department decided to convert all students 
-into using [`stan`](https://mc-stan.org/) for statistical computing. From a Bayesian statistician's perspective, *stan* is a 
+into using [`stan`](https://mc-stan.org/) for statistical computing. From a Bayesian statistician's perspective, `stan` is a 
 really nice tool for MCMC sampling, but it uses something called "Hamiltonian Monte Carlo" (HMC) which is not easy to 
 understand or explain.
 
@@ -66,14 +66,12 @@ is something way too dense for an average statistician, but, fortunately, its in
 Very loosely speaking, Hamiltonian mechanics describes the mechanics in an ideal world where the total volume of mechanic 
 energy is **preserved**. 
 
-Imagine we are riding a little shuttle in this cute, ideal world. Let $x$ represent our location and $p$ 
-represent our momentum (this is just mass multiplied by velocity). So, in some sense, the location $x$ relates to our **potential**
-energy, $V(x)$, and the momentum $p$ relates to our **kinetic** energy, $K(p, x)$ (let it somehow depend on the location too). 
+Imagine we are riding a little shuttle in this cute, ideal world. Let `x` represent our location and `p` 
+represent our momentum (this is just mass multiplied by velocity). So, in some sense, the location `x` relates to our **potential**
+energy, `V(x)`, and the momentum `p` relates to our **kinetic** energy, `K(p, x)` (let it somehow depend on the location too). 
 Because the mechanic energy is **preserved**, we always have the same sum of the potential and kinetic energies. Let us call it 
-$H(p,x)$ (the "Hamiltonian"):
+`H(p,x)` (the "Hamiltonian"):
 
-$$
-H(p,x) = K(p, x) + V(x).
-$$
+$$ H(p,x) = K(p, x) + V(x).$$
 
 
