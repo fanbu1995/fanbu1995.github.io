@@ -2,7 +2,7 @@
 layout: post
 title: Reading Ted Chiang’s "Story of Your Life"
 subtitle: A sci-fi based on linguistics, with a human heart
-tags: [books]
+tags: [Books]
 ---
 
 It’s been a long time since reading a fiction left my mind in a blissful state of blankness. 
