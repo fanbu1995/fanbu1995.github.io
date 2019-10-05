@@ -10,16 +10,15 @@ tags: [statistics]
 
 This semester, the instructor of the intro-level Bayesian Statistics course in my department decided to convert all students 
 into using [`stan`](https://mc-stan.org/) for statistical computing. From a Bayesian statistician's perspective, `stan` is a 
-really nice tool for MCMC sampling, but it uses something called "Hamiltonian Monte Carlo" (HMC) which is not easy to 
-understand or explain.
+really great tool for MCMC (Markov chain Monte Carlo) sampling, but it uses something called "Hamiltonian Monte Carlo" (HMC) which is not easy to understand or explain.
 
 Well, it definitely took *me* a while to kind of (but not exactly) get what HMC is and why it works so well. AND I had to 
 teach a roomful of PhD students about it in a lab session! So, after quite some struggling, I did manage to give a mini 
 lecture on this topic, and this blog post is a compilation of my (very short) lecture notes.
 
-Almost all the materials here are from [this nicely written article](https://arxiv.org/abs/1701.02434) by Michael Betancourt and 
+Almost all the materials here are from [this very well-written article](https://arxiv.org/abs/1701.02434) by Michael Betancourt and 
 [this great YouTube playlist](https://youtu.be/FGQddvjP19w) by Gabriele Carcassi. My "baby" version is obviously much less 
-rigorous, but hopefully I can convey the basic message. 
+rigorous (and shorter!), but hopefully I can convey the basic message. 
 
 ## Conventional MCMC methods sometimes don't work
 
@@ -27,10 +26,10 @@ Many of us (including me) have used and love to use methods like Gibbs sampling 
 These methods are often (relatively) easy to understand, formulate, and programme, but unfortunately they perform unsatisfactorily
 when the target density (e.g. posterior density) looks "weird" or "ugly".
 
-So, they work fine when the target density looks nice and smooth like this one:
+So, they work fine when the target density looks nice and smooth like this one.
 ![A ``nice'' density in 2 dimensions.](https://fanbuduke17.github.io/img/Nice_density.jpeg)
 
-But they *really* struggle when the density looks like this ugly-shaped thing: 
+But they *really* struggle when the density looks like this ugly-shaped thing; there are two narrow, sharp ridges on the density surface, which a usual MCMC sampler either cannot reache or cannot escape once inside.
 ![A ``weird'' density in 2 dimensions.](https://fanbuduke17.github.io/img/Bad_density.jpeg)
 
 (Both pictures are drawn by [Jordan Bryan](https://j-g-b.github.io/), a brilliant colleague of mine.)
@@ -38,7 +37,7 @@ But they *really* struggle when the density looks like this ugly-shaped thing:
 For example, Gibbs samplers often suffer from these two major issues:
 
 * High autocorrelation; this leads to "sticky" chains and very low effective sample sizes.
-* Getting "stuck"; when the target density has high curvature regions, the sampler tends to get trapped inside.
+* Getting "stuck"; when the target density has high curvature regions, the sampler tends to get trapped in those regions.
 
 And that's why certain smart people started searching for alternative sampling methods that can handle tricky densities. 
 (Then they found out the magical Hamiltonian Monte Carlo and built stan.)
@@ -52,7 +51,7 @@ Therefore in MCMC, two things have to work out:
 * We need to sample from the "right" region
 * We need to "fully explore" the sample space
 
-And correspondingly, a good MCMC sampling method should be able to:
+Correspondingly, a good MCMC sampling method should be able to:
 * Quickly find the "right" region; this is **not** just the high density region, but rather a broader area with not-too-low densities (the so-called "typical set")
 * Efficiently move around within the right region; this means it must have a "nice" way to transition from one spot to another
 
