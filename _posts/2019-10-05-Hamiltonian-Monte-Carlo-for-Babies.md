@@ -106,22 +106,22 @@ Let us look a bit more closely at how "nicely" HMC moves around the parameter sp
 In Hamiltonian mechanics, the trajectories (over time) of the momentum \\(p\\) and location \\(x\\) are governed by the Hamiltonian equations:
 
 \\[ 
-\begin{align}
-\frac{dx}{dt} &= \frac{\partial H}{\partial p} = \frac{\partial K}{\partial p}; \\\\
+$$ \begin{align}
+\frac{dx}{dt} &= \frac{\partial H}{\partial p} = \frac{\partial K}{\partial p}; \\
 \frac{dp}{dt} &= -\frac{\partial H}{\partial x} = -\frac{\partial K}{\partial p} - \frac{d V}{d x}. 
-\end{align}
+\end{align} $$
 \\]
 
 When mapping back to probabilistic densities:
 
 \\[ 
-\begin{align}
-\frac{dx}{dt} &= -\frac{\partial \log\pi_1(p, x)}{\partial p} = -\frac{\partial \log\pi_0(p \mid x)}{\partial p}; \\\\
+$$ \begin{align}
+\frac{dx}{dt} &= -\frac{\partial \log\pi_1(p, x)}{\partial p} = -\frac{\partial \log\pi_0(p \mid x)}{\partial p}; \\
 \frac{dp}{dt} &= \frac{\partial \log\pi_1(p, x)}{\partial x} = \frac{\partial \log\pi_0(p \mid x)}{\partial p} + \frac{d \log\pi(x)}{d x}. 
-\end{align}
+\end{align} $$
 \\]
 
-We can see (in the second equation) that the movement of \\(p\\) is **partially** driven by the gradient of the log-density function \\(\log\pi(x)\\). That means the trajectories in HMC lead towards regions with relatively high density, but also does **not** crash directly into the high density regions.
+We can see (in the second equation) that the movement of \\(p\\) is **partially** driven by the gradient of the log-density function \\(\log\pi(x)\\). That means the trajectories in HMC lead us towards regions with relatively high density, but also  avoid crashing straight into a high density region and getting stuck there.
 
 ### Independence across dimensions
 
