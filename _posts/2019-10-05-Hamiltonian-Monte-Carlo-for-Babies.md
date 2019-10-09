@@ -105,8 +105,12 @@ Let us look a bit more closely at how "nicely" HMC moves around the parameter sp
 
 In Hamiltonian mechanics, the trajectories (over time) of the momentum \\(p\\) and location \\(x\\) are governed by the Hamiltonian equations:
 
-\\[ \frac{dx}{dt} = \frac{\partial H}{\partial p} = \frac{\partial K}{\partial p};  \\]
-\\[ \frac{dp}{dt} = -\frac{\partial H}{\partial x} = -\frac{\partial K}{\partial p} - \frac{\partial V}{\partial x}. \\]
+\\[ 
+\begin{align}
+\frac{dx}{dt} &= \frac{\partial H}{\partial p} = \frac{\partial K}{\partial p}; \\
+\frac{dp}{dt} &= -\frac{\partial H}{\partial x} = -\frac{\partial K}{\partial p} - \frac{\partial V}{\partial x}. 
+\end{align}
+\\]
 
 ### Independence across dimensions
 
