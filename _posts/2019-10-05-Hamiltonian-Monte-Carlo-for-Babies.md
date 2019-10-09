@@ -103,6 +103,11 @@ Let us look a bit more closely at how "nicely" HMC moves around the parameter sp
 
 ### HMC trajectories are driven by target gradient, but not entirely
 
+In Hamiltonian mechanics, the trajectories (over time) of the momentum \\(p\\) and location \\(x\\) are governed by the Hamiltonian equations:
+
+\\[ \frac{dx}{dt} = \frac{\partial H}{\partial p} = \frac{\partial K}{\partial p};  \\]
+\\[ \frac{dp}{dt} = -\frac{\partial H}{\partial x} = -\frac{\partial K}{\partial p} - \frac{\partial V}{\partial x}. \\]
+
 ### Independence across dimensions
 
 (TBC)
