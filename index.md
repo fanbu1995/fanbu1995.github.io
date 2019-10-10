@@ -11,9 +11,14 @@ bigimg:
   - "img/Space_Needle_Seattle.JPG": "Space Needle, Seattle WA (2017)"
 ---
 
->"Science without religion is lame, religion without science is blind."  
->  
-By Albert Einstein, **_Science and Religion_**  
+[//]: # >"Science without religion is lame, religion without science is blind." -->
+[//]: # >  
+[//]: # By Albert Einstein, **_Science and Religion_**  
+
+
+> "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
+>
+- Marcus Aurelius, _Meditations_
 
 # Welcome to my website!
 
