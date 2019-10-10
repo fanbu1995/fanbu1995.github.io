@@ -8,7 +8,7 @@ bigimg:
   - "img/Henrys_Lake_Idaho.jpg" : "Henrys Lake, ID (2018)"
   - "img/Grandfather_Mountain_NC_2017.png" : "Grandfather Mountain, Linville NC (2017)"
   - "img/Washington_Lake_Seattle.JPG" : "Lake Union, Seattle WA (2017)"
-  - "img/Space_Needle_Seattle.JPG": "Space Needle, Seattle WA (2017)"
+  #- "img/Space_Needle_Seattle.JPG": "Space Needle, Seattle WA (2017)"
 ---
 
 [//]: # >"Science without religion is lame, religion without science is blind." 
@@ -18,7 +18,7 @@ bigimg:
 
 > "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
 >
----Marcus Aurelius, _Meditations_
+---Marcus Aurelius, **_Meditations_**
 
 # Welcome to my website!
 
