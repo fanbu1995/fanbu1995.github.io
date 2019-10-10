@@ -122,7 +122,20 @@ $$ \begin{align}
 
 We can see (in the second equation) that the movement of \\(p\\) is **partially** driven by the gradient of the log-density function \\(\log\pi(x)\\). That means the trajectories in HMC lead us towards regions with relatively high density, but also  avoid crashing straight into a high density region and getting stuck there.
 
+
 ### Independence across dimensions
 
-(TBC)
+Another quite interesting property of Hamiltonian mechanics is that the total energy is preserved along **every dimension**. This implies that the movements of \\(p\\) and \\(x\\) are **independent** across dimensions. More specifically, the exploration of \\(p_i, x_i\\) does **not** get in the way of the exploration of  \\(p_j, x_j\\) (\\(i \neq j\\)).
+
+Recall that in Gibbs sampling, we sample from the full conditional distributions
+\\[p(x_i \mid \text{all other } x_j's)\\],
+and that means our movement along the \\(i\\)'s dimension is restricted by our locations on all the other dimensions, which can lead to pathological behaviors when the target density is "ugly" (like the second graph above).
+
+HMC, however, doesn't suffer from this problem.
+
+## Major takeaway
+
+Hamiltonian Monte Carlo is a conceptually complicated statistical computing method, but in practice it works really well. 
+
+So, when things go sideways with your old-school Gibbs sampler, maybe try out HMC using softwares like `stan`.
 
