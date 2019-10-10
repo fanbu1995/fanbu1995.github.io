@@ -43,9 +43,9 @@ adopt a Wishart prior, which is equivalent to using an inverse-Wishart prior for
 
 The density of a \\(\text{Wishart}(V,m)\\) distribution is proportional to
 \\[
-\lvert X \rvert^{(m-n-1)/2} \exp\left(-tr(V^{-1}X)/2\right).
+\lvert X \rvert^{(m-n-1)/2} \exp\left(-\text{tr}(V^{-1}X)/2\right).
 \\]
 Here the \\(n \times n\\) positive definite matrix \\(V\\) is the *scale matrix*, and \\(m\\) is the *degree of freedom*, with 
 \\(\mathbb{E}(X) = mV\\). 
 
-We may use something like a \\(\text{Wishart}(S_0/n_0,n_0)\\) prior for the precision matrix, where \\(n_0 \geq n+1\\).
+We may use something like a \\(\text{Wishart}(\frac{S_0}{n_0},n_0)\\) prior for the precision matrix, where \\(n_0 \geq n+1\\).
