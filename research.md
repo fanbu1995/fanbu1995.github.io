@@ -23,7 +23,7 @@ subtitle: Rearch Projects
 
 - Joint work with Sonia Xu, [Katherine Heller](http://www2.stat.duke.edu/~kheller/), and [Alexander Volfovsky](https://volfovsky.github.io/).
 - The main goal is to model the latent higher-order network structures in (basketball) player interactions that contribute to overall game outcomes and evaluate both individual- and group-level interaction choices and preferences. The model is applied to high-resolution optical tracking data collected by a top collegiate basketball program.
-- Accepted by AiStats 2019.
+- [In the proceedings of AiStats 2019.](http://proceedings.mlr.press/v89/bu19a/bu19a.pdf)
   
 #### Learning Root Source with Marked Multivariate Hawkes Processes
 
