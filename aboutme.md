@@ -27,7 +27,7 @@ Email me at ``fan.bu1@duke.edu``.
 
 ## Publications and Preprints
 
-* _Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks_. Joint work with Alexander Volfovsky and Jason Xu. (Manuscript under review)
+* _Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks_. Joint work with Alexander Volfovsky and Jason Xu. (Manuscript under review; [arXiv preprint](https://arxiv.org/abs/1910.04221))
 
 * _SMOGS: Social Network Metrics of Game Success_. Joint work with Sonia Xu, Katherine Heller, and Alexander Volfovsky. ([In the proceedings of AiStats 2019.](http://proceedings.mlr.press/v89/bu19a/bu19a.pdf))
 
