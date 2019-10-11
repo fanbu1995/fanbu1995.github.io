@@ -17,7 +17,7 @@ subtitle: Rearch Projects
 - Joint work with [Allison Aiello](https://sph.unc.edu/adv_profile/allison-e-aiello-phd/), [Alexander Volfovsky](https://volfovsky.github.io/), and [Jason Xu](https://jasonxu90.github.io/).
 - Proposed a stochastic generative model and a data augmentation inference scheme for epidemic processes on dynamic, adaptive contact networks. 
 - With applications in analyzing recent, real-world epidemiological data with high resolution social contacts observations.
-- Manuscript under review.
+- Manuscript under review. ([arXiv preprint](https://arxiv.org/abs/1910.04221))
 
 #### SMOGS: Social Network Metrics of Game Success
 
