@@ -26,7 +26,7 @@ navbar-links:
   About Me: "aboutme"
   Research: "research"
   Blog: "blog"
-  CV: "https://fanbuduke17.github.io/FanBu_CV_201909.pdf"
+  CV: "https://fanbuduke17.github.io/CV_updated.pdf"
   # Resources:
     # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     # - Learn markdown: "http://www.markdowntutorial.com/"
@@ -49,7 +49,7 @@ title-img: "https://fanbuduke17.github.io/IMG_4834.JPG"
 author:
   name: Fan Bu
   email: "fan.bu1@duke.edu"
-  facebook: Fanny Bu  # eg. daattali
+  facebook: Fan Bu  # eg. daattali
   github: fanbuduke17    # eg. daattali
   # twitter: yourname   # eg. daattali
   # linkedin: yourname  # eg. daattali
