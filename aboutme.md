@@ -27,7 +27,7 @@ At the same time, I am working on stochastic epidemic modeling with consideratio
 I have just finished a project on likelihood-based inference of epidemic processes on adaptive social networks, with [Allison Aiello](https://sph.unc.edu/adv_profile/allison-e-aiello-phd/), Alexander Volfovsky and [Jason Xu](https://jasonxu90.github.io/). We developed a continuous-time Markov process model and a Bayesian data augmentation inference framework to study the interplay between contagion spread and social network evolution. The model is applied to recent epidemiological data with time-resolved social contact observations ([Aiello et al., 2016](https://www.sciencedirect.com/science/article/pii/S1755436516000025)).
 -->
 
-One of my previous projects was about uncovering higher-order latent structures in basketball player passes, using high-resolution data collected by a renowned NCAA basketball program (paper in the proceedings of [AiStats 2019](https://www.aistats.org/)). 
+One of my previous projects was about uncovering higher-order latent structures in basketball player passes, using high-resolution data collected by a renowned NCAA basketball program ([paper in the proceedings of AiStats 2019](http://proceedings.mlr.press/v89/bu19a/bu19a.pdf)). 
 
 Email me at ``fan.bu1@duke.edu``.
 
