@@ -54,7 +54,7 @@ Email me at ``fan.bu1@duke.edu``.
   Jogging, swimming, yoga, badminton, squash, ping pong, and tennis. I used to manage social media accounts for the Wimbledon Championships (yes, **that** Wimbledon) and write tennis commentaries back in college.  
   
 * I love writing
-    I have a blog [here](https://fanbublog.wordpress.com/), mostly written in **Chinese**; the majority of the contents are movie reviews, tennis stories and random babblings. I have also (slowly) taken up writing in English and started posting things on the [blog page](https://fanbuduke17.github.io/blog).
+  I have a blog [here](https://fanbublog.wordpress.com/), mostly written in **Chinese**; the majority of the contents are movie reviews, tennis stories and random babblings. I have also (slowly) taken up writing in English and started posting things on the [blog page](https://fanbuduke17.github.io/blog).
 
 
 
