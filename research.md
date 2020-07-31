@@ -10,14 +10,15 @@ subtitle: Rearch Projects
 
 - Ongoing research with Alexander Volfovsky, Raquel Asencio, James Moody, and Katherine Heller.
 - The goal is to study the mechanisms of small team and multi-team systems and to develop metrics for evaluating team effectiveness, cohesion, and leadership.
-- Observational study and data collection completed.
+- Observational study and data collection completed; data analysis and manuscript preparation underway.
 
 #### Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks. 
 
 - Joint work with [Allison Aiello](https://sph.unc.edu/adv_profile/allison-e-aiello-phd/), [Alexander Volfovsky](https://volfovsky.github.io/), and [Jason Xu](https://jasonxu90.github.io/).
 - Proposed a stochastic generative model and a data augmentation inference scheme for epidemic processes on dynamic, adaptive contact networks. 
 - With applications in analyzing recent, real-world epidemiological data with high resolution social contacts observations.
-- Manuscript under review. ([arXiv preprint](https://arxiv.org/abs/1910.04221))
+- Paper accepted by Journal of the American Statistical Association. ([Online version](https://www.tandfonline.com/doi/full/10.1080/01621459.2020.1790376))
+- One of 10 winners of the 2020 SBSS Student Paper Award; also selected as one of the ["research highlights" of JSM 2020](https://www.amstat.org/ASA/News/Newsworthy-Research-Highlights-from-JSM-2020.aspx).
 
 #### SMOGS: Social Network Metrics of Game Success
 
@@ -31,6 +32,18 @@ subtitle: Rearch Projects
 - With applications in group conversations between online users or individuals in real-life settings, eg. [Reddit](https://www.reddit.com/) forum comment data, and transcription of the movie [12 Angry Men](https://en.wikipedia.org/wiki/12_Angry_Men_(1957_film)).
 - [arXiv preprint](https://arxiv.org/abs/1809.03648)
 
+
+### Collaboration/Consulting Work Since 2017
+
+#### Identifying Immune Correlates for HIV Viral Rebound of Infant Rhesus Macaques
+
+- Ongoing experimental data analysis in collaboration with Duke Center for AIDS Research (CFAR), in collaboration with the project PI Dr. Sallie Permar, and quantitative PIs Drs. Cliburn Chan and Janice McCarthy. 
+- Using survival analysis and sparse regression methods to identify meaningful immunological predictors for time to HIV viral rebound.
+
+#### Historical Tone Change from Middle Chinese to Modern Beijing Mandarin: Usage-based Phonology and Modeling
+
+- Ongoing work with Haowen Zhang and Maria Giavazzi, Ecole Normale Sup´erieure de Paris.
+- Using statistical machine learning methods to identify phonetic features related to the tone change of "_ru_" characters (“入声字”) in Beijing Mandarin, and developing dynamical models for the tone change process based on usage-based phonology theory.
 
 
 ### Undergraduate Research
