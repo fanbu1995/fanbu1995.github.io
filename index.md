@@ -24,12 +24,12 @@ bigimg:
 
 My name is Fan Bu. I am a Ph.D. student in the Department of Statistical Science, Duke University. My research interests include:
 
-- Machine Learning
+- Bayesian Statistics and Machine Learning
 - Network Analysis
 - Stochastic Modelling
-- Sports Data Analytics
+- With applications in infectious disease modeling, sports analytics, natural language processing and healthcare data analysis
 
 I also love writing, sports, and music.
 
-Click [About Me](https://fanbuduke17.github.io/aboutme) for more details.
+Click [About Me](https://fanbuduke17.github.io/aboutme) and [Research](https://fanbuduke17.github.io/research) for more details.
 
