@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to sample from distributions in Python
+title: How to Sample from Distributions in Python
 subtitle: (it's probably messier than you think)
 tags: [Data science cheat sheets]
 
