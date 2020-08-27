@@ -21,7 +21,7 @@ then you would just type
 rnorm(100, 3, 3)
 ```
 
-As a more complicate example, let's say we want to draw 20 samples from a Multinomial distribution with \\(K=4\\) categories of equal probabilities and \\(N=6\\) trials. 
+As a more complicated example, let's say we want to draw 20 samples from a Multinomial distribution with \\(K=4\\) categories of equal probabilities and \\(N=6\\) trials. 
 (That is, in each experiment, we pick 6 times out of 4 categories, where each category is equally likely to get picked, and we repeat this independently for 20 times.)
 Then the R code for generating the samples is simply
 ```r
