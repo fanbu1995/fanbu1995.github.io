@@ -110,7 +110,7 @@ gauss(0,5)
 
 Compared to the built-in `random` library, `numpy.random` is more powerful in two ways:
 
-- It enables array output (for generating random numbers) and input (for sequence selection/permutation); note that the `random` mostly just outputs a single number.
+- It enables array output (for generating random numbers) and input (for sequence selection/permutation); note that functions in `random` mostly just output a single number.
 - It supports a much larger set of distributions, including (but not limited to) Binomial, \\(\chi^2\\), Dirichlet, F, Geometric, Negative-Binomial, Poisson, etc., which a statistician (like me) is quite happy about.
 
 That being said, you do need to install it via
@@ -118,5 +118,28 @@ That being said, you do need to install it via
 pip install numpy
 ```
 unless you already have the [Anaconda](https://www.anaconda.com/products/individual) bundle (`numpy` comes with it).
+
+Starting from version 1.17.0, `numpy` has implemented a faster generator with better statistical properties; usage of the functions is the same as those under 
+the `numpy.random` module from before, and previous functions are still available. 
+
+The following example is borrowed from their [documentation page](https://numpy.org/doc/stable/reference/random/index.html):
+
+```python
+# Do this
+from numpy.random import default_rng
+rng = default_rng()
+vals = rng.standard_normal(10)
+more_vals = rng.standard_normal(10)
+
+# instead of this
+from numpy import random
+vals = random.standard_normal(10)
+more_vals = random.standard_normal(10)
+```
+
+All the change is that now you should instantiate an instance of the ``default_rng`` class, and then from there everything is just like before.
+
+Below let's go through a few more examples. 
+
 
 
