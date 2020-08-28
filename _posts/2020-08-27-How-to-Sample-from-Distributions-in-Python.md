@@ -39,3 +39,69 @@ In this post, I'll go over **3** different Python libraries that offer functiona
 |**Functionalities**| simulation only | simulation only | PDF and CDF evaluations and more |
 |**Installment**| built-in | requires install (pip and conda) | requires install (pip and conda)|
 |**Efficiency**| high | higher | okay |
+
+
+## Now into the meat and bone
+
+### The `random` library
+
+There are three basic types of "simulations" that the `random` module offers: integers, sequences, and real-valued distributions.
+
+For integers, for example, using `random.randrange(start, stop[, step])` can randomly generate an integer between `start` and `stop` with a stepsize `step` (optional). 
+
+For sequences, it can randomly select elements from any sequence (not necessarily numbers) uniformly or with a specified distribution (or weights), and it can also randomly shuffle (permute) a sequence.
+
+Some examples:
+```python
+from random import choice, choices, shuffle, sample
+
+fruits = ['apple','banana', 'pear', 'peach', 'grape', 'mango']
+
+# choose one element at random
+choice(fruits)
+>>> 'mango'
+
+# choose k elements WITH REPLACEMENT with weights
+choices(fruits, weights = [1,3,4,5,6,7], k = 4)
+>>> ['peach', 'grape', 'peach', 'pear']
+
+# choose k elements WITHOUT REPLACEMENT uniformly
+sample(fruits,k=3)
+>>> ['grape', 'peach', 'banana']
+
+# shuffle the list (in place, only accepts mutable objects)
+shuffle(fruits)
+fruits
+>>> ['banana', 'peach', 'grape', 'mango', 'pear', 'apple']
+```
+
+For real-valued distributions, it supports sampling from certain commonly used distributions: Uniform, Gamma, Beta, Exponential, Normal, Pareto, etc.
+
+Some examples:
+```python
+from random import *
+
+# Uniform(0,1)
+random()
+>>> 0.23317458326492257
+
+# Uniform(1.5,2.6)
+uniform(1.5,2.6)
+>>> 2.0483236868182306
+
+# Beta(3,5)
+betavariate(3,5)
+>>> 0.24637194926989447
+
+# Gamma(5,5)
+# 1st arg = shape, 2nd arg = scale (not rate!)
+>>> 15.558501989226073
+
+# Normal(0,5)
+# 1st arg = mean, 2nd arg = standard deviation
+# note: this is faster than "normalvariate(mu, sigma)"
+gauss(0,5)
+>>> -5.324221535282665
+```
+
+(References: [the random library documentation](https://docs.python.org/3/library/random.html).)
