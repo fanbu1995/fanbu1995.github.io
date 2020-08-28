@@ -106,7 +106,7 @@ gauss(0,5)
 
 (References: [the random library documentation](https://docs.python.org/3/library/random.html).)
 
-### The "numpy.random" module
+### The `numpy.random` module
 
 Compared to the built-in `random` library, `numpy.random` is more powerful in two ways:
 
