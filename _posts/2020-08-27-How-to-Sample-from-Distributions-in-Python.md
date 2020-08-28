@@ -37,4 +37,5 @@ In this post, I'll go over **3** different Python libraries that offer functiona
 |----------|---------- | -------------| -------------|
 |**Distributions available** | only basics | a lot | a lot |
 |**Functionalities**| simulation only | simulation only | PDF and CDF evaluations and more |
+|**Installment**| built-in | requires install (pip and conda) | requires install (pip and conda)|
 |**Efficiency**| high | higher | okay |
