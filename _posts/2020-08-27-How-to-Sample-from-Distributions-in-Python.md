@@ -105,3 +105,18 @@ gauss(0,5)
 ```
 
 (References: [the random library documentation](https://docs.python.org/3/library/random.html).)
+
+### The "numpy.random" module
+
+Compared to the built-in `random` library, `numpy.random` is more powerful in two ways:
+
+- It enables array output (for generating random numbers) and input (for sequence selection/permutation); note that the `random` mostly just outputs a single number.
+- It supports a much larger set of distributions, including (but not limited to) Binomial, \\(\chi^2\\), Dirichlet, F, Geometric, Negative-Binomial, Poisson, etc., which a statistician (like me) is quite happy about.
+
+That being said, you do need to install it via
+```
+pip install numpy
+```
+unless you already have the [Anaconda](https://www.anaconda.com/products/individual) bundle (`numpy` comes with it).
+
+
