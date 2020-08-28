@@ -28,3 +28,13 @@ Then the R code for generating the samples is simply
 rmultinom(20, size = 6, prob = rep(1,4)) 
 ```
 (Note that for the `prob` argument, R automatically scales it to sum to 1.)
+
+In Python, however, you **do** need to load a library, either a built-in Python module, or something you have to install yourself.
+
+In this post, I'll go over **3** different Python libraries that offer functionalities of random variable simulation. Below is a brief summary of these libraries:
+
+| **Name** | `random` | `numpy.random` | `scipy.stats`|
+|----------|---------- | -------------| -------------|
+|**Distributions available** | only basics | a lot | a lot |
+|**Functionalities**| simulation only | simulation only | PDF and CDF evaluations and more |
+|**Efficiency**| high | higher | okay |
