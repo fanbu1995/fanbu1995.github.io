@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting up Github in Rstudio
+title: Setting up Github in RStudio
 subtitle: (a cheatsheet of key commands)
 tags: [Data science cheat sheets]
 ---
