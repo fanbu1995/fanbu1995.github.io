@@ -253,7 +253,7 @@ rv.rvs(size=(5,5))
        [10.53331556, -5.39831162,  9.03057659,  3.65320366, -0.95226979]])
 ```
 
-Another feature of `scipy.stats` is that the functions allow broadcasting of the arguments. For example, if we want to generate random samples from different normal distributions with the mean ranging from 1,6,8 and standard deviation 1 and 10. Then we can write the code as
+Another feature of `scipy.stats` is that the functions allow broadcasting of the arguments. For example, if we want to generate random samples from different normal distributions with the mean taking values in \\(\{1, 6, 8\}\\) and standard deviation taking values in 1 and 10. Then we can write the code as
 ```python
 norm.rvs(loc=[1,6,8], scale=[[1],[10]])
 
