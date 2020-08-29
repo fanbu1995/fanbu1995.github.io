@@ -298,7 +298,7 @@ print(timeit.timeit("rng.normal(3,5,10000)", setup=setup_numpy, number=1000))
 print(timeit.timeit("rv.rvs(size=10000)", setup=setup_scipy, number=1000))
 >>> 0.3074812459999521
 ```
-So, `numpy.random` is almost 40 times faster than `random` (mainly because we have to run a for loop just to draw multiple samples...), and about 2 times faster than `scipy.stats`. 
+So, `numpy.random` is almost **40 times faster** than `random` (mainly because we have to run a for loop just to draw multiple samples...), and about **2 times faster** than `scipy.stats`. 
 
 And thus, if you only want to sample a lot of random variables, `numpy.random` is probably the best option, at least from an efficiency point of view.
 
