@@ -1,7 +1,19 @@
-### Classifier Parameter Selection via CV, in Python `sklearn`
+---
+layout: post
+title: Classifier Parameter Selection via CV, in Python "sklearn"
+tags: [Data science cheat sheets]
+---
 
 ![png](https://fanbuduke17.github.io/img/Sklearn_classifiers_CV_selection_13_0.png)
 
+This post is simply some practice code for fitting and doing parameter selection (via cross validation) of SVM and Random Forest classifiers, on 3 made-up datasets. Everything is done in the `scikit-learn` library in `Python`.
+
+Code is adapted from [this webpage](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html). 
+
+It looks a bit long, but that's mainly due to the complexity of plotting in `matplotlib.pyplot`.
+
+
+First, import the necessary functions. (I've commented out certain lines form the original webpage that are not used here.)
 
 ```python
 import matplotlib.pyplot as plt
@@ -10,15 +22,15 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.datasets import make_moons, make_circles, make_classification
 
-from sklearn.neural_network import MLPClassifier
-from sklearn.neighbors import KNeighborsClassifier
+#from sklearn.neural_network import MLPClassifier
+#from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
-from sklearn.gaussian_process import GaussianProcessClassifier
-from sklearn.gaussian_process.kernels import RBF
-from sklearn.tree import DecisionTreeClassifier
+#from sklearn.gaussian_process import GaussianProcessClassifier
+#from sklearn.gaussian_process.kernels import RBF
+#from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
-from sklearn.naive_bayes import GaussianNB
-from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
+#from sklearn.naive_bayes import GaussianNB
+#from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 
@@ -41,8 +53,7 @@ datasets = [make_moons(noise=0.3, random_state=0),
             linearly_separable]
 ```
 
-Initialize classifiers and specify parameter grid
-
+Initialize classifiers and specify parameter grids to search on.
 
 ```python
 names = ['Linear SVM', 'RBF SVM', 'RF']
@@ -50,6 +61,8 @@ names = ['Linear SVM', 'RBF SVM', 'RF']
 
 
 ```python
+# classifiers
+
 clf_svc_linear = SVC(kernel='linear')
 clf_svc_rbf = SVC(kernel='rbf')
 clf_rf = RandomForestClassifier(max_features=1)
@@ -58,6 +71,8 @@ classifiers = [clf_svc_linear, clf_svc_rbf, clf_rf]
 
 
 ```python
+# search grids
+
 svc_linear_grid = {'C': [0.1, 1, 10]}
 svc_rbf_grid = {'gamma': [0.1, 1, 10]}
 rf_grid = {'max_depth': [3,4,5], 'n_estimators': [5,10,20]}
@@ -114,9 +129,11 @@ for ds_cnt, ds in enumerate(datasets):
     for j, clf in enumerate(classifiers):
         ax = plt.subplot(len(datasets), len(classifiers) + 1, i)
         
+        # do CV parameter selection
         clf_cv = GridSearchCV(clf, grids[j])
         clf_cv.fit(X_train, y_train)
         
+        # get the prediction score on the test set (using best parameters)
         score = clf_cv.score(X_test, y_test)
 
         # Plot the decision boundary. For that, we will assign a color to each
