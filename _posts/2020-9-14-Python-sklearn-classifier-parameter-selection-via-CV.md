@@ -1,13 +1,15 @@
 ### Try out sklearn classifiers and parameter selection via CV
 
+![png](https://fanbuduke17.github.io/img/Sklearn_classifiers_CV_selection_13_0.png)
+
 
 ```python
-import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.datasets import make_moons, make_circles, make_classification
+
 from sklearn.neural_network import MLPClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
@@ -17,15 +19,9 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
-```
 
-
-```python
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
-```
 
-
-```python
 from numpy.random import Generator, PCG64
 ```
 
@@ -35,10 +31,7 @@ Make up example datsets
 ```python
 X, y = make_classification(n_features=2, n_redundant=0, n_informative=2,
                            random_state=1, n_clusters_per_class=1)
-```
-
-
-```python
+                           
 rng = np.random.default_rng(PCG64(12345))
 X += 2 * rng.uniform(size=X.shape)
 linearly_separable = (X, y)
@@ -79,12 +72,9 @@ Also print accuracy score on the test data set.
 ```python
 n_classifiers = len(classifiers)
 figure = plt.figure(figsize=(n_classifiers * 3, 9))
-h = 0.1
+
+h = 0.1 # step size for the mesh grid (for plotting)
 ```
-
-
-    <Figure size 648x648 with 0 Axes>
-
 
 
 ```python
@@ -160,7 +150,3 @@ for ds_cnt, ds in enumerate(datasets):
 plt.tight_layout()
 plt.show()
 ```
-
-
-    
-![png](Sklearn_classifiers_CV_selection_files/Sklearn_classifiers_CV_selection_13_0.png)
