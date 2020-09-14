@@ -1,4 +1,4 @@
-### Try out sklearn classifiers and parameter selection via CV
+### Classifier Parameter Selection via CV, in Python `sklearn`
 
 ![png](https://fanbuduke17.github.io/img/Sklearn_classifiers_CV_selection_13_0.png)
 
