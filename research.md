@@ -6,20 +6,10 @@ subtitle: Rearch Projects
 
 ### Projects Since 2017
 
-#### Building Better Teams: A Network Analysis Approach
-
-
-<img align="right" src="https://fanbuduke17.github.io/img/MTS_design_png.png" alt="Study design" width="300" height="170">
-                       
-
-- Ongoing research with Alexander Volfovsky, Raquel Asencio, James Moody, and Katherine Heller.
-- The goal is to study the mechanisms of small team and multi-team systems and to develop metrics for evaluating team effectiveness, cohesion, and leadership.
-- Observational study and data collection completed; data analysis and manuscript preparation underway.
-
 #### Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks. 
 
 
-<img align="right" src="https://fanbuduke17.github.io/img/exFlu_data.png" alt="exFLU data visualization" width="300" height="170">
+<img align="right" src="https://fanbuduke17.github.io/img/exFlu_data.png" alt="exFLU data visualization" width="350" height="195">
 
 
 - Joint work with [Allison Aiello](https://sph.unc.edu/adv_profile/allison-e-aiello-phd/), [Alexander Volfovsky](https://volfovsky.github.io/), and [Jason Xu](https://jasonxu90.github.io/).
@@ -45,6 +35,16 @@ subtitle: Rearch Projects
 - Joint work with [Wei Zhang](http://pages.cs.wisc.edu/~zhangwei/), [Derek Owens-Oas](https://stat.duke.edu/people/derek-owens-oas), [Jerry Zhu](http://pages.cs.wisc.edu/~jerryzhu/), and [Katherine Heller](http://www2.stat.duke.edu/~kheller/).
 - With applications in group conversations between online users or individuals in real-life settings, eg. [Reddit](https://www.reddit.com/) forum comment data, and transcription of the movie [12 Angry Men](https://en.wikipedia.org/wiki/12_Angry_Men_(1957_film)).
 - [arXiv preprint](https://arxiv.org/abs/1809.03648)
+
+#### Building Better Teams: A Network Analysis Approach
+
+
+<img align="right" src="https://fanbuduke17.github.io/img/MTS_design_png.png" alt="Study design" width="350" height="195">
+                       
+
+- Ongoing research with Alexander Volfovsky, Raquel Asencio, James Moody, and Katherine Heller.
+- The goal is to study the mechanisms of small team and multi-team systems and to develop metrics for evaluating team effectiveness, cohesion, and leadership.
+- Observational study and data collection completed; data analysis and manuscript preparation underway.
 
 #### Modeling HIV transmission flow from deep-sequencing data. 
 
