@@ -4,12 +4,12 @@ title: Research
 subtitle: Rearch Projects
 ---
 
-### Research Since 2017
+### Projects Since 2017
 
 #### Building Better Teams: A Network Analysis Approach
 
 
-<img align="left" src="https://fanbuduke17.github.io/img/MTS_design_png.png" alt="Study design" width="400" height="250">
+<img align="left" src="https://fanbuduke17.github.io/img/MTS_design_png.png" alt="Study design" width="450" height="250">
                        
 
 - Ongoing research with Alexander Volfovsky, Raquel Asencio, James Moody, and Katherine Heller.
@@ -17,6 +17,10 @@ subtitle: Rearch Projects
 - Observational study and data collection completed; data analysis and manuscript preparation underway.
 
 #### Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks. 
+
+
+<img align="right" src="https://fanbuduke17.github.io/img/exFlu_data.png" alt="exFLU data visualization" width="450" height="250">
+
 
 - Joint work with [Allison Aiello](https://sph.unc.edu/adv_profile/allison-e-aiello-phd/), [Alexander Volfovsky](https://volfovsky.github.io/), and [Jason Xu](https://jasonxu90.github.io/).
 - Proposed a stochastic generative model and a data augmentation inference scheme for epidemic processes on dynamic, adaptive contact networks. 
@@ -32,17 +36,24 @@ subtitle: Rearch Projects
   
 #### Learning Root Source with Marked Multivariate Hawkes Processes
 
+
+<img align="left" src="https://fanbuduke17.github.io/img/12AngryMen.png" alt="12 Angry Men conversation thread" width="450" height="250">
+
+
 - Joint work with [Wei Zhang](http://pages.cs.wisc.edu/~zhangwei/), [Derek Owens-Oas](https://stat.duke.edu/people/derek-owens-oas), [Jerry Zhu](http://pages.cs.wisc.edu/~jerryzhu/), and [Katherine Heller](http://www2.stat.duke.edu/~kheller/).
 - With applications in group conversations between online users or individuals in real-life settings, eg. [Reddit](https://www.reddit.com/) forum comment data, and transcription of the movie [12 Angry Men](https://en.wikipedia.org/wiki/12_Angry_Men_(1957_film)).
 - [arXiv preprint](https://arxiv.org/abs/1809.03648)
 
 
-### Collaboration/Consulting Work Since 2017
+### Collaboration/Consulting Work and Other Projects Since 2017
 
 #### Identifying Immune Correlates for HIV Viral Rebound of Infant Rhesus Macaques
 
+<img align="right" src="https://fanbuduke17.github.io/img/B2_viral_load_postATI_plot.png" alt="Viral load curves" width="450" height="250">
+
 - Ongoing experimental data analysis in collaboration with Duke Center for AIDS Research (CFAR), in collaboration with the project PI Dr. Sallie Permar, and quantitative PIs Drs. Cliburn Chan and Janice McCarthy. 
 - Using survival analysis and sparse regression methods to identify meaningful immunological predictors for time to HIV viral rebound.
+
 
 #### Historical Tone Change from Middle Chinese to Modern Beijing Mandarin: Usage-based Phonology and Modeling
 
