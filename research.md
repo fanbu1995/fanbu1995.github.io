@@ -9,7 +9,7 @@ subtitle: Rearch Projects
 #### Building Better Teams: A Network Analysis Approach
 
 
-<img align="left" src="https://fanbuduke17.github.io/img/MTS_design_png.png" alt="Study design" width="450" height="250">
+<img align="right" src="https://fanbuduke17.github.io/img/MTS_design_png.png" alt="Study design" width="280" height="150">
                        
 
 - Ongoing research with Alexander Volfovsky, Raquel Asencio, James Moody, and Katherine Heller.
@@ -19,7 +19,7 @@ subtitle: Rearch Projects
 #### Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks. 
 
 
-<img align="right" src="https://fanbuduke17.github.io/img/exFlu_data.png" alt="exFLU data visualization" width="450" height="250">
+<img align="right" src="https://fanbuduke17.github.io/img/exFlu_data.png" alt="exFLU data visualization" width="280" height="150">
 
 
 - Joint work with [Allison Aiello](https://sph.unc.edu/adv_profile/allison-e-aiello-phd/), [Alexander Volfovsky](https://volfovsky.github.io/), and [Jason Xu](https://jasonxu90.github.io/).
