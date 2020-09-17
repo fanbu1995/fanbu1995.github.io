@@ -30,19 +30,28 @@ subtitle: Rearch Projects
 
 #### SMOGS: Social Network Metrics of Game Success
 
-- Joint work with Sonia Xu, [Katherine Heller](http://www2.stat.duke.edu/~kheller/), and [Alexander Volfovsky](https://volfovsky.github.io/).
+- Joint work with Sonia Xu, [Katherine Heller](http://www2.stat.duke.edu/~kheller/), and Alexander Volfovsky.
 - The main goal is to model the latent higher-order network structures in (basketball) player interactions that contribute to overall game outcomes and evaluate both individual- and group-level interaction choices and preferences. The model is applied to high-resolution optical tracking data collected by a top collegiate basketball program.
 - [In the proceedings of AiStats 2019.](http://proceedings.mlr.press/v89/bu19a/bu19a.pdf)
   
 #### Learning Root Source with Marked Multivariate Hawkes Processes
 
 
-<img align="left" src="https://fanbuduke17.github.io/img/12AngryMen.png" alt="12 Angry Men conversation thread" width="450" height="250">
+<img align="left" src="https://fanbuduke17.github.io/img/12AngryMen.png" alt="12 Angry Men conversation thread" width="300" height="170">
 
 
 - Joint work with [Wei Zhang](http://pages.cs.wisc.edu/~zhangwei/), [Derek Owens-Oas](https://stat.duke.edu/people/derek-owens-oas), [Jerry Zhu](http://pages.cs.wisc.edu/~jerryzhu/), and [Katherine Heller](http://www2.stat.duke.edu/~kheller/).
 - With applications in group conversations between online users or individuals in real-life settings, eg. [Reddit](https://www.reddit.com/) forum comment data, and transcription of the movie [12 Angry Men](https://en.wikipedia.org/wiki/12_Angry_Men_(1957_film)).
 - [arXiv preprint](https://arxiv.org/abs/1809.03648)
+
+#### Modeling HIV transmission flow from deep-sequencing data. 
+
+<img align="right" src="https://fanbuduke17.github.io/img/HIV_flow_trace.png" alt="HIV flow tracing" width="100" height="250">
+
+- Joint work with Jason Xu and Oliver Ratmann (Imperial College London).
+- Developing a spatial Poisson process with Gaussian mixture densities to describe HIV transmission flow between gender and age groups.
+- Building a hierarchical Bayesian inference framework to utilize rich information from high-volume deep-sequencing data collected from real patients.
+- (Image from [Ratmann et al., 2019](https://doi.org/10.1038/s41467-019-09139-4))
 
 
 ### Collaboration/Consulting Work and Other Projects Since 2017
