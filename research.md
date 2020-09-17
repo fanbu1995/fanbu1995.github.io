@@ -74,7 +74,7 @@ subtitle: Rearch Projects
 - Adapted dynamic topic modeling methods to analyze dynamic topics associated with popular MCU characters in over 1000 fanfictions composed from 2008 to 2018
 - Crawled famous fanfiction website [Archive of Our Own](https://archiveofourown.org/) to collect a large body of text data
 - Findings: 1) introduction of new characters has contributed to diverse fanfiction creations, and 2) multi-dimensional character development is well-received by the fandom. 
-- (Image: fanfiction topics associated with Captain America have developed and evolved over the years)
+- [Technical report on arXiv](https://arxiv.org/pdf/1805.03774.pdf) (Image: fanfiction topics associated with Captain America have developed and evolved over the years)
 
 
 #### Historical Tone Change from Middle Chinese to Modern Beijing Mandarin: Usage-based Phonology and Modeling
