@@ -9,7 +9,7 @@ subtitle: Rearch Projects
 #### Building Better Teams: A Network Analysis Approach
 
 
-<img align="left" src="img/MTS_design_png.png">
+<img align="left" src="img/MTS_design_png.png" alt="Study design" width="500" height="350">
                        
 
 - Ongoing research with Alexander Volfovsky, Raquel Asencio, James Moody, and Katherine Heller.
