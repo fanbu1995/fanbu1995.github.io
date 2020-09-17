@@ -9,7 +9,7 @@ subtitle: Rearch Projects
 #### Building Better Teams: A Network Analysis Approach
 
 
-<img align="right" src="https://fanbuduke17.github.io/img/MTS_design_png.png" alt="Study design" width="280" height="150">
+<img align="right" src="https://fanbuduke17.github.io/img/MTS_design_png.png" alt="Study design" width="300" height="170">
                        
 
 - Ongoing research with Alexander Volfovsky, Raquel Asencio, James Moody, and Katherine Heller.
@@ -19,7 +19,7 @@ subtitle: Rearch Projects
 #### Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks. 
 
 
-<img align="right" src="https://fanbuduke17.github.io/img/exFlu_data.png" alt="exFLU data visualization" width="280" height="150">
+<img align="right" src="https://fanbuduke17.github.io/img/exFlu_data.png" alt="exFLU data visualization" width="300" height="170">
 
 
 - Joint work with [Allison Aiello](https://sph.unc.edu/adv_profile/allison-e-aiello-phd/), [Alexander Volfovsky](https://volfovsky.github.io/), and [Jason Xu](https://jasonxu90.github.io/).
@@ -46,22 +46,33 @@ subtitle: Rearch Projects
 
 #### Modeling HIV transmission flow from deep-sequencing data. 
 
-<img align="right" src="https://fanbuduke17.github.io/img/HIV_flow_trace.png" alt="HIV flow tracing" width="100" height="250">
+<!--img align="right" src="https://fanbuduke17.github.io/img/HIV_flow_trace.png" alt="HIV flow tracing" width="100" height="250"-->
 
-- Joint work with Jason Xu and Oliver Ratmann (Imperial College London).
+- Ongoing work with Jason Xu and Oliver Ratmann (Imperial College London).
 - Developing a spatial Poisson process with Gaussian mixture densities to describe HIV transmission flow between gender and age groups.
 - Building a hierarchical Bayesian inference framework to utilize rich information from high-volume deep-sequencing data collected from real patients.
-- (Image from [Ratmann et al., 2019](https://doi.org/10.1038/s41467-019-09139-4))
+<!--- (Image from [Ratmann et al., 2019](https://doi.org/10.1038/s41467-019-09139-4))-->
 
 
-### Collaboration/Consulting Work and Other Projects Since 2017
+### Collaboration Work and Other Projects Since 2017
 
 #### Identifying Immune Correlates for HIV Viral Rebound of Infant Rhesus Macaques
 
-<img align="right" src="https://fanbuduke17.github.io/img/B2_viral_load_postATI_plot.png" alt="Viral load curves" width="450" height="250">
+<img align="right" src="https://fanbuduke17.github.io/img/B2_viral_load_postATI_plot.png" alt="Viral load curves" width="350" height="200">
 
 - Ongoing experimental data analysis in collaboration with Duke Center for AIDS Research (CFAR), in collaboration with the project PI Dr. Sallie Permar, and quantitative PIs Drs. Cliburn Chan and Janice McCarthy. 
 - Using survival analysis and sparse regression methods to identify meaningful immunological predictors for time to HIV viral rebound.
+
+#### Analyzing Fandom Perpections of Marvel Cinematic Universe Characters from Fanfictions
+
+
+<img align="right" src="https://fanbuduke17.github.io/img/Cap_Topic_Scores.png" alt="Captain America Fanfiction perceptions" width="350" height="200">
+
+
+- Adapted dynamic topic modeling methods to analyze dynamic topics associated with popular MCU characters in over 1000 fanfictions composed from 2008 to 2018
+- Crawled famous fanfiction website [Archive of Our Own](https://archiveofourown.org/) to collect a large body of text data
+- Findings: 1) introduction of new characters has contributed to diverse fanfiction creations, and 2) multi-dimensional character development is well-received by the fandom. 
+- (Image: fanfiction topics associated with Captain America have developed and evolved over the years)
 
 
 #### Historical Tone Change from Middle Chinese to Modern Beijing Mandarin: Usage-based Phonology and Modeling
