@@ -15,7 +15,7 @@ subtitle: Rearch Projects
 - Joint work with [Allison Aiello](https://sph.unc.edu/adv_profile/allison-e-aiello-phd/), [Alexander Volfovsky](https://volfovsky.github.io/), and [Jason Xu](https://jasonxu90.github.io/).
 - Proposed a stochastic generative model and a data augmentation inference scheme for epidemic processes on dynamic, adaptive contact networks. 
 - With applications in analyzing recent, real-world epidemiological data with high resolution social contacts observations.
-- Paper accepted by Journal of the American Statistical Association (JASA). ([Online version](https://www.tandfonline.com/doi/full/10.1080/01621459.2020.1790376))
+- [Paper published](https://www.tandfonline.com/doi/full/10.1080/01621459.2020.1790376) in Journal of the American Statistical Association (JASA).
 - One of 10 winners of the 2020 SBSS Student Paper Award; also selected as one of the ["research highlights" of JSM 2020](https://www.amstat.org/ASA/News/Newsworthy-Research-Highlights-from-JSM-2020.aspx).
 
 #### SMOGS: Social Network Metrics of Game Success
@@ -23,7 +23,8 @@ subtitle: Rearch Projects
 <img align="right" src="https://fanbuduke17.github.io/img/lost_game_AME.png" alt="Latent factors in a lost game" width="300" height="170">
 
 - Joint work with Sonia Xu, [Katherine Heller](http://www2.stat.duke.edu/~kheller/), and Alexander Volfovsky.
-- The main goal is to model the latent higher-order network structures in (basketball) player interactions that contribute to overall game outcomes and evaluate both individual- and group-level interaction choices and preferences. The model is applied to high-resolution optical tracking data collected by a top collegiate basketball program.
+- The main goal is to model the latent higher-order network structures in (basketball) player interactions that contribute to overall game outcomes and evaluate both individual- and group-level interaction choices and preferences. 
+- Model applied to high-resolution optical tracking data collected by a top collegiate basketball program.
 - [In the proceedings of AiStats 2019.](http://proceedings.mlr.press/v89/bu19a/bu19a.pdf)
   
 #### Learning Root Source with Marked Multivariate Hawkes Processes
