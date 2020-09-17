@@ -30,6 +30,8 @@ subtitle: Rearch Projects
 
 #### SMOGS: Social Network Metrics of Game Success
 
+<img align="right" src="https://fanbuduke17.github.io/img/lost_game_AME.png" alt="Latent factors in a lost game" width="300" height="170">
+
 - Joint work with Sonia Xu, [Katherine Heller](http://www2.stat.duke.edu/~kheller/), and Alexander Volfovsky.
 - The main goal is to model the latent higher-order network structures in (basketball) player interactions that contribute to overall game outcomes and evaluate both individual- and group-level interaction choices and preferences. The model is applied to high-resolution optical tracking data collected by a top collegiate basketball program.
 - [In the proceedings of AiStats 2019.](http://proceedings.mlr.press/v89/bu19a/bu19a.pdf)
@@ -37,7 +39,7 @@ subtitle: Rearch Projects
 #### Learning Root Source with Marked Multivariate Hawkes Processes
 
 
-<img align="left" src="https://fanbuduke17.github.io/img/12AngryMen.png" alt="12 Angry Men conversation thread" width="300" height="170">
+<img align="right" src="https://fanbuduke17.github.io/img/12AngryMen.png" alt="12 Angry Men conversation thread" width="300" height="170">
 
 
 - Joint work with [Wei Zhang](http://pages.cs.wisc.edu/~zhangwei/), [Derek Owens-Oas](https://stat.duke.edu/people/derek-owens-oas), [Jerry Zhu](http://pages.cs.wisc.edu/~jerryzhu/), and [Katherine Heller](http://www2.stat.duke.edu/~kheller/).
