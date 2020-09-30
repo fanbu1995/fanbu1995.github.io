@@ -66,7 +66,7 @@ subtitle: Rearch Projects
 - Ongoing experimental data analysis in collaboration with Duke Center for AIDS Research (CFAR), in collaboration with the project PI Dr. Sallie Permar, and quantitative PIs Drs. Cliburn Chan and Janice McCarthy. 
 - Using survival analysis and sparse regression methods to identify meaningful immunological predictors for time to HIV viral rebound.
 
-#### Analyzing Fandom Perpections of Marvel Cinematic Universe Characters from Fanfictions
+#### Analyzing Fandom Perceptions of Marvel Cinematic Universe Characters from Fanfictions
 
 
 <img align="right" src="https://fanbuduke17.github.io/img/Cap_Topic_Scores.png" alt="Captain America Fanfiction perceptions" width="350" height="200">
