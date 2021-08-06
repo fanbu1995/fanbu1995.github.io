@@ -31,5 +31,5 @@ My name is Fan Bu. I am a Ph.D. student in the Department of Statistical Science
 
 I also love writing, sports, and music.
 
-Click [About Me](https://fanbuduke17.github.io/aboutme) and [Research](https://fanbuduke17.github.io/research) for more details.
+Click [About Me](https://fanbu1995.github.io/aboutme) and [Research](https://fanbu1995.github.io/research) for more details.
 
