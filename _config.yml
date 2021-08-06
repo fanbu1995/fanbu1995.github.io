@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://fanbuduke17.github.io"
+url: "http://fanbu1995.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -26,7 +26,7 @@ navbar-links:
   About Me: "aboutme"
   Research: "research"
   Blog: "blog"
-  CV: "https://fanbuduke17.github.io/CV_102020.pdf"
+  CV: "https://fanbu1995.github.io/CV_102020.pdf"
   # Resources:
     # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     # - Learn markdown: "http://www.markdowntutorial.com/"
@@ -40,7 +40,7 @@ navbar-links:
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: "https://fanbuduke17.github.io/IMG_4834.JPG"
+title-img: "https://fanbu1995.github.io/IMG_4834.JPG"
 
 # --- Footer options --- #
 
@@ -48,9 +48,9 @@ title-img: "https://fanbuduke17.github.io/IMG_4834.JPG"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Fan Bu
-  email: "fan.bu1@duke.edu"
+  email: "fanbu42@gmail.com"
   facebook: Fan Bu  # eg. daattali
-  github: fanbuduke17    # eg. daattali
+  github: fanbu1995    # eg. daattali
   # twitter: yourname   # eg. daattali
   # linkedin: yourname  # eg. daattali
   # snapchat: yourname  # eg. daattali
