@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fan Bu
-subtitle: Ph.D. student in Statistics at Duke University
+subtitle: Postdoctoral Scholar at UCLA
 use-site-title: true
 bigimg:
   - "img/Boston_Fall2019.jpg": "Boston Bay, Boston MA (2019)"
