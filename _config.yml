@@ -23,7 +23,7 @@ description: Bayesian statistician, Postdoc scholar at UCLA
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  #About Me: "aboutme"
   Research: "research"
   Blog: "blog"
   CV: "https://fanbu1995.github.io/CV_102020.pdf"
