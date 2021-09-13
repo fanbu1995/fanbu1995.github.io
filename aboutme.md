@@ -29,7 +29,7 @@ I have just finished a project on likelihood-based inference of epidemic process
 
 One of my previous projects was about uncovering higher-order latent structures in basketball player passes, using high-resolution data collected by a renowned NCAA basketball program ([paper in the proceedings of AiStats 2019](http://proceedings.mlr.press/v89/bu19a/bu19a.pdf)). 
 
-Email me at ``fan.bu1@duke.edu``.
+Email me at ``fanbu@ucla.edu``.
 
 <!-- 
 ## Publications and Preprints
