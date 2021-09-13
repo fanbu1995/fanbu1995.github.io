@@ -22,14 +22,20 @@ bigimg:
 
 # Welcome to my website!
 
-My name is Fan Bu. I am a Ph.D. student in the Department of Statistical Science, Duke University. My research interests include:
+My name is Fan Bu. I am a postdoctoral scholar at University of California, Los Angeles, working with Dr. Marc Suchard to develop Bayesian statistical methods for large-scale observational observational health data. I recently obtained my Ph.D. degree in Statistics from Duke University under the supervision of Dr. Alexander Volfovsky. My research interests include:
 
 - Bayesian Statistics and Machine Learning
-- Network Analysis
 - Stochastic Modelling
-- With applications in infectious disease modeling, sports analytics, natural language processing and healthcare data analysis
+- Network Analysis
+- With applications in infectious disease modeling, health sciences, social sciences, sports analytics, and natural language processing
 
 I also love writing, sports, and music.
 
-Click [About Me](https://fanbu1995.github.io/aboutme) and [Research](https://fanbu1995.github.io/research) for more details.
+### Recent research work
 
+- **Fan Bu**, Alexander Volfovsky, and Jason Xu (2021+). Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity. (Manuscript under preparation)
+- **Fan Bu**, Oliver Ratmann, and Jason Xu (2021+). Hierarchical Poisson Process Model for HIV Transmission Flows. (Manuscript under preparation)
+- Raquel Asencio, **Fan Bu**, Liann Tucker, Gabriel Varela, James Moody, and Alexander Volfovsky. Network Position and Emergent Phenomena: A Multi-team System Case Study (2021+). (Manuscript under preparation)
+- **Fan Bu**, Allison E. Aiello, Jason Xu, and Alexander Volfovsky (2020). Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks. _Journal of the American Statistical Association_. (Winner of 2020 SBSS Student Paper Award)
+
+Click [About Me](https://fanbu1995.github.io/aboutme) and [Research](https://fanbu1995.github.io/research) for more details.
