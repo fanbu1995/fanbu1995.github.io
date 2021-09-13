@@ -40,4 +40,4 @@ I also love writing, sports, and music. I have an occasionally updated blog [her
 
 Click [Research](https://fanbu1995.github.io/research) for more details.
 
-Email me at <fanbu@ucla.edu>
+Email me at ``fanbu@ucla.edu``
