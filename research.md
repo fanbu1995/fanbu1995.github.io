@@ -9,7 +9,7 @@ subtitle: Rearch Projects
 #### Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks. 
 
 
-<img align="right" src="https://fanbuduke17.github.io/img/exFlu_data.png" alt="exFLU data visualization" width="350" height="195">
+<img align="right" src="https://fanbu1995.github.io/img/exFlu_data.png" alt="exFLU data visualization" width="350" height="195">
 
 
 - Joint work with [Allison Aiello](https://sph.unc.edu/adv_profile/allison-e-aiello-phd/), [Alexander Volfovsky](https://volfovsky.github.io/), and [Jason Xu](https://jasonxu90.github.io/).
@@ -20,7 +20,7 @@ subtitle: Rearch Projects
 
 #### SMOGS: Social Network Metrics of Game Success
 
-<img align="right" src="https://fanbuduke17.github.io/img/lost_game_AME.png" alt="Latent factors in a lost game" width="300" height="170">
+<img align="right" src="https://fanbu1995.github.io/img/lost_game_AME.png" alt="Latent factors in a lost game" width="300" height="170">
 
 - Joint work with Sonia Xu, [Katherine Heller](http://www2.stat.duke.edu/~kheller/), and Alexander Volfovsky.
 - The main goal is to model the latent higher-order network structures in (basketball) player interactions that contribute to overall game outcomes and evaluate both individual- and group-level interaction choices and preferences. 
@@ -30,7 +30,7 @@ subtitle: Rearch Projects
 #### Learning Root Source with Marked Multivariate Hawkes Processes
 
 
-<img align="right" src="https://fanbuduke17.github.io/img/12AngryMen.png" alt="12 Angry Men conversation thread" width="300" height="170">
+<img align="right" src="https://fanbu1995.github.io/img/12AngryMen.png" alt="12 Angry Men conversation thread" width="300" height="170">
 
 
 - Joint work with [Wei Zhang](http://pages.cs.wisc.edu/~zhangwei/), [Derek Owens-Oas](https://stat.duke.edu/people/derek-owens-oas), [Jerry Zhu](http://pages.cs.wisc.edu/~jerryzhu/), and [Katherine Heller](http://www2.stat.duke.edu/~kheller/).
@@ -40,7 +40,7 @@ subtitle: Rearch Projects
 #### Building Better Teams: A Network Analysis Approach
 
 
-<img align="right" src="https://fanbuduke17.github.io/img/MTS_design_png.png" alt="Study design" width="350" height="195">
+<img align="right" src="https://fanbu1995.github.io/img/MTS_design_png.png" alt="Study design" width="350" height="195">
                        
 
 - Ongoing research with Alexander Volfovsky, Raquel Asencio, James Moody, and Katherine Heller.
@@ -49,7 +49,7 @@ subtitle: Rearch Projects
 
 #### Modeling HIV transmission flow from deep-sequencing data. 
 
-<!--img align="right" src="https://fanbuduke17.github.io/img/HIV_flow_trace.png" alt="HIV flow tracing" width="100" height="250"-->
+<!--img align="right" src="https://fanbu1995.github.io/img/HIV_flow_trace.png" alt="HIV flow tracing" width="100" height="250"-->
 
 - Ongoing work with Jason Xu and Oliver Ratmann (Imperial College London).
 - Developing a spatial Poisson process with Gaussian mixture densities to describe HIV transmission flow between gender and age groups.
@@ -61,7 +61,7 @@ subtitle: Rearch Projects
 
 #### Identifying Immune Correlates for HIV Viral Rebound of Infant Rhesus Macaques
 
-<img align="right" src="https://fanbuduke17.github.io/img/B2_viral_load_postATI_plot.png" alt="Viral load curves" width="350" height="200">
+<img align="right" src="https://fanbu1995.github.io/img/B2_viral_load_postATI_plot.png" alt="Viral load curves" width="350" height="200">
 
 - Ongoing experimental data analysis in collaboration with Duke Center for AIDS Research (CFAR), in collaboration with the project PI Dr. Sallie Permar, and quantitative PIs Drs. Cliburn Chan and Janice McCarthy. 
 - Using survival analysis and sparse regression methods to identify meaningful immunological predictors for time to HIV viral rebound.
@@ -69,7 +69,7 @@ subtitle: Rearch Projects
 #### Analyzing Fandom Perceptions of Marvel Cinematic Universe Characters from Fanfictions
 
 
-<img align="right" src="https://fanbuduke17.github.io/img/Cap_Topic_Scores.png" alt="Captain America Fanfiction perceptions" width="350" height="200">
+<img align="right" src="https://fanbu1995.github.io/img/Cap_Topic_Scores.png" alt="Captain America Fanfiction perceptions" width="350" height="200">
 
 
 - Adapted dynamic topic modeling methods to analyze dynamic topics associated with popular MCU characters in over 1000 fanfictions composed from 2008 to 2018
