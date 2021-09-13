@@ -17,7 +17,7 @@ baseurl: ""
 title: Fan Bu
 
 # Short description of your site
-description: Ph.D. student in Statistics/Data scientist
+description: Bayesian statistician, Postdoc scholar at UCLA
 
 # --- Navigation bar options --- #
 
@@ -48,7 +48,7 @@ title-img: "https://fanbu1995.github.io/IMG_4834.JPG"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Fan Bu
-  email: "fanbu42@gmail.com"
+  email: "fanbu@ucla.edu"
   facebook: Fan Bu  # eg. daattali
   github: fanbu1995    # eg. daattali
   # twitter: yourname   # eg. daattali
