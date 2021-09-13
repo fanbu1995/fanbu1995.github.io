@@ -29,7 +29,7 @@ My name is Fan Bu. I am a postdoctoral scholar at University of California, Los 
 - Network Analysis
 - With applications in infectious disease modeling, health sciences, social sciences, sports analytics, and natural language processing
 
-I also love writing, sports, and music.
+I also love writing, sports, and music. I have an occasionally updated blog [here](https://fanbublog.wordpress.com/) (mostly written in Chinese). 
 
 ### Recent research work
 
@@ -38,4 +38,6 @@ I also love writing, sports, and music.
 - Raquel Asencio, **Fan Bu**, Liann Tucker, Gabriel Varela, James Moody, and Alexander Volfovsky. Network Position and Emergent Phenomena: A Multi-team System Case Study (2021+). (Manuscript under preparation)
 - **Fan Bu**, Allison E. Aiello, Jason Xu, and Alexander Volfovsky (2020). Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks. _Journal of the American Statistical Association_. (Winner of 2020 SBSS Student Paper Award)
 
-Click [About Me](https://fanbu1995.github.io/aboutme) and [Research](https://fanbu1995.github.io/research) for more details.
+Click [Research](https://fanbu1995.github.io/research) for more details.
+
+Email me at <fanbu@ucla.edu>
