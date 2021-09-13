@@ -201,7 +201,7 @@ array([[0.19900567, 0.14706951, 0.27954653, 0.37437829],
 
 Same as `numpy`, you need to install it via `pip` or get it for free with the Anaconda bundle.
 
-The special thing about the `scipy.stats` module is that in addition to random variable sampling, it also provides a series of statistcal functionalities related to each distribution, such as PDF and CDF evaluation, main statistics calculation (e.g., mean, variance, skew, etc.), moments calculations, and so on.
+The special thing about the `scipy.stats` module is that in addition to random variable sampling, it also provides a series of statistical functionalities related to each distribution, such as PDF and CDF evaluation, main statistics calculation (e.g., mean, variance, skew, etc.), moments calculations, and so on.
 
 Similar to `numpy`, it also includes a wide range of distributions - actually even more than what `numpy.random` offers. According to the [module tutorial](https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html), there are 101 continuous distributions and 15 discrete ones.
 
