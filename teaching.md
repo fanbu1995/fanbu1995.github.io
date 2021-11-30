@@ -17,12 +17,12 @@ My lastest teaching philosophy statement.
 
 #### Spring 2020: STA 723 Statistics Case Studies (TA & Workshop Instructor)
 
-- **Written Report Guidelines** (provided to all students): 
+- **Written Report Guidelines** (provided to all students): [here]()
 
 #### Fall 2019: STA 601 Bayesian Methods & Modern Statistics (TA & Lab Instructor)
 
-- **Homework Template** (R Markdown): 
-- **Honorable Mention** for the Ph.D. TA of the Year Award of Duke Statistical Science
+- **Homework Template**: [R Markdown file]()
+- **Honorable Mention** for the _Ph.D. TA of the Year Award_ of Duke Statistical Science
 
 #### Summer 2018: Duke Statistical Science Bootcamp (Co-instructor)
 
