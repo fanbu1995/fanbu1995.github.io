@@ -4,7 +4,7 @@ title: Teaching
 ---
 
 ### Teaching Statement
-My lastest teaching philosophy statement.
+My latest teaching philosophy statement can be viewed [here](https://fanbu1995.github.io/teaching/teaching_statement.pdf).
 
 ### Teaching Experience
 
