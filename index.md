@@ -38,7 +38,6 @@ I also love writing, sports, and music. I have an occasionally updated blog [her
 - Bayesian Safety Surveillance with Adaptive Bias Correction (2022+). (Manuscript under preparation)
 - Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2022+). (Manuscript submitted for internal approval)
 - Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2021+). _arXiv:2112.07892_. (Manuscript under review)
-[//]: #- Raquel Asencio, **Fan Bu**, Liann Tucker, Gabriel Varela, James Moody, and Alexander Volfovsky. Network Position and Emergent Phenomena: A Multi-team System Case Study (2021+). (Manuscript under preparation)
 - Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020). _Journal of the American Statistical Association_. (Winner of 2020 SBSS Student Paper Award)
 
 Click [Research](https://fanbu1995.github.io/research) for more details.
