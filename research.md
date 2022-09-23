@@ -16,7 +16,7 @@ subtitle: Rearch Projects
 - Proposed a stochastic generative model and a data augmentation inference scheme for epidemic processes on dynamic, adaptive contact networks. 
 - With applications in analyzing recent, real-world epidemiological data with high resolution social contacts observations.
 - [Paper published](https://www.tandfonline.com/doi/full/10.1080/01621459.2020.1790376) in Journal of the American Statistical Association (JASA).
-- One of 10 winners of the 2020 SBSS Student Paper Award; also selected as one of the ["research highlights" of JSM 2020](https://www.amstat.org/ASA/News/Newsworthy-Research-Highlights-from-JSM-2020.aspx).
+- One of 10 winners of the 2020 SBSS Student Paper Award; also selected as one of the ["research highlights" of JSM 2020](https://web.archive.org/web/20200812215439/https://www.amstat.org/ASA/News/Newsworthy-Research-Highlights-from-JSM-2020.aspx).
 
 #### SMOGS: Social Network Metrics of Game Success
 
