@@ -18,6 +18,7 @@ My latest teaching philosophy statement can be viewed [here](https://fanbu1995.g
 #### Spring 2020: STA 723 Statistics Case Studies (TA & Workshop Instructor)
 
 - **Written Report Guidelines** (provided to all students): [here](https://fanbu1995.github.io/teaching/Case_Studies_Written_Report_Guideline.pdf)
+- **Workshop on High Performance Cluster Usage**: [here](https://github.com/STA-723/cluster_overview)
 
 #### Fall 2019: STA 601 Bayesian Methods & Modern Statistics (TA & Lab Instructor)
 
