@@ -20,23 +20,26 @@ bigimg:
 >
 ---Marcus Aurelius, **_Meditations_**
 
-# Welcome to my website!
+# Welcome to Fan's webpage!
 
-My name is Fan Bu. I am a postdoctoral scholar at University of California, Los Angeles, working with Dr. Marc Suchard to develop Bayesian statistical methods for large-scale observational observational health data. I recently obtained my Ph.D. degree in Statistics from Duke University under the supervision of Dr. Alexander Volfovsky. My research interests include:
+I am a postdoctoral scholar at University of California, Los Angeles, working with Dr. Marc Suchard to develop Bayesian statistical methods for analyzing large-scale observational health data. I obtained my Ph.D. degree in Statistics from Duke University under the supervision of Dr. Alexander Volfovsky in Fall 2021, with a dissertation on [stochatic processes models on and of dynamic networks](https://www.proquest.com/docview/2583399863?pq-origsite=gscholar&fromopenview=true).
 
-- Bayesian Statistics and Machine Learning
-- Stochastic Modelling
-- Network Analysis
-- With applications in infectious disease modeling, health sciences, social sciences, sports analytics, and natural language processing
+My research interests include:
+
+- Bayesian statistics and machine learning for complex and large-scale datasets
+- Stochastic processes and dynamic models
+- Health data science and informatics
+- Social networks
 
 I also love writing, sports, and music. I have an occasionally updated blog [here](https://fanbublog.wordpress.com/) (mostly written in Chinese). 
 
-### Recent research work
+### Select recent first-author work
 
-- **Fan Bu**, Alexander Volfovsky, and Jason Xu (2021+). Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity. (Manuscript under preparation)
-- **Fan Bu**, Oliver Ratmann, and Jason Xu (2021+). Hierarchical Poisson Process Model for HIV Transmission Flows. (Manuscript under preparation)
-- Raquel Asencio, **Fan Bu**, Liann Tucker, Gabriel Varela, James Moody, and Alexander Volfovsky. Network Position and Emergent Phenomena: A Multi-team System Case Study (2021+). (Manuscript under preparation)
-- **Fan Bu**, Allison E. Aiello, Jason Xu, and Alexander Volfovsky (2020). Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks. _Journal of the American Statistical Association_. (Winner of 2020 SBSS Student Paper Award)
+- Bayesian Safety Surveillance with Adaptive Bias Correction (2022+). (Manuscript under preparation)
+- Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2022+). (Manuscript submitted for internal approval)
+- Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2021+). _arXiv:2112.07892_. (Manuscript under review)
+[//]: #- Raquel Asencio, **Fan Bu**, Liann Tucker, Gabriel Varela, James Moody, and Alexander Volfovsky. Network Position and Emergent Phenomena: A Multi-team System Case Study (2021+). (Manuscript under preparation)
+- Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020). _Journal of the American Statistical Association_. (Winner of 2020 SBSS Student Paper Award)
 
 Click [Research](https://fanbu1995.github.io/research) for more details.
 
