@@ -17,7 +17,7 @@ baseurl: ""
 title: Fan Bu
 
 # Short description of your site
-description: Bayesian statistician, Postdoc scholar at UCLA
+description: Bayesian statistician, Postdoc Scholar at UCLA
 
 # --- Navigation bar options --- #
 
@@ -25,9 +25,9 @@ description: Bayesian statistician, Postdoc scholar at UCLA
 navbar-links:
   #About Me: "aboutme"
   Research: "research"
-  Blog: "blog"
-  CV: "https://fanbu1995.github.io/CVs/CV_Fan_Bu_April2022.pdf"
   Teaching: "teaching"
+  Blog: "blog"
+  CV: "https://fanbu1995.github.io/CVs/CV_FanBu-092022-ResearchFirst.pdf"
   # Resources:
     # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     # - Learn markdown: "http://www.markdowntutorial.com/"
