@@ -81,8 +81,8 @@ subtitle: Methods research and collaborative work
 ### Undergraduate Research
   
 #### Traffic Speed Nowcasting Based on Urban Road Network and Artificial Neural Network
-- Senior thesis project for my B.S. at Peking University. [Chinese version](https://fanbuduke17.github.io/Graduation_Paper.pdf)
-- A deep learning project involving Graph CNNs, LSTM networks, and real-time traffic speed data collected from taxi GPS tracking.
+- Senior thesis project for my B.S. at Peking University. [Thesis written in Mandarin](https://fanbu1995.github.io/Graduation_Paper.pdf)
+- An applied deep learning project involving Graph CNNs and LSTM networks, applied to real-time traffic speed data collected via taxi GPS tracking.
   
 #### Detection of Differential Genetic Networks
 - Undergraduate research project funded by the Chinese National Innovative Initiative.
