@@ -22,22 +22,22 @@ bigimg:
 
 # Welcome to Fan's webpage!
 
-I am a postdoctoral scholar at University of California, Los Angeles, working with Dr. Marc Suchard to develop Bayesian statistical methods for analyzing large-scale observational health data. I obtained my Ph.D. degree in Statistics from Duke University under the supervision of Dr. Alexander Volfovsky in Fall 2021, with a dissertation on [stochatic processes models on and of dynamic networks](https://www.proquest.com/docview/2583399863?pq-origsite=gscholar&fromopenview=true).
+I am a postdoctoral research fellow at University of California, Los Angeles, working with Dr. Marc Suchard to develop Bayesian statistical methods for analyzing large-scale observational health data. I obtained my Ph.D. degree in Statistics from Duke University under the supervision of Dr. Alexander Volfovsky in Fall 2021, with a dissertation on [stochatic processes models on and of dynamic networks](https://www.proquest.com/docview/2583399863?pq-origsite=gscholar&fromopenview=true).
 
 My research interests include:
 
 - Bayesian statistics and machine learning for complex and large-scale datasets
 - Stochastic processes and dynamic models
 - Health data science and informatics
-- Social networks
+- Computational social science
 
 I also love writing, sports, and music. I have an occasionally updated blog [here](https://fanbublog.wordpress.com/) (mostly written in Chinese). 
 
 ### Select recent first-author work
 
-- Bayesian Safety Surveillance with Adaptive Bias Correction (2022+). (Manuscript under preparation)
-- Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2022+). (Manuscript submitted for internal approval)
-- Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2021+). _arXiv:2112.07892_. (Manuscript under review)
+- Bayesian Safety Surveillance with Adaptive Bias Correction (2022+). (Working paper pending funders' approval; [study protocol](https://suchard-group.github.io/Better/Protocol.html))
+- Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2022). ([Preprint with case study redacted](xxx.org); full manuscript under temporary embargo due to data consortium regulations, available upon request)
+- Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2021). _arXiv:2112.07892_. (Manuscript under revisions for _Annals of Applied Statistics_)
 - Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020). _Journal of the American Statistical Association_. (Winner of 2020 SBSS Student Paper Award)
 
 Click [Research](https://fanbu1995.github.io/research) for more details.
