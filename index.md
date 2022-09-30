@@ -31,7 +31,7 @@ My research interests include:
 - Health data science and informatics
 - Computational social science
 
-I also love writing, sports, and music. I have an occasionally updated blog [here](https://fanbublog.wordpress.com/) (mostly written in Chinese). 
+I also enjoy writing, sports, and music. I have an occasionally updated blog [here](https://fanbublog.wordpress.com/) (mostly written in Chinese). 
 
 ### Select recent first-author work
 
