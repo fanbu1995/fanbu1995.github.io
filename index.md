@@ -36,7 +36,7 @@ I also enjoy writing, sports, and music. I have an occasionally updated blog [he
 ### Select recent first-author work
 
 - Bayesian Safety Surveillance with Adaptive Bias Correction (2022+). (Working paper pending funders' approval; [study protocol](https://suchard-group.github.io/Better/Protocol.html))
-- Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2022). ([Preprint with case study redacted](xxx.org); full manuscript under temporary embargo due to data consortium regulations, available upon request)
+- Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2022). ([Preprint with case study redacted](https://fanbu1995.github.io/Documents/HIV_transmission_methodsOnly.pdf); full manuscript under temporary embargo due to data consortium regulations, available upon request)
 - Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2021). [_arXiv:2112.07892_](https://arxiv.org/abs/2112.07892). (Manuscript under revisions for _Annals of Applied Statistics_)
 - Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020). [_Journal of the American Statistical Association_](https://www.tandfonline.com/doi/abs/10.1080/01621459.2020.1790376). (Winner of 2020 SBSS Student Paper Award)
 
