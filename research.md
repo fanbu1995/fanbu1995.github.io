@@ -10,7 +10,7 @@ subtitle: Methods research and collaborative work
 
 #### Bayesian Safety Surveillance with Adaptive Bias Correction
 
-<img align="right" src="https://fanbu1995.github.io/img/Bayesian-sequential-demo.png" alt="Bayesian posterior updates extract sequential evidence with transparency" width="300" height="170">
+<img align="right" src="https://fanbu1995.github.io/img/Bayesian-sequential-demo.png" alt="Bayesian posterior updates extract sequential evidence with transparency" width="300" height="200">
 
 - In collaboration with US FDA CBER [BEST Initiative](https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/cber-biologics-effectiveness-and-safety-best-system); [Study protocol available online.](https://suchard-group.github.io/Better/Protocol.html)
 - Proposed a Bayesian sequential analysis framework for post-market vaccine surveillance, with a joint statistical model to correct for bias induced by systematic error in obervational data.
