@@ -17,7 +17,7 @@ subtitle: Methods research and collaborative work
 - Improved flexibility and convenience over state-of-the-art approaches, while producing more reliable, interpretable and transparent results.
 - (Manuscript available upon request, pending funders' approval)
 
-#### Learning HIV transmission transmission patterns from viral deep-sequencing data. 
+#### Learning HIV transmission transmission patterns from viral deep-sequencing data
 
 <img align="right" src="https://fanbu1995.github.io/img/HIV-transmission-data.png" alt="HIV transmission age structure and viral deep sequencing data" width="300" height="160">
 
@@ -27,7 +27,7 @@ subtitle: Methods research and collaborative work
 - [Preprint](https://fanbu1995.github.io/Documents/HIV_transmission_methodsOnly.pdf) (real data section redacted due to data regulations); full manuscript with case study results under extended data consortium review, available upon request.
 
 
-#### Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks. 
+#### Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks 
 
 <img align="right" src="https://fanbu1995.github.io/img/exFlu_data.png" alt="exFLU data visualization" width="350" height="195">
 
