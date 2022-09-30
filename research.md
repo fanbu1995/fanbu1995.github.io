@@ -19,7 +19,7 @@ subtitle: Methods research and collaborative work
 
 #### Learning HIV transmission transmission patterns from viral deep-sequencing data. 
 
-<img align="right" src="https://fanbu1995.github.io/img/HIV-transmission-data.png" alt="HIV flow tracing" width="300" height="170">
+<img align="right" src="https://fanbu1995.github.io/img/HIV-transmission-data.png" alt="HIV transmission age structure and viral deep sequencing data" width="300" height="170">
 
 - Developed a hierarchical spatial Poisson process model and Bayesian inference scheme to uncover population-level HIV transmission patterns.
 - Leveraged latent variable auxiliary sampling and a marked point process design to infer latent transmission links from viral deep-sequencing data.
