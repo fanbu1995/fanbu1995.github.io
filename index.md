@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Fan Bu
-subtitle: Postdoctoral Scholar at UCLA
-use-site-title: true
+subtitle: Postdoctoral Fellow at UCLA
+use-site-title: false
 bigimg:
   - "img/Boston_Fall2019.jpg": "Boston Bay, Boston MA (2019)"
   - "img/Henrys_Lake_Idaho.jpg" : "Henrys Lake, ID (2018)"
