@@ -21,7 +21,7 @@ subtitle: Methods research and collaborative work
 
 - Developed a hierarchical spatial Poisson process model and Bayesian inference scheme to uncover population-level HIV transmission patterns.
 - Leveraged latent variable auxiliary sampling and a marked point process design to infer latent transmission links from viral deep-sequencing data.
-- Significantly improved computational efficiency compared to existing approaches, while providing uncertainty quantification for lower-confidence data evidence,
+- Significantly improved computational efficiency compared to existing approaches, while providing uncertainty quantification for lower-confidence data evidence.
 - [Preprint](https://fanbu1995.github.io/Documents/HIV_transmission_methodsOnly.pdf) (real data section redacted due to data regulations); full manuscript with case study results under extended data consortium review, available upon request.
 
 
@@ -33,6 +33,7 @@ subtitle: Methods research and collaborative work
 - With applications in analyzing modern partially observed epidemic data with high resolution contact tracing.
 - [Paper published](https://www.tandfonline.com/doi/full/10.1080/01621459.2020.1790376) in Journal of the American Statistical Association (JASA).
 - One of 10 winners of the 2020 SBSS Student Paper Award; selected as one of the ["research highlights" of JSM 2020](https://web.archive.org/web/20200812215439/https://www.amstat.org/ASA/News/Newsworthy-Research-Highlights-from-JSM-2020.aspx).
+- [Extended work](https://arxiv.org/abs/2112.07892) with disease latency and individual covariates modeling (evaluating effects of interventions such as hand-washing and vaccination) under revisions for _Annals of Applied Statistics_.
 
 #### SMOGS: Social Network Metrics of Game Success
 
