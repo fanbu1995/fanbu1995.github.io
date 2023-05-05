@@ -12,11 +12,11 @@ Observational health data, such as insurance claims, electronic health records (
 
 A very impactful application of real-world evidence is post-market safety surveillance on approved drugs, vaccines, or medical devices. 
 Safety surveillance relies on real-world health data to monitor adverse events associated with exposure to drugs or biologics products, as rare and potentially severe often times remain undetected in clinical trials due to limited samples sizes. 
-Examples include the [Vaccine Safety Datalink (VSD)](https://www.cdc.gov/vaccinesafety/ensuringsafety/monitoring/vsd/index.html) by the US CDC , and [safety surveillance programs by CBER and CDER centers](https://www.fda.gov/files/drugs/published/Drug-and-Biologics-Safety-Surveillance-Best-Practice-Statement-Center-for-Drug-Evaluation-and-Research-%28CDER%29-Center-for-Biologics-Evaluation-and-Research-%28CBER%29-US-Food-and-Drug-Administration.pdf) of US FDA. 
-During the recent COVID-19 vaccination program, for instance, [a myriad of safety surveillance studies](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html) reported several adverse events as rare severe reactions after COVID-19 vaccination, including including anaphylaxis, thrombosis with thrombocytopenia syndrome (TTS), and Guillain-Barré syndrome (GBS). 
+Examples include the [Vaccine Safety Datalink (VSD)](https://www.cdc.gov/vaccinesafety/ensuringsafety/monitoring/vsd/index.html) by the US CDC, and [safety surveillance programs by CBER and CDER centers](https://www.fda.gov/files/drugs/published/Drug-and-Biologics-Safety-Surveillance-Best-Practice-Statement-Center-for-Drug-Evaluation-and-Research-%28CDER%29-Center-for-Biologics-Evaluation-and-Research-%28CBER%29-US-Food-and-Drug-Administration.pdf) of US FDA. 
+During the recent COVID-19 vaccination program, for instance, [a myriad of safety surveillance studies](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html) reported several adverse events as rare severe reactions after COVID-19 vaccination, including anaphylaxis, thrombosis with thrombocytopenia syndrome (TTS), and Guillain-Barré syndrome (GBS). 
 
-Despite the success and great potential of leveraging real-world evidence, observational health data are not collected for the purpose of effectiveness or safety study, and unlike data obtained in randomized clinical trials, observational data exhibit unmeasured or residual confounding and systematic errors that can bias analyses. 
-Moreover, due to differences across healthcare systems, observational databases oftentimes use very different formats and structures, as well as different vocabulary of diagnosis codes and differential inclusion of subject-level information. 
+Despite the success and great potential of leveraging real-world evidence, observational health data are not collected for the purpose of effectiveness or safety studies, and unlike data obtained in randomized clinical trials, observational data exhibit unmeasured or residual confounding and systematic errors that can bias analyses. 
+Moreover, due to differences across healthcare systems, observational databases use very different formats and structures, as well as different vocabulary of diagnosis codes and differential inclusion of subject-level information. 
 These practical issues present considerable challenges to reproducible, reliable and open use of real-world evidence in observational health data. 
 
 ## OHDSI: Observational Health Data Sciences and Informatics
@@ -27,9 +27,9 @@ As an international community, OHDSI now has more than 2,000 collaborators from 
 OHDSI's mission is to improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care. 
 To achieve this mission, the OHDSI community has worked collaboratively to establish the following critical components to address the great challenges in observational health research:
 
-- **Common data model (CDM)** to unify data sources from global health systems 
+- **Common data model (CDM)** to unify data sources from health systems around the globe
 - **Large-scale analytics toolstack** to enable efficient, accurate and privacy-preserving analysis on massive-scale health data
-- **Diagnostics and calibration methods development** to diagnose data and study designs and perform calibration to provide more reliable results 
+- **Diagnostics and calibration methods development** to diagnose data and study designs and perform calibration to produce more reliable evidence
 - **Reproducible, open-science research** to generate evidence from a network of federated data sources and disseminate findings openly
 
 
