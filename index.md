@@ -4,6 +4,7 @@ title: Fan Bu
 subtitle: Postdoctoral Fellow at UCLA
 use-site-title: false
 bigimg:
+  - "img/Kensington-Metropark.jpg": "Kensington Metropark, Milford MI (2023)"
   - "img/Boston_Fall2019.jpg": "Boston Bay, Boston MA (2019)"
   - "img/Henrys_Lake_Idaho.jpg" : "Henrys Lake, ID (2018)"
   - "img/Grandfather_Mountain_NC_2017.png" : "Grandfather Mountain, Linville NC (2017)"
