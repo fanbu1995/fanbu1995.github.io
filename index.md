@@ -38,7 +38,7 @@ I also enjoy writing, sports, and music. I have an occasionally updated blog [he
 
 ### Select recent first-author work
 
-- Bayesian Safety Surveillance with Adaptive Bias Correction (2023). Accepted by _Statistics in Medicine_. [_arXiv:2305.12034_](https://arxiv.org/abs/2305.12034). 
+- Bayesian Safety Surveillance with Adaptive Bias Correction (2023). [_Statistics in Medicine_](https://onlinelibrary.wiley.com/doi/10.1002/sim.9968). 
 - Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2023). Accepted by _Biometrics_. [_arXiv:2302.11567_](https://arxiv.org/abs/2302.11567). 
 - Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2021+). [_arXiv:2112.07892_](https://arxiv.org/abs/2112.07892). (Under revisions)
 - Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020). [_Journal of the American Statistical Association_](https://www.tandfonline.com/doi/abs/10.1080/01621459.2020.1790376). (Winner of 2020 SBSS Student Paper Award)
