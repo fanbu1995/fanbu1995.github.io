@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fan Bu
-subtitle: Postdoctoral Fellow at UCLA
+subtitle: Assistant Professor at University of Michigan, Ann Arbor
 use-site-title: false
 bigimg:
   - "img/Kensington-Metropark.jpg": "Kensington Metropark, Milford MI (2023)"
@@ -23,9 +23,9 @@ bigimg:
 
 # Welcome to Fan's webpage!
 
-I am a postdoctoral research fellow at University of California, Los Angeles, working with Dr. Marc Suchard to develop Bayesian statistical methods for analyzing large-scale observational health data. I obtained my Ph.D. degree in Statistics from Duke University under the supervision of Dr. Alexander Volfovsky in Fall 2021, with a dissertation on [stochatic processes models on and of dynamic networks](https://www.proquest.com/docview/2583399863?pq-origsite=gscholar&fromopenview=true).
+I am a tenure-track assistant professor in Biostatistics at the University of Michigan, Ann Arbor (started January 2024). Previously I was a postdoctoral research fellow at University of California - Los Angeles, working with Dr. Marc Suchard to develop Bayesian statistical methods for analyzing large-scale observational health data. I obtained my Ph.D. degree in Statistics from Duke University under the supervision of Dr. Alexander Volfovsky in Fall 2021. 
 
-I am joining the Department of Biostatistics at the University of Michigan as a tenure-track Assistant Professor in January 2024. 
+[//]: # I am a postdoctoral research fellow at University of California, Los Angeles, working with Dr. Marc Suchard to develop Bayesian statistical methods for analyzing large-scale observational health data. I obtained my Ph.D. degree in Statistics from Duke University under the supervision of Dr. Alexander Volfovsky in Fall 2021, with a dissertation on [stochatic processes models on and of dynamic networks](https://www.proquest.com/docview/2583399863?pq-origsite=gscholar&fromopenview=true).
 
 My research interests include:
 
@@ -45,4 +45,4 @@ I also enjoy writing, sports, and music. I have an occasionally updated blog [he
 
 Click [Research](https://fanbu1995.github.io/research) for more details on my methods research and collaborative work. 
 
-Email me at ``fanbu@ucla.edu``.
+Email me at ``fbu@umich.edu``.
