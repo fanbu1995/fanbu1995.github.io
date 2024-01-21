@@ -4,87 +4,47 @@ title: Research
 subtitle: Methods research and collaborative work
 ---
 
-[**Research Statement**](https://fanbu1995.github.io/Documents/research_statement.pdf)
+For a list of my publications and pre-prints, please visit my [Google Scholar profile page](https://scholar.google.com/citations?user=_WI7hMUAAAAJ&hl=en). 
 
-### Recent research work
+### Statistical methodology
 
-#### Bayesian Safety Surveillance with Adaptive Bias Correction
+#### Infectious disease modeling incorporating human behavior and population structure
 
-<img align="right" src="https://fanbu1995.github.io/img/Bayesian-sequential-demo.png" alt="Bayesian posterior updates extract sequential evidence with transparency" width="300" height="200">
+- **F. Bu**, J. Kagaayi, M. K. Grabowski, J. Xu, and O. Ratmann.
+[Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2024)](https://arxiv.org/abs/2302.11567). _Biometrics_. In print.
 
-- In collaboration with US FDA CBER [BEST Initiative](https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/cber-biologics-effectiveness-and-safety-best-system); [Study protocol available online.](https://suchard-group.github.io/Better/Protocol.html)
-- Proposed a Bayesian sequential analysis framework for post-market vaccine surveillance, with a joint statistical model to correct for bias induced by systematic error in obervational data.
-- Improved flexibility and convenience over state-of-the-art approaches, while producing more reliable, interpretable and transparent results.
-- (Manuscript available upon request, pending funders' approval)
+- **F. Bu**, A. E. Aiello, A. Volfovsky, and J. Xu.  
+[Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2021+)](https://arxiv.org/pdf/2112.07892.pdf). _Under revisions_.
 
-#### Learning HIV transmission transmission patterns from viral deep-sequencing data
+- **F. Bu**, A. E. Aiello, J. Xu, and A. Volfovsky. 
+[Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020)](https://www.tandfonline.com/doi/abs/10.1080/01621459.2020.1790376). _Journal of the American Statistical Association_. 
 
-<img align="right" src="https://fanbu1995.github.io/img/HIV-transmission-data.png" alt="HIV transmission age structure and viral deep sequencing data" width="300" height="160">
+#### Bias correction in large-scale observational health data science
 
-- Developed a hierarchical spatial Poisson process model and Bayesian inference scheme to uncover population-level HIV transmission patterns.
-- Leveraged latent variable auxiliary sampling and a marked point process design to infer latent transmission links from viral deep-sequencing data.
-- Significantly improved computational efficiency compared to existing approaches, while providing uncertainty quantification for lower-confidence data evidence.
-- [Preprint](https://fanbu1995.github.io/Documents/HIV_transmission_methodsOnly.pdf) (real data section redacted due to data regulations); full manuscript with case study results under extended data consortium review, available upon request.
+- **F. Bu**, M. J. Schuemie,  A. Nishimura, L. H. Smith, K. Kostka, T. Falconer, J. A. McLeggon, P. B. Ryan, G. Hripcsak, and M. A. Suchard.
+[Bayesian Safety Surveillance with Adaptive Bias Correction (2023)](https://onlinelibrary.wiley.com/doi/pdf/10.1002/sim.9968). _Statistics in Medicine_. 
 
+- M. Schuemie, **F. Bu**, A. Nishimura and M. Suchard.
+[Adjusting for Both Sequential Testing and Systematic Error in Safety Surveillance using Observational Data: Empirical Calibration and MaxSPRT (2023)](https://onlinelibrary.wiley.com/doi/epdf/10.1002/sim.9631). _Statistics in Medicine_.
 
-#### Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks 
+#### Social networks, sports analytics, and natural language processing
 
-<img align="right" src="https://fanbu1995.github.io/img/exFlu_data.png" alt="exFLU data visualization" width="350" height="195">
-
-- Proposed a stochastic generative model and a data-augmented inference scheme for epidemic processes on dynamic, adaptive contact networks. 
-- With applications in analyzing modern partially observed epidemic data with high resolution contact tracing.
-- [Paper published](https://www.tandfonline.com/doi/full/10.1080/01621459.2020.1790376) in Journal of the American Statistical Association (JASA).
-- One of 10 winners of the 2020 SBSS Student Paper Award; selected as one of the ["research highlights" of JSM 2020](https://web.archive.org/web/20200812215439/https://www.amstat.org/ASA/News/Newsworthy-Research-Highlights-from-JSM-2020.aspx).
-- [Extended work](https://arxiv.org/abs/2112.07892) with disease latency and individual covariates modeling (evaluating effects of interventions such as hand-washing and vaccination) under revisions for _Annals of Applied Statistics_.
-
-#### SMOGS: Social Network Metrics of Game Success
-
-<img align="right" src="https://fanbu1995.github.io/img/lost_game_AME.png" alt="Latent factors in a lost game" width="300" height="170">
-
-- Combined latent factor models with spatio-temporal processes to uncover latent higher-order patterns in (basketball) player interactions that contribute to overall game outcomes.
-- Applied to high-resolution optical tracking data collected by a top collegiate basketball program.
-- [In the proceedings of AiStats 2019.](http://proceedings.mlr.press/v89/bu19a/bu19a.pdf)
-  
-#### Learning Root Source with Marked Multivariate Hawkes Processes
+- **F. Bu**, S. Xu, K. Heller, and A. Volfovsky. 
+[SMOGS: Social Network Metrics of Game Success (2019)](https://proceedings.mlr.press/v89/bu19a/bu19a.pdf). _The 22nd International Conference on Artificial Intelligence and Statistics (AISTATS)_.
+- W. Zhang, **F. Bu**, D. Owen-Oas, K. Heller, and X. Zhu. 
+[Who Started It? Identifying Root Sources in Textual Conversation Threads (2018)](https://arxiv.org/pdf/1809.03648.pdf). _arXiv preprint_.
 
 
-<img align="right" src="https://fanbu1995.github.io/img/12AngryMen.png" alt="12 Angry Men conversation thread" width="300" height="170">
+### Collaborative work
 
-- Proposed marked multivariate Hawkes process model with efficient variational Bayesian inference algorithm to uncover latent replying structure in textual conversations.
-- Applied to analyze conversation flow and social power dynamics in group conversations between online users and individuals in real-life settings, eg. [Reddit](https://www.reddit.com/) forum comment data, and transcription of the movie [12 Angry Men](https://en.wikipedia.org/wiki/12_Angry_Men_(1957_film)).
-- [arXiv preprint](https://arxiv.org/abs/1809.03648)
+#### Observational health data science
 
-
-### Select collaborative work
-
-#### Emergent Phenomena in Teamwork Processes of Multi-team Systems
-<img align="right" src="https://fanbu1995.github.io/img/MTS_design_png.png" alt="Study design" width="350" height="195">
-                       
-- Collaborative observational case study and computational social science research by Duke Statistical Science, Duke Sociology, and Purdue School of Management.
-- Overarching goal is to study the collaboration dynamics of small teams and multi-team systems and identify predictors and metrics correlated with effectiveness, cohesion, and leadership.
-- Key contributor to study design, data collection, data processing and statitical analysis.
-- Manuscript under revisions for _Social Networks_.
-
-#### Identifying Immune Correlates for HIV Viral Rebound of Infant Rhesus Macaques
-
-<img align="right" src="https://fanbu1995.github.io/img/B2_viral_load_postATI_plot.png" alt="Viral load curves" width="350" height="200">
-
-- Statistical consulting work in collaboration with Duke Center for AIDS Research (CFAR).
-- Used survival analysis and sparse regression methods to identify meaningful immunological predictors for time to HIV viral rebound.
-
-#### Historical Tone Change from Middle Chinese to Modern Beijing Mandarin: Usage-based Phonology and Modeling
-
-- Statistical consulting work in collaboration with Linguists at Ecole Normale Sup´erieure de Paris.
-- Using statistical machine learning and variable selection methods to identify phonetic features related to the tone change of "_ru_" characters (“入声字”) in Beijing Mandarin, and developing dynamical models for the tone change process based on usage-based phonology theory.
+- R. Khera, L.S. Dhingra, A. Aminorroaya, ..., **F. Bu**, ..., and  M. A. Suchard.  [Multinational patterns of second line antihyperglycaemic drug initiation across cardiovascular risk groups: federated pharmacoepidemiological evaluation in LEGEND-T2DM (2023)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10565313/). _BMJ medicine_. 
+- F. Arshad, M. J. Schuemie, **F. Bu**, ..., and M. A. Suchard. [Serially Combining Epidemiological Designs Does Not Improve Overall Signal Detection in Vaccine Safety Surveillance (2023)](https://link.springer.com/article/10.1007/s40264-023-01324-1). _Drug Safety_. 
+- E. A. Voss, A. Shoaibi, L. Y. H. Lai,  ..., **F. Bu**, ..., and Patrick B Ryan. [Contextualising adverse events of special interest to characterise the baseline incidence rates in 24 million patients with COVID-19 across 26 databases: a multinational retrospective cohort study (2023)](https://doi.org/10.1016/j.eclinm.2023.101932). _EClinicalMedicine_. 
 
 
-### Undergraduate Research
-  
-#### Traffic Speed Nowcasting Based on Urban Road Network and Artificial Neural Network
-- Senior thesis project for my B.S. at Peking University. [Thesis written in Mandarin](https://fanbu1995.github.io/Graduation_Paper.pdf)
-- An applied deep learning project involving Graph CNNs and LSTM networks, applied to real-time traffic speed data collected via taxi GPS tracking.
-  
-#### Detection of Differential Genetic Networks
-- Undergraduate research project funded by the Chinese National Innovative Initiative.
-- Second-place winner of the National College Innovation Competition.
-- Second-place winner of the Peking University Research Challenge Cup.
+#### Social and cognitive sciences
+
+- R. Asencio, **F. Bu**, L. Tucker, G. Varela, J. Moody, and A. Volfovsky. 
+Network Position and Emergent Phenomena: A Multi-team System Case Study (2022+). _Under revisions_.
