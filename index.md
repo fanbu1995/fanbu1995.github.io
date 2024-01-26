@@ -43,6 +43,8 @@ I also enjoy writing, sports, and music. I have an occasionally updated blog [he
 - Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2021+). [_arXiv:2112.07892_](https://arxiv.org/abs/2112.07892). (Under revisions)
 - Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020). [_Journal of the American Statistical Association_](https://www.tandfonline.com/doi/abs/10.1080/01621459.2020.1790376). (Winner of 2020 SBSS Student Paper Award)
 
-Click [Research](https://fanbu1995.github.io/research) for more details on my methods research and collaborative work. 
+[//]: Click [Research](https://fanbu1995.github.io/research) for more details on my methods research and collaborative work. 
 
-Email me at ``fbu@umich.edu``.
+### Contact 
+If you are interested in collaborating or working with me, please email me at ``fbu@umich.edu``.
+You are also welcome to [**Schedule a meeting with me**](calendly.com/fanbu)!
