@@ -47,4 +47,4 @@ I also enjoy writing, sports, and music. I have an occasionally updated blog [he
 
 ### Contact 
 If you are interested in collaborating or working with me, please email me at ``fbu@umich.edu``.
-You are also welcome to [**Schedule a meeting with me**](calendly.com/fanbu)!
+You are also welcome to [**Schedule a meeting with me**](https://calendly.com/fanbu)!
