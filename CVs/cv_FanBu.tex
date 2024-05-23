@@ -23,12 +23,31 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+%\usepackage{color}
+\usepackage{xcolor}
 \usepackage[utf8]{inputenc}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Fan Bu}
 \address{fbu@umich.edu}
 \address{https://fanbu1995.github.io}
+
+%% maybe highlight some stuff for things done in the past year...
+%\newcommand{\thisYear}[1]{
+%	\colorbox{gray!30}{\parbox{17cm}{#1}}
+%}
+\newcommand{\thisYear}[1]{
+	#1
+}
+
+%% command to highlight my authorship
+%% can switch between bold or underscore...
+%\newcommand{\myName}[1]{
+%	\textbf{#1}
+%}
+\newcommand{\myName}[1]{
+	\underline{#1}
+}
 
 %% Header of file
 % \usepackage{fancyhdr}
@@ -66,13 +85,13 @@
 \\ B.S. in Mathematics and Applied Mathematics
 \end{rSection}
 
-\begin{rSection}{RESEARCH INTERESTS}
-
-Bayesian statistics and statistical computation for complex and large-scale datasets; stochastic processes and dynamic models; observational healthcare studies and 
-%health data science and 
-informatics; computational social science. %With applications in observational health data analysis, infectious disease modeling, social sciences, and sports analytics.
-
-\end{rSection}
+%\begin{rSection}{RESEARCH INTERESTS}
+%
+%Bayesian statistics and statistical computation for complex and large-scale datasets; stochastic processes and dynamic models; observational healthcare studies and 
+%%health data science and 
+%informatics; computational social science. %With applications in observational health data analysis, infectious disease modeling, social sciences, and sports analytics.
+%
+%\end{rSection}
 
 % \begin{rSection}{Skills}
 
@@ -88,75 +107,82 @@ informatics; computational social science. %With applications in observational h
 
 \hspace{-.2in} \textbf{Statistical Methdology:}
 
-\textbf{F. Bu}, J. Kagaayi, M. K. Grabowski, J. Xu, and O. Ratmann.
-Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2024). \emph{Biometrics.} In print. %$^\dagger$
+\myName{F. Bu}, A. E. Aiello, A. Volfovsky, and J. Xu.  
+Stochastic EM algorithm for partially observed stochastic epidemics with individual heterogeneity (2024). Tentatively accepted with minor revisions by \emph{Biostatistics}.%$^\dagger$
 
 \smallskip
 
-\textbf{F. Bu}, M. J. Schuemie,  A. Nishimura, L. H. Smith, K. Kostka, T. Falconer, J. A. McLeggon, P. B. Ryan, G. Hripcsak, and M. A. Suchard.
+\myName{F. Bu}, J. Kagaayi, M. K. Grabowski, J. Xu, and O. Ratmann.
+Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2024). \emph{Biometrics.} 
+
+\smallskip
+
+\myName{F. Bu}, M. J. Schuemie,  A. Nishimura, L. H. Smith, K. Kostka, T. Falconer, J. A. McLeggon, P. B. Ryan, G. Hripcsak, and M. A. Suchard.
 Bayesian Safety Surveillance with Adaptive Bias Correction (2023). \emph{Statistics in Medicine.} %$^\dagger$
 
 \smallskip
 
 
-
-M. Schuemie, \textbf{F. Bu}, A. Nishimura and M. Suchard.
+M. Schuemie, \myName{F. Bu}, A. Nishimura and M. Suchard.
 Adjusting for Both Sequential Testing and Systematic Error in Safety Surveillance using Observational Data: Empirical Calibration and MaxSPRT (2023). \emph{Statistics in Medicine.}
 %arXiv:2207.02704 }
 
 \smallskip
 
 
-\textbf{F. Bu}, A. E. Aiello, A. Volfovsky, and J. Xu.  
-Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2021+). \emph{Under revisions.  arXiv:2112.07892.}%$^\dagger$
+\myName{F. Bu}, A. E. Aiello, J. Xu, and A. Volfovsky. 
+Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020). \emph{Journal of the American Statistical Association} (Winner of 2020 ASA SBSS Student Paper Award). %$^\dagger$
 
 \smallskip
 
-
-\textbf{F. Bu}, A. E. Aiello, J. Xu, and A. Volfovsky. 
-Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020). \emph{Journal of the American Statistical Association} (\textbf{Winner of 2020 ASA SBSS Student Paper Award}). %$^\dagger$
-
-\smallskip
-
-\textbf{F. Bu}, S. Xu, K. Heller, and A. Volfovsky. 
+\myName{F. Bu}, S. Xu, K. Heller, and A. Volfovsky. 
 SMOGS: Social Network Metrics of Game Success (2019). \emph{The 22nd International Conference on Artificial Intelligence and Statistics (AISTATS)}. %$^\dagger$
 
 \smallskip
 
-W. Zhang, \textbf{F. Bu}, D. Owen-Oas, K. Heller, and X. Zhu. 
+W. Zhang, \myName{F. Bu}, D. Owen-Oas, K. Heller, and X. Zhu. 
 Who Started It? Identifying Root Sources in Textual Conversation Threads (2018). \emph{arXiv:1809.03648}.
 %\smallskip 
 
 \medskip
 
+\newpage 
 \hspace{-.2in} \textbf{Scientific \& Collaborative:}
 
-\textbf{F. Bu}, F. Arshad, G. Hripcsak, P. B. Ryan, M. J. Schuemie, and M. A. Suchard. Response to Comments on ``Serially Combining Epidemiological Designs Does Not Improve Overall Signal Detection in Vaccine Safety Surveillance'' (2024). \emph{Drug Safety}. In print. 
+R. Khera, A. Aminorroaya, L. S. Dhingra, P. M.  Thangaraj, A. P. Camargos, \myName{F. Bu}, [...], and M. A. Suchard. Comparative Effectiveness of Second-line Antihyperglycemic Agents for Cardiovascular Outcomes: A Large-scale, Multinational, Federated Analysis of the LEGEND-T2DM Study (2024+). \emph{Under revisions}. 
 
 \smallskip 
 
-T. V. Anand, \textbf{F. Bu}, M. J. Schuemie, M. A. Suchard, and G. Hripcsak. Comparative safety and effectiveness of angiotensin converting enzyme inhibitors and thiazides and thiazide-like diuretics under strict monotherapy (2024).  \emph{Journal of Clinical Hypertension}. In print. 
+V. Obregon-Perko, A. Awasthi, R. Barfield, [...], \myName{F. Bu}, [...], and A. Chahroudi. Biomarkers for viral rebound timing and control post-ART in SHIV-infected infant macaques (2024+). \emph{Under review}.
 
 \smallskip 
 
-R. Khera, A. Aminorroaya, L. S. Dhingra, P. M.  Thangaraj, A. P. Camargos, \textbf{F. Bu}, [...], and M. A. Suchard. Comparative Effectiveness of Second-line Antihyperglycemic Agents for Cardiovascular Outcomes: A Large-scale, Multinational, Federated Analysis of the LEGEND-T2DM Study (2024). \emph{Under review}. 
+C. Cai, A. Nishimura, M. Bowring, [...], \myName{F. Bu}, [...], and Patrick B. Ryan. Similar risk of kidney failure among patients with blinding diseases who receive ranibizumab, aflibercept, and bevacizumab (2024). \emph{Ophthalmology Retina}.
 
 \smallskip 
 
-R. Khera, L.S. Dhingra, A. Aminorroaya, [...], \textbf{F. Bu}, [...], and  M. A. Suchard.  Multinational patterns of second line antihyperglycaemic drug initiation across cardiovascular risk groups: federated pharmacoepidemiological evaluation in LEGEND-T2DM (2023). \emph{BMJ medicine}. 
+\myName{F. Bu}, F. Arshad, G. Hripcsak, P. B. Ryan, M. J. Schuemie, and M. A. Suchard. Response to Comments on ``Serially Combining Epidemiological Designs Does Not Improve Overall Signal Detection in Vaccine Safety Surveillance'' (2024). \emph{Drug Safety}. 
+
+\smallskip 
+
+T. V. Anand,\myName{F. Bu}, M. J. Schuemie, M. A. Suchard, and G. Hripcsak. Comparative safety and effectiveness of angiotensin converting enzyme inhibitors and thiazides and thiazide-like diuretics under strict monotherapy (2024).  \emph{Journal of Clinical Hypertension}.
+
+\smallskip 
+
+R. Khera, L.S. Dhingra, A. Aminorroaya, [...], \myName{F. Bu}, [...], and  M. A. Suchard.  Multinational patterns of second line antihyperglycaemic drug initiation across cardiovascular risk groups: federated pharmacoepidemiological evaluation in LEGEND-T2DM (2023). \emph{BMJ medicine}. 
 
 \smallskip
 
-F. Arshad, M. J. Schuemie, \textbf{F. Bu}, [...], and M. A. Suchard. Serially Combining Epidemiological Designs Does Not Improve Overall Signal Detection in Vaccine Safety Surveillance (2023). \emph{Drug Safety}. 
+F. Arshad, M. J. Schuemie, \myName{F. Bu}, [...], and M. A. Suchard. Serially Combining Epidemiological Designs Does Not Improve Overall Signal Detection in Vaccine Safety Surveillance (2023). \emph{Drug Safety}. 
 
 \smallskip
 
-E. A. Voss, A. Shoaibi, L. Y. H. Lai,  [...], \textbf{F. Bu}, [...], and P. B. Ryan. Contextualising adverse events of special interest to characterise the baseline incidence rates in 24 million patients with COVID-19 across 26 databases: a multinational retrospective cohort study (2023). \emph{EClinicalMedicine}. 
+E. A. Voss, A. Shoaibi, L. Y. H. Lai,  [...], \myName{F. Bu}, [...], and P. B. Ryan. Contextualising adverse events of special interest to characterise the baseline incidence rates in 24 million patients with COVID-19 across 26 databases: a multinational retrospective cohort study (2023). \emph{EClinicalMedicine}. 
 
 
 \smallskip
 
-R. Asencio, \textbf{F. Bu}, L. Tucker, G. Varela, J. Moody, and A. Volfovsky. 
+R. Asencio, \myName{F. Bu}, L. Tucker, G. Varela, J. Moody, and A. Volfovsky. 
 Network Position and Emergent Phenomena: A Multi-team System Case Study (2022+). \emph{Under revisions.}
 
 
@@ -194,7 +220,7 @@ Duke CFAR Fall Retreat Best Poster Award.
 %\textit{August 2020}. 
 SBSS Student Paper Award; JSM travel award. \hfill {\em August 2020}
 
-Honorable Mention for Ph.D. Teaching Assistant for the Year
+Honorable Mention for Ph.D. Teaching Assistant for the Year. 
 \hfill {\em May 2020}
 
 %\textit{December 2017}.
@@ -203,109 +229,16 @@ Women in Machine Learning Workshop (WiML) travel award. \hfill {\em December 201
 \end{rSection}
 
 
-\begin{rSection}{Invited Talks and Presentations}
-
-\hspace{-.2in} {\textbf{Oral Presentations:}}
-
-
-Invited talk at the Statistical Methods for Infectious Diseases Workshop \hfill {\em April 2024}
-
-\vspace{-0.1in}(hosted by Penn State University).
-
-Invited talk at ENAR 2024.  \hfill {\em March 2024}
-
-Invited talk at CMStatistics 2023. \hfill {\em December 2023}
-
-Invited talk at the RAND statistics seminar. \hfill {\em Nov 2023}
-
-Invited talk at EcoStat 2023. \hfill {\em August 2023}
-
-Invited talk at IISA 2023.  \hfill {\em June 2023}
-
-%Invited talk at WNAR 2023 (scheduled). \hfill {\em June 2023}
-%
-%Invited workshop presentation at Brin Mathematics Research Center  (scheduled). \hfill {\em April 2023}
-
-Contributed talk at ENAR 2023. \hfill {\em March 2023}
-
-Invited colloquim talk at Reed College. \hfill {\em March 2023}
-
-Invited talk at the FDA CBER BEST Seminar Series. \hfill {\em February 2023}
-
-Topic-contributed talk at CMStatistics 2022. \hfill {\em December 2022}
-
-Invited talk at the UCLA 2022 Fall Biomathematics Seminar Series . \hfill {\em November 2022}
-
-Invited presentation at the 2022 OHDSI Global Symposium.  \hfill {\em October 2022}
-
-{Oral presentation at NSF Student Conference on COVID-19 Modeling.} \hfill {\em January 2021}
-
-{Invited talk at 2020 Bayesian Young Statisticians Meeting: Online (BAYSM:O).} \hfill {\em November 2020}
-
-%\textit{August 2020}.
-{Topic-contributed talk at 2020 Joint Statistical Meetings. } \hfill {\em August 2020}
-
-%\textit{November 2019}.
-{Invited talk at the 3rd Annual AT\&T Labs Graduate Student Symposium.} \hfill {\em November 2019}
-
-%\smallskip
-
-%\textit{September 2019}.
-{Invited talk at the 2019 New England Symposium on Statistics in Sports} \hfill {\em September 2019}
-
-\vspace{-0.1in}
- (NESSIS).
- 
-%\textit{March 2019}.
-Spotlight talk on Duke Machine Learning Day. \hfill {\em March 2019}
-
-%\smallskip
-
-% {Oral landscape analysis presentation at the FDA CBER BEST collaborative meeting.} \hfill {\em October 2021}
-
-% {Highlight presentation on the LEGEND Initiative at the OHDSI } \hfill {\em October 2021}
-
-% \vspace{-0.1in}
-% Community Call.
-\medskip
-%\newpage
-
-\hspace*{-0.2in}\textbf{Poster Presentations:}
-
-Poster presentation at the 2022 ISBA World Meeting. \hfill {\em June 2022}
-
-%\smallskip
-
-%\textit{April 2019}. 
-Poster presentation at the 22nd International Conference on Artificial  \hfill {\em April 2019}
-
-\vspace{-0.1in}
-Intelligence and Statistics (AISTATS).
-
-%\smallskip
-
-%\smallskip
-
-%\textit{June 2018}. 
-Poster presentation at the 2018 ISBA World Meeting.\hfill {\em June 2018}
-
-%\smallskip
-
-%\textit{December 2017}.
-Poster presentation at Women in Machine Learning Workshop (WiML) 2017.\hfill {\em December 2017}
-
-\end{rSection}
-
-%\pagebreak
-
 %\newpage
 
 \begin{rSection}{PROFESSIONAL SERVICE}
 	
 	\hspace*{-0.2in}\textbf{Professional Societies:}
 	
+	\thisYear{
 	Associate Chair for \emph{ENAR Social Media Committee}  \hfill {\em September 2023 - present}
-	
+}
+
 		\smallskip
 	
 	Program Chair for \emph{the junior section of the International Society} \hfill {\em January 2022 - December 2023}
@@ -317,40 +250,63 @@ Poster presentation at Women in Machine Learning Workshop (WiML) 2017.\hfill {\e
 
  \hspace*{-0.2in}\textbf{Editorial and Review Responsibilities:}
  
- 	Scientific Review Committee member for 2024 OHDSI Global Symposium. 	\hfill {\em March - October 2024 (Scheduled)}
+ 	Scientific Review Committee member for 2024 OHDSI Global Symposium. 	\hfill {\em March - October 2024}
  	
  	\smallskip 
 	
-	Editor for BaYSM 2023 proceedings.	\hfill {\em May - Septebmer 2024 (Scheduled)}
+		\thisYear{
+ Co-editor for BaYSM 2023 proceedings.	\hfill {\em May - Septebmer 2024 (Scheduled)}
+}
 
     \smallskip 
     
+    	\thisYear{
     Grant proposal reviewer for UKRI.	\hfill {\em February 2024}
+}
     
     \smallskip 
     
-    \textbf{Journal reviewer} for: \emph{The Proceedings of the National Academy of Sciences (PNAS)}, \emph{Journal of the American Statistical Association (JASA)},  \emph{Annals of Applied Statistics (AOAS)}, \emph{Statistics in Medicine}, \emph{Biostatistics}, \emph{Statistical Science},  \emph{Science Advances}, and \emph{Environmental and Ecological Statistics}. 
+    \textbf{Journal reviewer} for: \emph{The Proceedings of the National Academy of Sciences (PNAS)}, \emph{Journal of the American Statistical Association (JASA)}, \emph{Biometrics}, \emph{Annals of Applied Statistics (AOAS)}, \emph{Journal of Computational and Graphical Statistics (JCGS)}, \emph{Statistics in Medicine}, \emph{Biostatistics}, \emph{Bayesian Analysis},  \emph{Statistical Science},  \emph{Science Advances}, \emph{Environmental and Ecological Statistics}, and \emph{Statistics and Computing}. 
     
     \smallskip 
     
+    	\thisYear{
     \textbf{Conference reviewer} for: \emph{Uncertainty in Artificial Intelligence (UAI) 2024}. 
+}
     
     \medskip 
 
  \hspace*{-0.2in}\textbf{Conference Organization:}
  
- Organizing Committee member for BIRS-CMO Workshop	\hfill {\em September 2024 (scheduled)}
+ 	\thisYear{
+ Scientific Programme Committee member for CFE-CMStatistics 2024 \hfill {\em April - December 2024}
+}
+ 
+ 	\thisYear{
+ Organizing Committee member for BIRS-CMO Workshop	\hfill {\em December 2023 - September 2024}
  
 \vspace{-0.1in}
 
 ``Frontiers of Bayesian Inference and Data Science''. 
+}
 
  
 \smallskip 
  
+		\thisYear{
+Organizing Committee member for 2024 ISBA EAC conference. 	\hfill {\em February - June 2024}
+}
 	
-Organizing Committee member for 2024 ISBA EAC conference. 	\hfill {\em June 2024 (scheduled)}
-	
+\smallskip
+
+	\thisYear{
+Invited session (j-ISBA sponsored) organizer for  \hfill  {\em December 2023 - August 2024}
+
+\vspace{-0.1in}
+
+Joint Statistical Meetings (JSM) 2024
+}
+
 \smallskip
 	
 Organizing Committee member for Bayesian Young Statisticians  \hfill {\em May - November 2023}
@@ -359,7 +315,11 @@ Organizing Committee member for Bayesian Young Statisticians  \hfill {\em May - 
 Meeting (BaYSM) 2023.
 
 
- \hspace*{-0.2in}\textbf{Miscellaneous: }
+ \hspace*{-0.2in}\textbf{Internal \& Miscellaneous: }
+ 
+ 	\thisYear{
+ J-FAB committee member for UM School of Public Health \hfill {\em September 2023 - August 2024}
+}
 
 Judge for \emph{Duke Datathon}.  \hfill {\em October 2020 \& 2021}
 
@@ -394,22 +354,36 @@ Consultant for \emph{ASA DataFest @ Duke}. \hfill {\em April 2018 \& April 2019}
 
 \begin{rSection}{TEACHING \& MENTORING}
 	
-	Instructor for \emph{Biostatistics 602: Biostatistical Inference}.  \hfill {\em Winter 2024}
+\hspace*{-0.2in}\textbf{While at University of Michigan:}
 	
-	Mentor for the 2022 B.I.G. summer research program at UCLA.  \hfill {\em Summer 2022}
+		\thisYear{
+    \emph{Biostatistics 602: Biostatistical Inference}.  \hfill {\em Winter 2024}
+}
+
+\smallskip 
+
+\hspace*{-0.2in}\textbf{While at UCLA:}
 	
-	Instructor of Record for \emph{STA101: Data Analysis/Statistical Inference}. \hfill {\em Summer 2021}
+	Instructor for OHDSI Tutorials at the 2023 Global Symposium.  \hfill {\em Fall 2023}
+		
+	Mentor for the 2022 \emph{B.I.G. summer research program}.  \hfill {\em Summer 2022}
 	
-	Lab instructor and teaching assistant for \emph{STA199: Introduction to Data Science}. \hfill {\em Fall 2020}
+\smallskip 
+	
+\hspace*{-0.2in}\textbf{While at Duke University:}
+	
+	Instructor of Record for 
 	
 	
-	%\textit{Spring 2020}.
-	Lab instructor and teaching assistant for \emph{STA723: Statistics Case Studies}. \hfill {\em Spring 2020}
+	\emph{STA101: Data Analysis/Statistical Inference} \hfill {\em Summer 2021}
 	
-	%\smallskip
+	Lab instructor and teaching assistant for 
 	
-	%\textit{Fall 2019}. 
-	Lab instructor and teaching assistant for \emph{STA601: Bayesian Methods and Modern Statistics}. \hfill {\em Fall 2019}
+	\hspace{0.2in} \emph{STA199: Introduction to Data Science} \hfill {\em Fall 2020}
+	
+	\hspace{0.2in} \emph{STA723: Statistics Case Studies}. \hfill {\em Spring 2020}
+	
+	\hspace{0.2in} \emph{STA601: Bayesian Methods and Modern Statistics}. \hfill {\em Fall 2019}
 	
 	%\smallskip
 	
@@ -419,6 +393,113 @@ Consultant for \emph{ASA DataFest @ Duke}. \hfill {\em April 2018 \& April 2019}
 	Instructor of \emph{Duke Statistical Science Bootcamp}. \hfill {\em August 2018}
 \end{rSection}
 
+\begin{rSection}{Invited Talks and Presentations}
+	
+	\hspace{-.2in} {\textbf{Oral Presentations:}}
+	
+	Invited talk at CFE-CMStatistics 2024 (scheduled). \hfill {\em December 2024}
+	
+	Contributed talk at ISBA World Meetings 2024 (scheduled).  \hfill {\em July 2024}
+	
+	Invited talk at Ecosta 2024 (scheduled).  \hfill {\em July 2024}
+	
+	Invited talk at the Online Seminar on Spatial and spatio-temporal Point processes   \hfill {\em April 2024}
+	
+	\vspace{-0.1in} 
+	and beyond (OSSP).
+	
+	Invited talk at the Statistical Methods for Infectious Diseases Across Scales Workshop \hfill {\em April 2024}
+	
+	\vspace{-0.1in}
+	(by Penn State University).
+	
+	Recent publications highlight talk at OHDSI community meeting. \hfill {\em March 2024}
+	
+	Invited talk at ENAR 2024.  \hfill {\em March 2024}
+	
+	Invited talk at CMStatistics 2023. \hfill {\em December 2023}
+	
+	Invited talk at the RAND statistics seminar. \hfill {\em Nov 2023}
+	
+	Invited talk at EcoSta 2023. \hfill {\em August 2023}
+	
+	Invited talk at IISA 2023.  \hfill {\em June 2023}
+	
+	%Invited talk at WNAR 2023 (scheduled). \hfill {\em June 2023}
+	%
+	%Invited workshop presentation at Brin Mathematics Research Center  (scheduled). \hfill {\em April 2023}
+	
+	Contributed talk at ENAR 2023. \hfill {\em March 2023}
+	
+	Invited colloquim talk at Reed College. \hfill {\em March 2023}
+	
+	Invited talk at the FDA CBER BEST Seminar Series. \hfill {\em February 2023}
+	
+	Topic-contributed talk at CMStatistics 2022. \hfill {\em December 2022}
+	
+	Invited talk at the UCLA 2022 Fall Biomathematics Seminar Series . \hfill {\em November 2022}
+	
+	Invited presentation at the 2022 OHDSI Global Symposium.  \hfill {\em October 2022}
+	
+	{Oral presentation at NSF Student Conference on COVID-19 Modeling.} \hfill {\em January 2021}
+	
+	{Invited talk at 2020 Bayesian Young Statisticians Meeting: Online (BAYSM:O).} \hfill {\em November 2020}
+	
+	%\textit{August 2020}.
+	{Topic-contributed talk at 2020 Joint Statistical Meetings. } \hfill {\em August 2020}
+	
+	%\textit{November 2019}.
+	{Invited talk at the 3rd Annual AT\&T Labs Graduate Student Symposium.} \hfill {\em November 2019}
+	
+	%\smallskip
+	
+	%\textit{September 2019}.
+	{Invited talk at the 2019 New England Symposium on Statistics in Sports} \hfill {\em September 2019}
+	
+	\vspace{-0.1in}
+	(NESSIS).
+	
+	%\textit{March 2019}.
+	Spotlight talk on Duke Machine Learning Day. \hfill {\em March 2019}
+	
+	%\smallskip
+	
+	% {Oral landscape analysis presentation at the FDA CBER BEST collaborative meeting.} \hfill {\em October 2021}
+	
+	% {Highlight presentation on the LEGEND Initiative at the OHDSI } \hfill {\em October 2021}
+	
+	% \vspace{-0.1in}
+	% Community Call.
+	\medskip
+	%\newpage
+	
+	\hspace*{-0.2in}\textbf{Poster Presentations:}
+	
+	Poster presentation at the 2022 ISBA World Meeting. \hfill {\em June 2022}
+	
+	%\smallskip
+	
+	%\textit{April 2019}. 
+	Poster presentation at the 22nd International Conference on   \hfill {\em April 2019}
+	
+	\vspace{-0.1in}
+	Artificial Intelligence and Statistics (AISTATS).
+	
+	%\smallskip
+	
+	%\smallskip
+	
+	%\textit{June 2018}. 
+	Poster presentation at the 2018 ISBA World Meeting.\hfill {\em June 2018}
+	
+	%\smallskip
+	
+	%\textit{December 2017}.
+	Poster presentation at Women in Machine Learning Workshop (WiML) 2017.\hfill {\em December 2017}
+	
+\end{rSection}
+
+%\pagebreak
 
 
 
