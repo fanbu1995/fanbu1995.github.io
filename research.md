@@ -4,7 +4,7 @@ title: Research
 subtitle: Methods research and collaborative work
 ---
 
-For a list of my publications and pre-prints, please visit my [Google Scholar profile page](https://scholar.google.com/citations?user=_WI7hMUAAAAJ&hl=en). 
+[//]: For a list of my publications and pre-prints, please visit my [Google Scholar profile page](https://scholar.google.com/citations?user=_WI7hMUAAAAJ&hl=en). 
 
 ### Statistical methodology
 
@@ -14,7 +14,7 @@ For a list of my publications and pre-prints, please visit my [Google Scholar pr
 [Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2024)](https://arxiv.org/pdf/2112.07892.pdf). _Biostatistics_. (In print)
 
 - **F. Bu**, J. Kagaayi, M. K. Grabowski, J. Xu, and O. Ratmann.
-[Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2024)](https://arxiv.org/abs/2302.11567). _Biometrics_.
+[Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2024)](https://academic.oup.com/biometrics/article-abstract/80/1/ujad015/7610191). _Biometrics_.
 
 - **F. Bu**, A. E. Aiello, J. Xu, and A. Volfovsky. 
 [Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020)](https://www.tandfonline.com/doi/abs/10.1080/01621459.2020.1790376). _Journal of the American Statistical Association_. 
@@ -29,9 +29,10 @@ For a list of my publications and pre-prints, please visit my [Google Scholar pr
 
 [//]: #### Social networks, sports analytics, and natural language processing
 
-[//]: - **F. Bu**, S. Xu, K. Heller, and A. Volfovsky. 
+[//]:  - **F. Bu**, S. Xu, K. Heller, and A. Volfovsky. 
 [SMOGS: Social Network Metrics of Game Success (2019)](https://proceedings.mlr.press/v89/bu19a/bu19a.pdf). _The 22nd International Conference on Artificial Intelligence and Statistics (AISTATS)_.
-[//]: - W. Zhang, **F. Bu**, D. Owen-Oas, K. Heller, and X. Zhu. 
+
+[//]:  - W. Zhang, **F. Bu**, D. Owen-Oas, K. Heller, and X. Zhu. 
 [Who Started It? Identifying Root Sources in Textual Conversation Threads (2018)](https://arxiv.org/pdf/1809.03648.pdf). _arXiv preprint_.
 
 
