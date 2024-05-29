@@ -17,7 +17,7 @@ baseurl: ""
 title: Fan Bu, Ph.D.
 
 # Short description of your site
-description: Bayesian statistician, Postdoc Fellow at UCLA
+description: Bayesian statistician
 
 # --- Navigation bar options --- #
 
@@ -26,7 +26,7 @@ navbar-links:
   #About Me: "aboutme"
   Research: "research"
   Teaching: "teaching"
-  Blog: "blog"
+  #Blog: "blog"
   CV: "https://fanbu1995.github.io/CVs/cv_FanBu.pdf"
   # Resources:
     # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
@@ -49,7 +49,7 @@ title-img: "https://fanbu1995.github.io/img/headshot-6-square.jpg"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Fan Bu
-  email: "fanbu@ucla.edu"
+  email: "fbu@umich.edu"
   facebook: Fan Bu  # eg. daattali
   github: fanbu1995    # eg. daattali
   # twitter: yourname   # eg. daattali

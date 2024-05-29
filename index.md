@@ -25,25 +25,24 @@ bigimg:
 
 I am a tenure-track assistant professor in Biostatistics at the University of Michigan, Ann Arbor (started January 2024). Previously I was a postdoctoral research fellow at University of California - Los Angeles, working with Dr. Marc Suchard to develop Bayesian statistical methods for analyzing large-scale observational health data. I obtained my Ph.D. degree in Statistics from Duke University under the supervision of Dr. Alexander Volfovsky in Fall 2021. 
 
-[//]: # I am a postdoctoral research fellow at University of California, Los Angeles, working with Dr. Marc Suchard to develop Bayesian statistical methods for analyzing large-scale observational health data. I obtained my Ph.D. degree in Statistics from Duke University under the supervision of Dr. Alexander Volfovsky in Fall 2021, with a dissertation on [stochatic processes models on and of dynamic networks](https://www.proquest.com/docview/2583399863?pq-origsite=gscholar&fromopenview=true).
 
 My research interests include:
 
-- Bayesian statistics and statistical computation for complex and large-scale datasets
+- Bayesian statistics and computation for emerging and complex data
 - Stochastic processes and dynamic models
-- Health data science and informatics
-- Computational social science
+- Health data science and quantitative social science
+[//]: - Computational social science
 
-I also enjoy writing, sports, and music. I have an occasionally updated blog [here](https://fanbublog.wordpress.com/) (mostly written in Chinese). 
+[//]: I also enjoy writing, sports, and music. I have an occasionally updated blog [here](https://fanbublog.wordpress.com/) (mostly written in Chinese). 
 
-### Select recent first-author work
+[//]: ### Select recent first-author work
 
-- Bayesian Safety Surveillance with Adaptive Bias Correction (2023). [_Statistics in Medicine_](https://onlinelibrary.wiley.com/doi/10.1002/sim.9968). 
-- Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2023). Accepted by _Biometrics_. [_arXiv:2302.11567_](https://arxiv.org/abs/2302.11567). 
-- Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2021+). [_arXiv:2112.07892_](https://arxiv.org/abs/2112.07892). (Under revisions)
-- Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020). [_Journal of the American Statistical Association_](https://www.tandfonline.com/doi/abs/10.1080/01621459.2020.1790376). (Winner of 2020 SBSS Student Paper Award)
+[//]: - Bayesian Safety Surveillance with Adaptive Bias Correction (2023). [_Statistics in Medicine_](https://onlinelibrary.wiley.com/doi/10.1002/sim.9968). 
+[//]: - Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2023). Accepted by _Biometrics_. [_arXiv:2302.11567_](https://arxiv.org/abs/2302.11567). 
+[//]: - Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2021+). [_arXiv:2112.07892_](https://arxiv.org/abs/2112.07892). (Under revisions)
+[//]: - Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020). [_Journal of the American Statistical Association_](https://www.tandfonline.com/doi/abs/10.1080/01621459.2020.1790376). (Winner of 2020 SBSS Student Paper Award)
 
-[//]: Click [Research](https://fanbu1995.github.io/research) for more details on my methods research and collaborative work. 
+Please visit [Research page](https://fanbu1995.github.io/research) for some of my methods research and collaborative work. 
 
 ### Contact 
 If you are interested in collaborating or working with me, please email me at ``fbu@umich.edu``.
