@@ -29,10 +29,10 @@ subtitle: Methods research and collaborative work
 
 [//]: #### Social networks, sports analytics, and natural language processing
 
-[//]:  - **F. Bu**, S. Xu, K. Heller, and A. Volfovsky. 
+[//]:  **F. Bu**, S. Xu, K. Heller, and A. Volfovsky. 
 [SMOGS: Social Network Metrics of Game Success (2019)](https://proceedings.mlr.press/v89/bu19a/bu19a.pdf). _The 22nd International Conference on Artificial Intelligence and Statistics (AISTATS)_.
 
-[//]:  - W. Zhang, **F. Bu**, D. Owen-Oas, K. Heller, and X. Zhu. 
+[//]:  W. Zhang, **F. Bu**, D. Owen-Oas, K. Heller, and X. Zhu. 
 [Who Started It? Identifying Root Sources in Textual Conversation Threads (2018)](https://arxiv.org/pdf/1809.03648.pdf). _arXiv preprint_.
 
 
