@@ -11,7 +11,7 @@ subtitle: Methods research and collaborative work
 #### Statistical inference for infectious disease models leveraging emerging data
 
 - **F. Bu**, A. E. Aiello, A. Volfovsky, and J. Xu.  
-[Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2024)](https://arxiv.org/pdf/2112.07892.pdf). _Biostatistics_. (In print)
+[Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2024)](https://arxiv.org/pdf/2112.07892.pdf). _Biostatistics_. 
 
 - **F. Bu**, J. Kagaayi, M. K. Grabowski, J. Xu, and O. Ratmann.
 [Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2024)](https://academic.oup.com/biometrics/article-abstract/80/1/ujad015/7610191). _Biometrics_.
@@ -34,7 +34,7 @@ subtitle: Methods research and collaborative work
 [//]:  W. Zhang, **F. Bu**, D. Owen-Oas, K. Heller, and X. Zhu. [Who Started It? Identifying Root Sources in Textual Conversation Threads (2018)](https://arxiv.org/pdf/1809.03648.pdf). _arXiv preprint_.
 
 
-### Collaborative work
+### Scientific or collaborative work
 
 #### Observational health data science
 

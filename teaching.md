@@ -9,7 +9,7 @@ My latest teaching philosophy statement can be viewed [here](https://fanbu1995.g
 
 ### Teaching when at UMich
 
-#### Winter 2024: BIOSTAT 602 Biostatistical Inference
+#### Winter 2024 & 2025: BIOSTAT 602 Biostatistical Inference
 
 
 ### Teaching when at UCLA

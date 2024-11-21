@@ -23,14 +23,19 @@ bigimg:
 
 # Welcome to Fan's webpage!
 
-I am a tenure-track assistant professor in Biostatistics at the University of Michigan, Ann Arbor (started January 2024). Previously I was a postdoctoral research fellow at University of California - Los Angeles, working with Dr. Marc Suchard to develop Bayesian statistical methods for analyzing large-scale observational health data. I obtained my Ph.D. degree in Statistics from Duke University under the supervision of Dr. Alexander Volfovsky in Fall 2021. 
+I am a tenure-track assistant professor in Biostatistics at the University of Michigan. Previously I was a postdoctoral research fellow at UCLA, working with Dr. Marc Suchard to develop Bayesian statistical methods for analyzing large-scale observational health data. I obtained my Ph.D. degree in Statistics from Duke University under the supervision of Dr. Alexander Volfovsky in Fall 2021. 
 
 
 My research interests include:
 
-- Bayesian statistics and computation for emerging and complex data
-- Stochastic processes and dynamic models
-- Health data science and quantitative social science
+- Bayesian statistics and computation for temporal / spatio-temporal processes, networks, and federated data
+[//]: - Stochastic processes and dynamic models
+- Health data science and observational study for comparative effectiveness and safety
+
+I am an active member of [Observational Health Data Sciences and Informatics (OHDSI)](https://www.ohdsi.org/), 
+a global collaborative for health data science research to promote better health decisions and patient care. 
+My main activities within OHDSI include statistical methods development and leading large network studies. 
+
 
 [//]:  - Computational social science
 
