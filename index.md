@@ -29,7 +29,7 @@ I am a tenure-track assistant professor in Biostatistics at the University of Mi
 My research interests include:
 
 - Bayesian statistics and computation for temporal / spatio-temporal processes, networks, and federated data
-[//]: - Stochastic processes and dynamic models
+
 - Health data science and observational study for comparative effectiveness and safety
 
 I am an active member of [Observational Health Data Sciences and Informatics (OHDSI)](https://www.ohdsi.org/), 
