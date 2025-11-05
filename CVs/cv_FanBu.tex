@@ -26,8 +26,11 @@
 %\usepackage{color}
 \usepackage{xcolor}
 \usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
 \name{Fan Bu}
 \address{fbu@umich.edu}
 \address{https://fanbu1995.github.io}
@@ -42,9 +45,7 @@
 
 %% command to highlight my authorship
 %% can switch between bold or underscore...
-\newcommand{\myName}[1]{
-	\textbf{#1}
-}
+\newcommand{\myName}[1]{\textbf{#1}}
 %\newcommand{\myName}[1]{\underline{#1}}
 
 %% Header of file
@@ -82,7 +83,7 @@
 \\ {\small Advisor: Dr. Alexander Volfovsky}
 
 {\bf School of Mathematical Sciences, Peking University} \hfill {\em 2013 - 2017} 
-\\ B.S. in Mathematics and Applied Mathematics
+\\ B.S. in Mathematical Science (Specialty Track: Data Science)
 \end{rSection}
 
 %\begin{rSection}{RESEARCH INTERESTS}
@@ -107,137 +108,103 @@
 
 {\footnotesize $\dagger$ denotes student mentee}
 
-\hspace{-.2in} \textbf{Statistical Methodology:}
+\newcounter{pubtotal}
+\setcounter{pubtotal}{27}
 
-N. Hartman and \myName{F. Bu}. Joint Models for Health Services Delivery During Infectious Disease Epidemics (2025+). \emph{Under review}. 
+\begin{enumerate}[{label=\arabic*\addtocounter{enumi}{-2}., itemsep=3pt, parsep=0pt, topsep=3pt, start=\value{pubtotal}, leftmargin=0pt}]
+	
+	\item \myName{F. Bu}, R. Wu$^\dagger$, A. Ostropolets, [...], R. Khera, G. Hripscak, and M. A. Suchard. Comparative Cardiovascular Effectiveness of Individual Glucagon-Like Peptide 1 Receptor Agonists and Sodium-Glucose Cotransporter-2 Inhibitors as Second-Line Type 2 Diabetes Mellitus Treatments (2025+). \emph{Under revisions}. 
+	
+	\item 
+	N. Hartman and \myName{F. Bu}. Joint Models for Health Services Delivery During Infectious Disease Epidemics (2025+). \emph{Under revisions}. 
+	
+	\item C. Kim, \myName{F. Bu}, C. Blacketer, A. Ostropolets, [...], and Y. Lu. Comparative safety of second-Line antihyperglycemic agents in older adults with type 2 diabetes: a multinational real-world evidence from LEGEND-T2DM (2025+). \emph{Under revisions}.
+	
+	\item P. Chatha$^\dagger$, \myName{F. Bu}, J. Regier, E. Snitkin, and J. Zelner. 
+	Neural Posterior Estimation for Stochastic Epidemic Modeling (2025+). \emph{Under revisions}.
+	
+	\item  S. Chattopadhyay, \myName{F. Bu}, M. J. Schuemie, J. A. McLeggon, E. Westlund, G. Hripcsak, P. Ryan, and M. A. Suchard. 
+	Comparative performance of the concurrent comparator design with existing vaccine safety surveillance approaches on real-world observational health data (2025+). \emph{Under review}. 
+	
+	\item C. Reyes, T. Duarte-Salles, A. Pistillo, \myName{F. Bu}, [...], and M. A. Suchard. Gastrointestinal Adverse Effects of Second-Line Anti-Diabetic Drugs: A Federated Cohort Study (2025+). \emph{Under revisions}. 
+	
+	\item V. Obregon-Perko, A. Awasthi, R. Barfield, [...], \myName{F. Bu}, [...], and A. Chahroudi. Biomarkers for viral rebound timing and control post-ART in SHIV-infected infant macaques (2025). \emph{Science Translational Medicine}. 
+	
+	\item L. Rountree$^\dagger$, G. Tong, \myName{F. Bu}, M. Ranney, and B. Mukherjee. Association of COVID-19 outcomes with measures of institutional and interpersonal trust: An ecological analysis using national data from 61 countries (2025). \emph{Nature Scientific Reports}.   
+	
+	\item 
+	D. Morales, \myName{F. Bu}, B. Viernes, [...], and M. A. Suchard. Risk of thyroid tumours with glucagon-like peptide-1 receptor agonists: international cohort study (2025). \emph{Diabetes Care.} 
+	
+	\item \myName{F. Bu}, A. E. Aiello, A. Volfovsky, and J. Xu.  
+	Stochastic EM algorithm for partially observed stochastic epidemics with individual heterogeneity (2025).  \emph{Biostatistics}.%$^\dagger$
+	
+	\item 
+	L. Rountree$^\dagger$, Y.T.  Lin, C. Liu, M. Salvatore, A.  Admon, B. K. Nallamothu, K. Singh, A. Basu, \myName{F. Bu}, B. Mukherjee. Reporting of Fairness Metrics in Clinical Risk Prediction Models: A Call for Change to Ensure Equitable Precision Health Benefits for All (2025). \emph{Online Journal of Public Health Informatics}.
+	
+	\item 
+	C. Cai, M. Hribar, Sally Baxter, [...],  \myName{F. Bu}, [...], and Patrick B. Ryan. 
+	Semaglutide and Nonarteritic Anterior Ischemic Optic Neuropathy (2025). \emph{JAMA Ophthalmology}.  
+	
+	\item \myName{F. Bu}, E. Minty, A. Aminorroaya, C. Blacketer, [...], and M. A. Suchard. 
+	Multi-national Patterns of Individual Cardioprotective Agents as Second-line Treatments for Type 2 Diabetes Mellitus: a LEGEND-T2DM Study (2024). \emph{Proceedings of the 2025 OHDSI Global Symposium.}
+	
+	\item 
+	R. Khera, A. Aminorroaya, L. S. Dhingra, P. M.  Thangaraj, A. P. Camargos, \myName{F. Bu}, [...], and M. A. Suchard. Comparative Effectiveness of Second-line Antihyperglycemic Agents for Cardiovascular Outcomes: A Large-scale, Multinational, Federated Analysis of the LEGEND-T2DM Study (2024). \emph{Journal of the American College of Cardiology}. 
+	
+	\item C. Cai, A. Nishimura, M. Bowring, [...], \myName{F. Bu}, [...], and Patrick B. Ryan. Similar risk of kidney failure among patients with blinding diseases who receive ranibizumab, aflibercept, and bevacizumab (2024). \emph{Ophthalmology Retina}.
+	
+	\item \myName{F. Bu}, J. Kagaayi, M. K. Grabowski, J. Xu, and O. Ratmann.
+	Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2024). \emph{Biometrics.} 
+	(Winner of 2024 ISBA Biostats and Pharma Best Paper Award.)
+	
+%	\item 
+%	\myName{F. Bu}, F. Arshad, G. Hripcsak, P. B. Ryan, M. J. Schuemie, and M. A. Suchard. Response to Comments on ``Serially Combining Epidemiological Designs Does Not Improve Overall Signal Detection in Vaccine Safety Surveillance'' (2024). \emph{Drug Safety}. 
+	
+	\item 
+	T. V. Anand, \myName{F. Bu}, M. J. Schuemie, M. A. Suchard, and G. Hripcsak. Comparative safety and effectiveness of angiotensin converting enzyme inhibitors and thiazides and thiazide-like diuretics under strict monotherapy (2024).  \emph{Journal of Clinical Hypertension}.
+	
+	\item 
+	R. Khera, L.S. Dhingra, A. Aminorroaya, [...], \myName{F. Bu}, [...], and  M. A. Suchard.  Multinational patterns of second line antihyperglycaemic drug initiation across cardiovascular risk groups: federated pharmacoepidemiological evaluation in LEGEND-T2DM (2023). \emph{BMJ medicine}. 
+	
+	\item 
+	F. Arshad, M. J. Schuemie, \myName{F. Bu}, [...], and M. A. Suchard. Serially Combining Epidemiological Designs Does Not Improve Overall Signal Detection in Vaccine Safety Surveillance (2023). \emph{Drug Safety}. 
+	
+	\item 
+	E. A. Voss, A. Shoaibi, L. Y. H. Lai,  [...], \myName{F. Bu}, [...], and P. B. Ryan. Contextualising adverse events of special interest to characterise the baseline incidence rates in 24 million patients with COVID-19 across 26 databases: a multinational retrospective cohort study (2023). \emph{EClinicalMedicine}. 
 
-\smallskip 
+	
+	\item \myName{F. Bu}, M. J. Schuemie,  A. Nishimura, L. H. Smith, K. Kostka, T. Falconer, J. A. McLeggon, P. B. Ryan, G. Hripcsak, and M. A. Suchard.
+	Bayesian Safety Surveillance with Adaptive Bias Correction (2023). \emph{Statistics in Medicine.} %$^\dagger$
 
-P. Chatha$^\dagger$, \myName{F. Bu}, J. Regier, E. Snitkin, and J. Zelner. 
-Neural Posterior Estimation for Stochastic Epidemic Modeling (2025+). \emph{Under revisions}.	%\textit{arXiv:2412.12967}
+	\item 
+	M. Schuemie, \myName{F. Bu}, A. Nishimura and M. Suchard.
+	Adjusting for Both Sequential Testing and Systematic Error in Safety Surveillance using Observational Data: Empirical Calibration and MaxSPRT (2023). \emph{Statistics in Medicine.}
+	%arXiv:2207.02704 }
+	
+	\item
+	R. Asencio, \myName{F. Bu}, L. Tucker, G. Varela, J. Moody, and A. Volfovsky. 
+	Network Position and Emergent Phenomena: A Multi-team System Case Study (2022+). \emph{Under revisions.}
+	
+	\item 
+	\myName{F. Bu}, A. E. Aiello, J. Xu, and A. Volfovsky. 
+	Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2021). \emph{Journal of the American Statistical Association} (Winner of 2020 ASA SBSS Student Paper Award.) %$^\dagger$
+	
+	\item 
+	\myName{F. Bu}, S. Xu, K. Heller, and A. Volfovsky. 
+	SMOGS: Social Network Metrics of Game Success (2019). \emph{The 22nd International Conference on Artificial Intelligence and Statistics (AISTATS)}. %$^\dagger$
+	
+	\item 
+	W. Zhang, \myName{F. Bu}, D. Owen-Oas, K. Heller, and X. Zhu. 
+	Who Started It? Identifying Root Sources in Textual Conversation Threads (2018). \emph{arXiv:1809.03648}.
+	
+\end{enumerate}
 
-\smallskip
+\hspace{-.2in} \textbf{Research letters \& non-peer reviewed:}
 
-\thisYear{
-\myName{F. Bu}, A. E. Aiello, A. Volfovsky, and J. Xu.  
-Stochastic EM algorithm for partially observed stochastic epidemics with individual heterogeneity (2025).  \emph{Biostatistics}.%$^\dagger$
-}
-
-\smallskip
-
-\myName{F. Bu}, J. Kagaayi, M. K. Grabowski, J. Xu, and O. Ratmann.
-Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2024). \emph{Biometrics.} 
-(Winner of 2024 ISBA Biostats and Pharma Best Paper Award.)
-
-\smallskip
-
-\myName{F. Bu}, M. J. Schuemie,  A. Nishimura, L. H. Smith, K. Kostka, T. Falconer, J. A. McLeggon, P. B. Ryan, G. Hripcsak, and M. A. Suchard.
-Bayesian Safety Surveillance with Adaptive Bias Correction (2023). \emph{Statistics in Medicine.} %$^\dagger$
-
-\smallskip
-
-
-M. Schuemie, \myName{F. Bu}, A. Nishimura and M. Suchard.
-Adjusting for Both Sequential Testing and Systematic Error in Safety Surveillance using Observational Data: Empirical Calibration and MaxSPRT (2023). \emph{Statistics in Medicine.}
-%arXiv:2207.02704 }
-
-\smallskip
-
-
-\myName{F. Bu}, A. E. Aiello, J. Xu, and A. Volfovsky. 
-Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020). \emph{Journal of the American Statistical Association} (Winner of 2020 ASA SBSS Student Paper Award.) %$^\dagger$
-
-\smallskip
-
-\myName{F. Bu}, S. Xu, K. Heller, and A. Volfovsky. 
-SMOGS: Social Network Metrics of Game Success (2019). \emph{The 22nd International Conference on Artificial Intelligence and Statistics (AISTATS)}. %$^\dagger$
-
-\smallskip
-
-W. Zhang, \myName{F. Bu}, D. Owen-Oas, K. Heller, and X. Zhu. 
-Who Started It? Identifying Root Sources in Textual Conversation Threads (2018). \emph{arXiv:1809.03648}.
-%\smallskip 
-
-\medskip
-
-%\newpage 
-\hspace{-.2in} \textbf{Substantive Science:}
-
-\myName{F. Bu}, R. Wu$^\dagger$, A. Ostropolets, [...], R. Khera, G. Hripscak, and M. A. Suchard. Comparative Cardiovascular Effectiveness of Individual Glucagon-Like Peptide 1 Receptor Agonists and Sodium-Glucose Cotransporter-2 Inhibitors as Second-Line Type 2 Diabetes Mellitus Treatments (2025+). \emph{Under review}. 
-
-\smallskip 
-
-S. Chattopadhyay, \myName{F. Bu}, M. J. Schuemie, J. A. McLeggon, E. Westlund, G. Hripcsak, P. Ryan, and M. A. Suchard. 
-Comparative performance of the concurrent comparator design with existing vaccine safety surveillance approaches on real-world observational health data (2025+). \emph{Under review}. 
-
-\smallskip 
-
-C. Kim, \myName{F. Bu}, C. Blacketer, A. Ostropolets, [...], and Y. Lu. Comparative safety of second-Line antihyperglycemic agents in older adults with type 2 diabetes: a multinational real-world evidence from LEGEND-T2DM (2025+). \emph{Under review}.  
-
-\smallskip
-
-C. Reyes, T. Duarte-Salles, A. Pistillo, \myName{F. Bu}, [...], and M. A. Suchard. Gastrointestinal Adverse Effects of Second-Line Anti-Diabetic Drugs: A Federated Cohort Study (2025+). \emph{Under revisions}. 
-
-\smallskip 
-
-L. Rountree$^\dagger$, G. Tong, \myName{F. Bu}, M. Ranney, and B. Mukherjee. Association of COVID-19 outcomes with measures of institutional and interpersonal trust: An ecological analysis using national data from 61 countries (2025). \emph{Nature Scientific Reports}.   
-
-\smallskip 
-
-V. Obregon-Perko, A. Awasthi, R. Barfield, [...], \myName{F. Bu}, [...], and A. Chahroudi. Biomarkers for viral rebound timing and control post-ART in SHIV-infected infant macaques (2025). \emph{Science Translational Medicine} (in print).
-
-\smallskip 
-
-D. Morales, \myName{F. Bu}, B. Viernes, [...], and M. A. Suchard. Risk of thyroid tumours with glucagon-like peptide-1 receptor agonists: international cohort study (2025). \emph{Diabetes Care.} 
-
-\smallskip 
-
-L. Rountree$^\dagger$, Y.T.  Lin, C. Liu, M. Salvatore, A.  Admon, B. K. Nallamothu, K. Singh, A. Basu, \myName{F. Bu}, B. Mukherjee. Reporting of Fairness Metrics in Clinical Risk Prediction Models: A Call for Change to Ensure Equitable Precision Health Benefits for All (2025). \emph{Online Journal of Public Health Informatics}.
-
-\smallskip 
-
-C. Cai, M. Hribar, Sally Baxter, [...],  \myName{F. Bu}, [...], and Patrick B. Ryan. 
-Semaglutide and Nonarteritic Anterior Ischemic Optic Neuropathy (2025). \emph{JAMA Ophthalmology}.  
-
-\smallskip
-
-\myName{F. Bu}, E. Minty, A. Aminorroaya, C. Blacketer, [...], and M. A. Suchard. 
-Multi-national Patterns of Individual Cardioprotective Agents as Second-line Treatments for Type 2 Diabetes Mellitus: a LEGEND-T2DM Study (2024). \emph{Proceedings of the 2025 OHDSI Global Symposium.}
-
-\thisYear{
-R. Khera, A. Aminorroaya, L. S. Dhingra, P. M.  Thangaraj, A. P. Camargos, \myName{F. Bu}, [...], and M. A. Suchard. Comparative Effectiveness of Second-line Antihyperglycemic Agents for Cardiovascular Outcomes: A Large-scale, Multinational, Federated Analysis of the LEGEND-T2DM Study (2024). \emph{Journal of the American College of Cardiology}. 
-}
-
-\smallskip 
-
-C. Cai, A. Nishimura, M. Bowring, [...], \myName{F. Bu}, [...], and Patrick B. Ryan. Similar risk of kidney failure among patients with blinding diseases who receive ranibizumab, aflibercept, and bevacizumab (2024). \emph{Ophthalmology Retina}.
-
-\smallskip 
-
-\myName{F. Bu}, F. Arshad, G. Hripcsak, P. B. Ryan, M. J. Schuemie, and M. A. Suchard. Response to Comments on ``Serially Combining Epidemiological Designs Does Not Improve Overall Signal Detection in Vaccine Safety Surveillance'' (2024). \emph{Drug Safety}. 
-
-\smallskip 
-
-T. V. Anand, \myName{F. Bu}, M. J. Schuemie, M. A. Suchard, and G. Hripcsak. Comparative safety and effectiveness of angiotensin converting enzyme inhibitors and thiazides and thiazide-like diuretics under strict monotherapy (2024).  \emph{Journal of Clinical Hypertension}.
-
-\smallskip 
-
-R. Khera, L.S. Dhingra, A. Aminorroaya, [...], \myName{F. Bu}, [...], and  M. A. Suchard.  Multinational patterns of second line antihyperglycaemic drug initiation across cardiovascular risk groups: federated pharmacoepidemiological evaluation in LEGEND-T2DM (2023). \emph{BMJ medicine}. 
-
-\smallskip
-
-F. Arshad, M. J. Schuemie, \myName{F. Bu}, [...], and M. A. Suchard. Serially Combining Epidemiological Designs Does Not Improve Overall Signal Detection in Vaccine Safety Surveillance (2023). \emph{Drug Safety}. 
-
-\smallskip
-
-E. A. Voss, A. Shoaibi, L. Y. H. Lai,  [...], \myName{F. Bu}, [...], and P. B. Ryan. Contextualising adverse events of special interest to characterise the baseline incidence rates in 24 million patients with COVID-19 across 26 databases: a multinational retrospective cohort study (2023). \emph{EClinicalMedicine}. 
-
-
-\smallskip
-
-R. Asencio, \myName{F. Bu}, L. Tucker, G. Varela, J. Moody, and A. Volfovsky. 
-Network Position and Emergent Phenomena: A Multi-team System Case Study (2022+). \emph{Under revisions.}
-
+\begin{enumerate}[{label=\arabic*\addtocounter{enumi}{-2}., itemsep=3pt, parsep=0pt, topsep=3pt, resume, leftmargin=0pt}]
+	\item \myName{F. Bu}, F. Arshad, G. Hripcsak, P. B. Ryan, M. J. Schuemie, and M. A. Suchard. Response to Comments on ``Serially Combining Epidemiological Designs Does Not Improve Overall Signal Detection in Vaccine Safety Surveillance'' (2024). \emph{Drug Safety}. 
+	
+\end{enumerate}
 
 \end{rSection}
 
@@ -335,7 +302,6 @@ Women in Machine Learning Workshop (WiML) travel award. \hfill {\em December 201
 	\hspace*{-0.25in}
 	US CDC NCIRD U01, IP001138 \hfill{\em Jan 2025 - Aug 2025} 
 	\\
-	
 	``Data driven transmission models to optimize influenza vaccination and pandemic mitigation strategies'' \\
 	Role: co-I (PI: Jon Zelner, University of Michigan)
 	
@@ -355,9 +321,9 @@ Women in Machine Learning Workshop (WiML) travel award. \hfill {\em December 201
 	\emph{for Bayesian Analysis}.
 
 	
-	\thisYear{
+	%\thisYear{
 	Associate Chair for \emph{ENAR Social Media Committee}  \hfill {\em September 2023 - December 2024}
-}
+%}
 
 		\smallskip
 	
@@ -369,6 +335,8 @@ Women in Machine Learning Workshop (WiML) travel award. \hfill {\em December 201
 \medskip 
 
  \hspace*{-0.2in}\textbf{Editorial and Review Responsibilities:}
+ 
+ Associate Editor for \emph{Environmental and Ecological Statistics}.  \hfill{\em September 2025 - present}
 
  Member for Book of OHDSI Committee. \hfill{\em March - December 2025}
  
@@ -388,7 +356,7 @@ Women in Machine Learning Workshop (WiML) travel award. \hfill {\em December 201
     
     \smallskip 
     
-    \textbf{Journal reviewer} for: \emph{The Proceedings of the National Academy of Sciences (PNAS)}, \emph{Nature Communications}, \emph{Nature Cardiovascular Research}, \emph{Journal of the American Statistical Association (JASA)}, \emph{Biometrics}, \emph{Annals of Applied Statistics (AOAS)}, \emph{Journal of Computational and Graphical Statistics (JCGS)}, \emph{Statistics in Medicine}, \emph{Biostatistics}, \emph{Bayesian Analysis},  \emph{Statistical Science}, \emph{Communications in Statistics},  \emph{Science Advances}, \emph{Environmental and Ecological Statistics}, \emph{Statistics and Public Policy},  and \emph{Statistics and Computing}. 
+    \textbf{Journal reviewer} for: \emph{The Proceedings of the National Academy of Sciences (PNAS)}, \emph{Nature Communications}, \emph{Nature Cardiovascular Research}, \emph{Journal of the American Statistical Association (JASA)}, \emph{Biometrics}, \emph{Annals of Applied Statistics (AOAS)}, \emph{Journal of the Royal Statistical Society Series A (JRSS-A)}, \emph{Journal of Computational and Graphical Statistics (JCGS)}, \emph{Statistics in Medicine}, \emph{Biostatistics}, \emph{Bayesian Analysis},  \emph{Statistical Science}, \emph{Environmental and Ecological Statistics}, \emph{Communications in Statistics},  \emph{Science Advances}, \emph{Statistics and Public Policy},  and \emph{Statistics and Computing}. 
     
  \smallskip 
 %    
@@ -402,9 +370,14 @@ Women in Machine Learning Workshop (WiML) travel award. \hfill {\em December 201
  	Scientific Programme Committee member for CFE-CMStatistics 2025 \hfill {\em March - December 2025}
  }
  
+ \smallskip 
+ 
  	\thisYear{
  Scientific Programme Committee member for CFE-CMStatistics 2024 \hfill {\em April - December 2024}
 }
+ 
+ 
+ \smallskip 
  
  	\thisYear{
  Organizing Committee member for BIRS-CMO Workshop	\hfill {\em December 2023 - September 2024}
@@ -438,6 +411,7 @@ Organizing Committee member for Bayesian Young Statisticians  \hfill {\em May - 
 \vspace{-0.1in}
 Meeting (BaYSM) 2023.
 
+\medskip 
 
  \hspace*{-0.2in}\textbf{Internal \& Miscellaneous: }
  
@@ -446,6 +420,8 @@ Meeting (BaYSM) 2023.
 
  \vspace*{-0.1in}
  \emph{Statistical Sciences (MSSISS)}
+ 
+ Student recruitment committee member for UM Biostatistics. \hfill {\em September 2025 - August 2026}
 
  
  Chair of seminar committee for UM Biostatistics. \hfill {\em September 2024 - August 2025}
@@ -455,20 +431,8 @@ Meeting (BaYSM) 2023.
 
 Judge for \emph{Duke Datathon}.  \hfill {\em October 2020 \& 2021}
 
-% \smallskip
 
-% Reviewer for \emph{Environmental and Ecological Statistics}. \hfill {\em October 2021}
-
-% \smallskip
-
-% %\textit{Jan 2020 \& August 2019}. 
-% Reviewer for \emph{Science Advances}. \hfill {\em August 2019 - July 2021}
-
-% \smallskip
-
-% Reviewer for \emph{Journal of the American Statistical Association}. \hfill {\em June 2021} 
-
-\smallskip
+%\smallskip
 
 %\textit{April 2020}.
 Consultant for \emph{DataFest: COVID-19 Virtual Data Challenge}.  \hfill {\em April 2020}
@@ -476,9 +440,9 @@ Consultant for \emph{DataFest: COVID-19 Virtual Data Challenge}.  \hfill {\em Ap
 %\smallskip
 
 %\textit{May-August 2019}.
-% Team manager and student mentor for \emph{Duke Data+ 2019}. \hfill {\em May-August 2019}
+Team manager and student mentor for \emph{Duke Data+ 2019}. \hfill {\em May-August 2019}
 
-\smallskip
+%\smallskip
 
 %\textit{April 2018 \& April 2019}. 
 Consultant for \emph{ASA DataFest @ Duke}. \hfill {\em April 2018 \& April 2019}
@@ -494,6 +458,13 @@ Ph.D.  committee member for:
 	Prayag Chatta (Statistics), Leyao Zhang (Biostatistics),  Mingyan Yu (Biostatistics), Tasmine Clement (Bioinformatics), and Troy (Zirui) Zhou (Epidemiology). 
 \end{quote}
 	
+	\emph{Biostatistics 664: Special Topics}. \hfill {\em Winter 2026}
+	
+	 \vspace*{-0.1in}
+	\emph{``Applied Mathematical Models in Biomedical Sciences''}
+	
+	
+	\emph{Biostatistics 602: Biostatistical Inference}.  \hfill {\em Winter 2026}
 
     \emph{Biostatistics 602: Biostatistical Inference}.  \hfill {\em Winter 2025}
 
