@@ -10,7 +10,7 @@ use-site-title: false
       <p class="lead">I am an Assistant Professor of Biostatistics at the University of Michigan. My research develops Bayesian methodology and computational tools for spatio-temporal processes, infectious disease models, observational health data, and other complex or large-scale settings.</p>
       <p class="lead">Before joining Michigan, I was a postdoctoral research fellow at UCLA working with Dr. Marc Suchard. I received my Ph.D. in Statistics from Duke University, where I was advised by Dr. Alexander Volfovsky.</p>
       <div class="hero-actions">
-        <a class="button button-primary" href="{{ site.baseurl }}/research">Research</a>
+        <a class="button button-primary" href="{{ site.baseurl }}/research-under-construction">Research</a>
         <a class="button button-secondary" href="{{ site.baseurl }}/CVs/cv_FanBu.pdf">CV</a>
         <a class="button button-secondary" href="mailto:fbu@umich.edu">Contact</a>
       </div>
