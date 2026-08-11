@@ -3,54 +3,99 @@ layout: page
 title: Fan Bu
 subtitle: Assistant Professor at University of Michigan, Ann Arbor
 use-site-title: false
-bigimg:
-  - "img/Kensington-Metropark.jpg": "Kensington Metropark, Milford MI (2023)"
-  - "img/Boston_Fall2019.jpg": "Boston Bay, Boston MA (2019)"
-  - "img/Henrys_Lake_Idaho.jpg" : "Henrys Lake, ID (2018)"
-  - "img/Grandfather_Mountain_NC_2017.png" : "Grandfather Mountain, Linville NC (2017)"
-  - "img/Washington_Lake_Seattle.JPG" : "Lake Union, Seattle WA (2017)"
-  #- "img/Space_Needle_Seattle.JPG": "Space Needle, Seattle WA (2017)"
 ---
+<section class="home-hero">
+  <div class="home-hero-copy">
+    <p class="eyebrow">Biostatistics • Bayesian Methods • Health Data Science</p>
+    <h1>Statistical methods for complex health data.</h1>
+    <p class="lead">I am an Assistant Professor of Biostatistics at the University of Michigan. My research develops Bayesian methodology and computational tools for infectious disease modeling, observational health data, and other large-scale federated settings.</p>
+    <p class="lead">Before joining Michigan, I was a postdoctoral research fellow at UCLA working with Marc Suchard. I received my Ph.D. in Statistics from Duke University, where I was advised by Alexander Volfovsky.</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="{{ site.baseurl }}/research">View research</a>
+      <a class="button button-secondary" href="{{ site.baseurl }}/CVs/cv_FanBu.pdf">Download CV</a>
+      <a class="button button-secondary" href="mailto:fbu@umich.edu">Contact</a>
+    </div>
+    <div class="hero-meta">
+      <div class="meta-chip">
+        <strong>Current role</strong>
+        <span>Assistant Professor, University of Michigan</span>
+      </div>
+      <div class="meta-chip">
+        <strong>Research areas</strong>
+        <span>Bayesian inference, computation, and evidence generation</span>
+      </div>
+      <div class="meta-chip">
+        <strong>Community</strong>
+        <span>Active contributor to <a href="https://www.ohdsi.org/">OHDSI</a></span>
+      </div>
+    </div>
+  </div>
 
-[//]: # >"Science without religion is lame, religion without science is blind." 
-[//]: # >  
-[//]: # By Albert Einstein, **_Science and Religion_**  
+  <div class="home-hero-image">
+    <div class="profile-frame">
+      <img src="{{ site.baseurl }}/img/headshot-6-square.jpg" alt="Portrait of Fan Bu">
+    </div>
+    <p class="profile-caption">My work centers on statistical rigor for real-world evidence, with an emphasis on methods that scale to modern biomedical and population data.</p>
+  </div>
+</section>
 
+<section class="section-block">
+  <div class="section-intro">
+    <p class="section-label">Research Focus</p>
+    <h2>Three connected strands of work</h2>
+    <p>I build methods that are mathematically grounded, computationally practical, and useful in collaborative scientific settings.</p>
+  </div>
+  <div class="card-grid">
+    <article class="info-card">
+      <h3>Bayesian methodology</h3>
+      <p>Inference and computation for temporal, spatio-temporal, and network-based processes with incomplete or noisy observations.</p>
+    </article>
+    <article class="info-card">
+      <h3>Infectious disease modeling</h3>
+      <p>Mechanistic models and likelihood-based inference for epidemic dynamics, transmission patterns, and individual heterogeneity.</p>
+    </article>
+    <article class="info-card">
+      <h3>Observational health data</h3>
+      <p>Evidence synthesis, comparative effectiveness, and bias-aware methods for large-scale federated healthcare studies.</p>
+    </article>
+  </div>
+</section>
 
-> "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
->
----Marcus Aurelius, **_Meditations_**
+<section class="section-block">
+  <div class="split-section">
+    <div>
+      <p class="section-label">Selected Work</p>
+      <h2>Recent first-author publications</h2>
+      <ul class="publication-list">
+        <li>
+          <span class="publication-title"><a href="https://arxiv.org/pdf/2112.07892.pdf">Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity</a></span>
+          <span class="publication-meta">Biostatistics, 2024</span>
+        </li>
+        <li>
+          <span class="publication-title"><a href="https://academic.oup.com/biometrics/article-abstract/80/1/ujad015/7610191">Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes</a></span>
+          <span class="publication-meta">Biometrics, 2024</span>
+        </li>
+        <li>
+          <span class="publication-title"><a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/sim.9968">Bayesian Safety Surveillance with Adaptive Bias Correction</a></span>
+          <span class="publication-meta">Statistics in Medicine, 2023</span>
+        </li>
+      </ul>
+    </div>
+    <aside class="aside-panel">
+      <p class="section-label">Explore</p>
+      <p>Visit the research page for methods work, collaborative projects, and publication links.</p>
+      <div class="button-row">
+        <a class="button button-secondary" href="{{ site.baseurl }}/research">Research page</a>
+        <a class="button button-secondary" href="{{ site.baseurl }}/teaching">Teaching</a>
+      </div>
+    </aside>
+  </div>
+</section>
 
-# Welcome to Fan's webpage!
-
-I am a tenure-track assistant professor in Biostatistics at the University of Michigan. Previously I was a postdoctoral research fellow at UCLA, working with Dr. Marc Suchard to develop Bayesian statistical methods for analyzing large-scale observational health data. I obtained my Ph.D. degree in Statistics from Duke University under the supervision of Dr. Alexander Volfovsky in Fall 2021. 
-
-
-My research interests include:
-
-- Bayesian statistics and computation for temporal / spatio-temporal processes, networks, and federated data
-
-- Health data science and observational study for comparative effectiveness and safety
-
-I am an active member of [Observational Health Data Sciences and Informatics (OHDSI)](https://www.ohdsi.org/), 
-a global collaborative for health data science research to promote better health decisions and patient care. 
-My main activities within OHDSI include statistical methods development and leading large network studies. 
-
-
-[//]:  - Computational social science
-
-[//]: I also enjoy writing, sports, and music. I have an occasionally updated blog [here](https://fanbublog.wordpress.com/) (mostly written in Chinese). 
-
-[//]: ### Select recent first-author work
-
-[//]: - Bayesian Safety Surveillance with Adaptive Bias Correction (2023). [_Statistics in Medicine_](https://onlinelibrary.wiley.com/doi/10.1002/sim.9968). 
-[//]: - Inferring HIV Transmission Patterns from Viral Deep-Sequence Data via Latent Spatial Poisson Processes (2023). Accepted by _Biometrics_. [_arXiv:2302.11567_](https://arxiv.org/abs/2302.11567). 
-[//]: - Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity (2021+). [_arXiv:2112.07892_](https://arxiv.org/abs/2112.07892). (Under revisions)
-[//]: - Likelihood-based Inference for Partially Observed Epidemics on Dynamic Networks (2020). [_Journal of the American Statistical Association_](https://www.tandfonline.com/doi/abs/10.1080/01621459.2020.1790376). (Winner of 2020 SBSS Student Paper Award)
-
-Please visit the [Research](https://fanbu1995.github.io/research) page for some of my methods research and collaborative work. 
-
-### Contact 
-If you are interested in collaborating or working with me, please email me at ``fbu@umich.edu``.
-
-[//]: You are also welcome to [**Schedule a meeting with me**](https://calendly.com/fanbu)!
+<section class="contact-strip">
+  <div>
+    <h2>Open to research collaboration and mentoring conversations.</h2>
+    <p>If you are interested in working together, please get in touch by email. I am especially interested in projects at the intersection of statistical methodology and applied health research.</p>
+  </div>
+  <a class="button button-secondary" href="mailto:fbu@umich.edu">Email fbu@umich.edu</a>
+</section>

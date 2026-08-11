@@ -1,7 +1,11 @@
 <footer>
-  <div class="container beautiful-jekyll-footer">
+  <div class="container site-footer">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+        <div class="footer-summary">
+          <p class="footer-name">{{ site.author.name }}</p>
+          <p class="footer-blurb">Biostatistician working on Bayesian methods, infectious disease modeling, and observational health data.</p>
+        </div>
         <ul class="list-inline text-center footer-links">
           {% if site.author.facebook and site.footer-links-active.facebook %}
           <li>
@@ -206,16 +210,12 @@
 		  {{ site.author.name }}
 		  &nbsp;&bull;&nbsp;
 		  {{ site.time | date: '%Y' }}
-
-		  {% if site.url-pretty %}
-		  &nbsp;&bull;&nbsp;
-		  <a href="{{ site.url }}">{{ site.url-pretty }}</a>
-		  {% endif %}
 	    </p>
-	        <!-- Please don't remove this, keep my open source work credited :) -->
 		<p class="theme-by text-muted">
-		  Theme by
-		  <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+		  Built with
+		  <a href="https://jekyllrb.com/">Jekyll</a>
+		  and hosted on
+		  <a href="https://pages.github.com/">GitHub Pages</a>
 		</p>
       </div>
     </div>

@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://fanbu1995.github.io"
+url: "https://fanbu1995.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -14,15 +14,16 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Fan Bu, Ph.D.
+title: Fan Bu
 
 # Short description of your site
-description: Bayesian statistician
+description: Biostatistician at the University of Michigan
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
+  Home: ""
   #About Me: "aboutme"
   Research: "research"
   Teaching: "teaching"
@@ -38,10 +39,6 @@ navbar-links:
 # Remove this parameter if you don't want an image in the navbar
 # avatar: "FanBu_Facebook.jpg"
 # avatar: "IMG_4834.JPG"
-
-# If you want to have an image logo in the top-left corner instead of the title text,
-# then specify the following parameter
-title-img: "https://fanbu1995.github.io/img/headshot-6-square.jpg"
 
 # --- Footer options --- #
 
@@ -119,7 +116,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/Detroit"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
