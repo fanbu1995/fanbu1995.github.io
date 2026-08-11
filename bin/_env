@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if ! ruby -e 'exit RUBY_VERSION.start_with?("3.3.") ? 0 : 1' 2>/dev/null; then
+  if [[ -x /opt/homebrew/opt/ruby@3.3/bin/ruby ]]; then
+    export PATH="/opt/homebrew/opt/ruby@3.3/bin:${PATH}"
+  else
+    echo "Ruby 3.3 is required. Install it using .ruby-version or Homebrew." >&2
+    exit 1
+  fi
+fi
+
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export BUNDLE_PATH="${BUNDLE_PATH:-vendor/bundle}"

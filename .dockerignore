@@ -1,0 +1,5 @@
+.git
+.sass-cache
+.vagrant
+_site
+vendor

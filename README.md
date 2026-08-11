@@ -201,22 +201,31 @@ Want your website featured here? [Contact me](http://deanattali.com/aboutme#cont
 | [sharepointoscar.github.io](http://sharepointoscar.github.io) | Oscar Medina | Independent Hacker |
 
 
-## Advanced: Local development using Docker
+## Local development
 
-Beautiful Jekyll is meant to be so simple to use that you can do it all within the browser. However, if you'd like to develop locally on your own machine, that's possible too if you're comfortable with command line. Follow these simple steps to do that with Docker:
+The site uses Ruby 3.3 and the same `github-pages` gem release as GitHub Pages. Install the Ruby version in `.ruby-version` with a version manager such as `mise`, `rbenv`, or `asdf`. On macOS, `brew install ruby@3.3` also works. Then run:
 
-1. Make sure that you have Docker installed on your local environment. Installation instructions can be found [here](https://docs.docker.com/engine/installation/)
-2. Clone your fork `git clone git@github.com:yourusername/yourusername.github.io.git`
-3. Inside your repository folder, run:
+```sh
+bin/setup
+bin/serve
+```
 
-    ```
-    docker run -p 4000:4000 -v `pwd`:/app mangar/jekyll:1.1 bash -c "bundle install; bundle exec jekyll serve"
-    ```
-4. View your website at <http://localhost:4000>.
+Open <http://localhost:4000>. To verify a production-style build without starting a server, run:
 
-Disclaimer: I personally am NOT using local development so I don't know much about running Jekyll locally. If you follow this route, please don't ask me questions because unfortunately I honestly won't be able to help!		
-  		  
-Aditionally, if you choose to deploy Jekyll using a local ruby installation, you can tell Jekyll to automatically categorize your blog posts by tags. You just need to set `link-tags: true` in `_config.yml`. Jekyll will then generate a new page for each unique tag which lists all of the posts that belong to that tag.
+```sh
+bin/build
+```
+
+Docker can be used instead of installing Ruby locally:
+
+```sh
+docker build -t fanbu-site .
+docker run --rm -p 4000:4000 -p 35729:35729 -v "$PWD:/site" fanbu-site
+```
+
+The helper scripts select Homebrew's Ruby 3.3 automatically when it is not already on `PATH`, keep installed gems in the ignored `vendor/bundle` directory, and enforce UTF-8 for Jekyll's Sass compiler.
+
+The Ruby and GitHub Pages versions are intentionally pinned. When GitHub Pages updates its published dependency versions, update `.ruby-version` and `Gemfile`, then run `bundle update github-pages`.
 
 
 ## Credits
