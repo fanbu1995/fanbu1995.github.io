@@ -6,8 +6,6 @@ subtitle: Courses, mentoring, and instructional materials
 
 <section class="section-block">
   <div class="section-intro">
-    <p class="section-label">Teaching Philosophy</p>
-    <h2>Teaching statistical thinking with clarity and applied relevance</h2>
     <p>I aim to help students move comfortably between statistical theory, computation, and real scientific questions. My courses emphasize careful reasoning, reproducible analysis, and the practical judgment needed to work with modern data.</p>
     <div class="button-row">
       <a class="button button-primary" href="{{ site.baseurl }}/teaching/teaching_statement.pdf">Teaching statement</a>
@@ -16,8 +14,7 @@ subtitle: Courses, mentoring, and instructional materials
 </section>
 
 <section class="section-block">
-  <p class="section-label">University of Michigan</p>
-  <h2>Recent teaching</h2>
+  <h2>University of Michigan</h2>
   <div class="teaching-card">
     <h3>BIOSTAT 602: Biostatistical Inference</h3>
     <p class="teaching-meta">Winter 2024 and Winter 2025</p>
@@ -26,8 +23,7 @@ subtitle: Courses, mentoring, and instructional materials
 </section>
 
 <section class="section-block">
-  <p class="section-label">Previous Instruction</p>
-  <h2>Teaching at UCLA and Duke</h2>
+  <h2>UCLA and Duke</h2>
   <ul class="teaching-list">
     <li>
       <span class="teaching-title">Introduction to OHDSI tutorial</span>
@@ -61,4 +57,3 @@ subtitle: Courses, mentoring, and instructional materials
     </li>
   </ul>
 </section>
-

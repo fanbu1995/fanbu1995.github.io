@@ -6,8 +6,6 @@ subtitle: Methods research and collaborative work
 
 <section class="section-block">
   <div class="section-intro">
-    <p class="section-label">Overview</p>
-    <h2>Statistical methodology motivated by modern scientific data</h2>
     <p>My research develops principled statistical methods for settings where the data are incomplete, high-dimensional, distributed, or observed through complex scientific mechanisms. Many of these problems arise in infectious disease studies and large-scale observational healthcare research.</p>
     <p>You can also find a broader list of publications on <a href="https://scholar.google.com/citations?user=_WI7hMUAAAAJ&hl=en">Google Scholar</a>.</p>
   </div>
@@ -28,8 +26,7 @@ subtitle: Methods research and collaborative work
 </section>
 
 <section class="section-block">
-  <p class="section-label">Selected Methodology Papers</p>
-  <h2>First-author methods research</h2>
+  <h2>Selected methodology papers</h2>
   <ul class="publication-list">
     <li>
       <span class="publication-title"><a href="https://arxiv.org/pdf/2112.07892.pdf">Likelihood-based Inference for Partially Observed Stochastic Epidemics with Individual Heterogeneity</a></span>
@@ -57,8 +54,7 @@ subtitle: Methods research and collaborative work
 <section class="section-block">
   <div class="split-section">
     <div>
-      <p class="section-label">Collaborative Science</p>
-      <h2>Selected applied and collaborative work</h2>
+      <h2>Collaborative work</h2>
       <ul class="publication-list">
         <li>
           <span class="publication-title"><a href="https://www.medrxiv.org/content/10.1101/2024.02.05.24302354v2">Comparative Effectiveness of Second-line Antihyperglycemic Agents for Cardiovascular Outcomes: A Large-scale, Multinational, Federated Analysis of the LEGEND-T2DM Study</a></span>
@@ -79,9 +75,7 @@ subtitle: Methods research and collaborative work
       </ul>
     </div>
     <aside class="aside-panel">
-      <p class="section-label">Collaboration</p>
       <p>I am particularly interested in work that connects new statistical methodology with consequential biomedical or public health applications.</p>
-      <p class="muted">OHDSI network studies and federated analyses have been a major part of this agenda.</p>
     </aside>
   </div>
 </section>
