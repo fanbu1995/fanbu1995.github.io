@@ -324,7 +324,7 @@ hr.small {
 
 .about-heading {
   margin-bottom: 20px;
-  font-size: 1.69rem;
+  font-size: clamp(1.91rem, 2.93vw, 2.53rem);
   line-height: 1.3;
 }
 
