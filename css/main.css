@@ -416,6 +416,27 @@ hr.small {
   margin-top: 24px;
 }
 
+.ongoing-research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.ongoing-research-grid .research-theme-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.ongoing-research-grid .research-theme-copy {
+  flex: 1;
+}
+
+.ongoing-research-grid .research-theme-image img {
+  object-fit: contain;
+  object-position: center;
+}
+
 .research-theme-card {
   overflow: hidden;
   border: 1px solid var(--line);
@@ -867,6 +888,10 @@ footer {
     padding: 12px 0;
     border-radius: 0;
     font-size: 1.38rem;
+  }
+
+  .ongoing-research-grid {
+    grid-template-columns: 1fr;
   }
 
   .home-hero-image {
