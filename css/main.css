@@ -289,8 +289,14 @@ hr.small {
   font-size: 1.2rem;
 }
 
-.page-teaching .page-hero-inner h1 {
+.page-teaching .page-hero-inner h1,
+.page-research .page-hero-inner h1 {
   font-size: clamp(1.91rem, 2.93vw, 2.53rem);
+}
+
+.page-research .page-hero-description,
+.page-teaching .page-hero-description {
+  font-size: 1.48rem;
 }
 
 .home-hero {
