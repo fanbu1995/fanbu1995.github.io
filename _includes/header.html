@@ -4,10 +4,20 @@
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
         <div class="{{ include.type }}-heading page-hero-inner">
+          {% unless page.hide-hero-kicker %}
           <p class="page-hero-kicker">Fan Bu</p>
+          {% endunless %}
           <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
           {% if page.subtitle %}
           <p class="{{ include.type }}-subheading page-hero-subheading">{{ page.subtitle }}</p>
+          {% endif %}
+          {% if page.hero-description %}
+          <p class="page-hero-description">{{ page.hero-description }}</p>
+          {% endif %}
+          {% if page.hero-button-url and page.hero-button-label %}
+          <div class="page-hero-actions">
+            <a class="button button-primary" href="{{ page.hero-button-url | prepend: site.baseurl }}">{{ page.hero-button-label }}</a>
+          </div>
           {% endif %}
           {% if include.type == "post" %}
           <p class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</p>
