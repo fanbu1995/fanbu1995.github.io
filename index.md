@@ -10,8 +10,7 @@ use-site-title: false
       <p class="lead">I am an Assistant Professor of Biostatistics at the University of Michigan. My research develops Bayesian methodology and computational tools for spatio-temporal processes, infectious disease models, observational health data, and other complex or large-scale settings.</p>
       <p class="lead">Before joining Michigan, I was a postdoctoral research fellow at UCLA working with Dr. Marc Suchard. I received my Ph.D. in Statistics from Duke University, where I was advised by Dr. Alexander Volfovsky.</p>
       <div class="hero-actions">
-        <a class="button button-primary" href="{{ site.baseurl }}/research-under-construction">Research</a>
-        <a class="button button-secondary" href="{{ site.baseurl }}/CVs/cv_FanBu.pdf">CV</a>
+        <a class="button button-secondary" href="https://github.com/fanbu1995">GitHub</a>
         <a class="button button-secondary" href="mailto:fbu@umich.edu">Contact</a>
       </div>
     </div>
@@ -27,7 +26,7 @@ use-site-title: false
   <section class="research-themes" aria-label="Research focus">
     <article class="research-theme-card">
       <div class="research-theme-image">
-        <!-- Add an image here, for example: <img src="/img/bayesian-methodology.jpg" alt=""> -->
+        <img src="/img/Bayesian-spatio-temporal.png" alt="Bayesian computation for spatio-temporal processes.">
       </div>
       <div class="research-theme-copy">
         <h2>Bayesian methods & computation</h2>
@@ -36,20 +35,20 @@ use-site-title: false
     </article>
     <article class="research-theme-card">
       <div class="research-theme-image">
-        <!-- Add an image here, for example: <img src="/img/infectious-disease.jpg" alt=""> -->
+        <img src="/img/epi-model.jpg" alt="Epidemic processes evolving on dynamic networks.">
       </div>
       <div class="research-theme-copy">
         <h2>Infectious disease modeling</h2>
-        <p>Mechanistic models for epidemic dynamics, transmission, and individual heterogeneity.</p>
+        <p>Mechanistic models for epidemic dynamics, disease transmission, and individual heterogeneity.</p>
       </div>
     </article>
     <article class="research-theme-card">
       <div class="research-theme-image">
-        <!-- Add an image here, for example: <img src="/img/health-data.jpg" alt=""> -->
+        <img src="/img/health-data-science.jpg" alt="Patient trajectories in observational health data.">
       </div>
       <div class="research-theme-copy">
         <h2>Observational health data</h2>
-        <p>Comparative effectiveness and bias-aware methods for federated health studies.</p>
+        <p>Comparative effectiveness and bias-aware methods for federated health data analytics.</p>
       </div>
     </article>
   </section>

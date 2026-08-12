@@ -143,7 +143,10 @@ hr.small {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
   min-height: 78px;
+  padding-right: clamp(24px, 3vw, 48px);
+  padding-left: clamp(24px, 3vw, 48px);
 }
 
 .navbar-custom .navbar-header {
@@ -162,6 +165,10 @@ hr.small {
   font-weight: 700;
   letter-spacing: 0.01em;
   color: var(--ink);
+}
+
+.navbar-custom > .container-fluid .navbar-brand {
+  margin-left: 0;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -193,12 +200,13 @@ hr.small {
   display: flex;
   align-items: center;
   min-height: 48px;
-  padding: 10px 16px;
+  padding: 10px 18px;
   border-radius: 999px;
-  font-size: 1.35rem;
-  font-weight: 600;
+  font-size: 1.48rem;
+  font-weight: 700;
   letter-spacing: 0;
-  color: var(--muted);
+  color: var(--ink);
+  background: transparent;
 }
 
 .navbar-custom .nav li a:hover,
@@ -279,6 +287,10 @@ hr.small {
   min-height: 52px;
   padding: 0 24px;
   font-size: 1.2rem;
+}
+
+.page-teaching .page-hero-inner h1 {
+  font-size: clamp(1.91rem, 2.93vw, 2.53rem);
 }
 
 .home-hero {
@@ -407,7 +419,7 @@ hr.small {
 }
 
 .research-theme-image {
-  min-height: 180px;
+  height: 220px;
   background:
     linear-gradient(135deg, rgba(24, 79, 99, 0.16), rgba(240, 231, 218, 0.62)),
     var(--surface-strong);
@@ -416,8 +428,9 @@ hr.small {
 .research-theme-image img {
   display: block;
   width: 100%;
-  height: 180px;
+  height: 100%;
   object-fit: cover;
+  object-position: center bottom;
 }
 
 .research-theme-copy {
@@ -779,6 +792,10 @@ footer {
     padding: 20px;
   }
 
+  .research-theme-image {
+    height: 300px;
+  }
+
   .page-hero-inner,
   .home-hero-copy,
   .home-hero-image,
@@ -813,7 +830,7 @@ footer {
   .navbar-custom .container-fluid {
     display: block;
     min-height: 0;
-    padding: 18px 0;
+    padding: 18px 16px;
   }
 
   .navbar-custom .navbar-header {
@@ -843,11 +860,15 @@ footer {
   .navbar-custom .nav li a {
     padding: 12px 0;
     border-radius: 0;
-    font-size: 1.24rem;
+    font-size: 1.38rem;
   }
 
   .home-hero-image {
     max-width: 240px;
     padding: 14px;
+  }
+
+  .research-theme-image {
+    height: 200px;
   }
 }
